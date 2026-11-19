@@ -97,8 +97,10 @@ def handle(text: str):
     for key, label in MODELS:
         if key in r["models"]:
             m = r["models"][key]
-            table.append([label, m["intent"], round(m["confidence"], 2),
-                          "human agent" if m["team"] == HUMAN_AGENT else m["team"], round(m["ms"], 1)])
+            # ELIZA her modelden ÖNCE çalışır: eşleştiyse her model için sonuç kural cevabıdır
+            # (eval_app.py da aynı şekilde sayar). Modelin kendi tahmini yine gösterilir.
+            routed = RULE_REPLY if r["eliza"] else ("human agent" if m["team"] == HUMAN_AGENT else m["team"])
+            table.append([label, m["intent"], round(m["confidence"], 2), routed, round(m["ms"], 1)])
     return result_card(r), details(r), table
 
 

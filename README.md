@@ -8,23 +8,37 @@ predictions of all models in the ladder are shown side by side.
 
 ## Run it (single command)
 
-Requirements: Python 3.11, about 3 GB free disk space, internet access for the first run.
+Requirements: Python 3.11, about 4 GB free disk space, internet access for the first run.
+
+Windows:
+
+```bat
+git clone https://github.com/yusufgunesp/swe015-ticket-router.git
+cd swe015-ticket-router
+python -m venv .venv
+.venv\Scripts\python -m pip install -r requirements.txt
+.venv\Scripts\python app.py
+```
+
+Linux / macOS:
 
 ```bash
 git clone https://github.com/yusufgunesp/swe015-ticket-router.git
 cd swe015-ticket-router
 python -m venv .venv
-.venv\Scripts\activate          # Windows
-# source .venv/bin/activate     # Linux / macOS
-pip install -r requirements.txt
-python app.py
+.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python app.py
 ```
+
+(Activating the environment first and running `pip install -r requirements.txt` and `python app.py` works too.)
 
 Then open http://127.0.0.1:7860.
 
-On the first run, `app.py` downloads the trained model weights (~1.6 GB) from the Hugging Face Hub
-([`yusufinfo/swe015-ticket-router-models`](https://huggingface.co/yusufinfo/swe015-ticket-router-models))
-into `models/`. Model weights are not stored in this repository.
+**First start takes a few minutes:** `app.py` downloads the trained model weights (~1.6 GB) from the Hugging
+Face Hub ([`yusufinfo/swe015-ticket-router-models`](https://huggingface.co/yusufinfo/swe015-ticket-router-models),
+public, no login needed) into `models/` and loads six models. Wait until the console prints
+`Running on local URL`. A warning about `HF_TOKEN` / unauthenticated requests is harmless. Later starts skip
+the download. Model weights are not stored in this repository.
 
 ## Model ladder
 
