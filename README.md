@@ -11,8 +11,8 @@ predictions of all models in the ladder are shown side by side.
 Requirements: Python 3.11, about 3 GB free disk space, internet access for the first run.
 
 ```bash
-git clone <GITHUB_REPO_URL>
-cd <REPO_FOLDER>
+git clone https://github.com/yusufgunesp/swe015-ticket-router.git
+cd swe015-ticket-router
 python -m venv .venv
 .venv\Scripts\activate          # Windows
 # source .venv/bin/activate     # Linux / macOS
@@ -23,7 +23,8 @@ python app.py
 Then open http://127.0.0.1:7860.
 
 On the first run, `app.py` downloads the trained model weights (~1.6 GB) from the Hugging Face Hub
-(`<HF_REPO_ID>`) into `models/`. Model weights are not stored in this repository.
+([`yusufinfo/swe015-ticket-router-models`](https://huggingface.co/yusufinfo/swe015-ticket-router-models))
+into `models/`. Model weights are not stored in this repository.
 
 ## Model ladder
 

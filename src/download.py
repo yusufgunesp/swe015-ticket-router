@@ -7,8 +7,8 @@ import os
 
 from src.predictors import MODEL_DIRS, MODELS
 
-# Ağırlıkların yüklendiği Hugging Face model deposu (Cumartesi yüklenecek)
-HF_REPO_ID = os.environ.get("SWE015_HF_REPO", "")
+# Ağırlıkların yüklendiği public Hugging Face model deposu (ortam değişkeniyle değiştirilebilir)
+HF_REPO_ID = os.environ.get("SWE015_HF_REPO", "yusufinfo/swe015-ticket-router-models")
 
 
 def missing_models() -> list[str]:

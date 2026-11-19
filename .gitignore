@@ -33,3 +33,6 @@ docs/odev_metni.md
 # Claude Code yerel ayarlari
 .claude/settings.local.json
 .claude/launch.json
+
+# Taslak sunum (kullanici kendi sunumunu hazirlayacak)
+docs/*.pptx

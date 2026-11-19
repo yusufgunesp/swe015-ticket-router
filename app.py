@@ -6,6 +6,7 @@ Akış (src/router.py): mesaj → normalize (regex, model kodu, edit distance) �
 (DistilmBERT INT8, ONNX Runtime, CPU) → iki eşikli karar → ekip / human agent / kural cevabı.
 Diğer tüm modellerin tahmini yan yana tabloda gösterilir. Kararı sadece INT8 model verir (R5).
 """
+import html
 import os
 
 os.environ.setdefault("TRANSFORMERS_VERBOSITY", "error")
@@ -17,91 +18,110 @@ from src.download import ensure_models  # noqa: E402
 from src.predictors import MODEL_DIRS, load_predictor  # noqa: E402
 from src.router import DECISION_MODEL, HUMAN_AGENT, RULE_REPLY, route  # noqa: E402
 
-# (anahtar, arayüzdeki ad, hassasiyet). Sıra = model merdiveni
+# (anahtar, tablodaki kısa ad). Sıra = model merdiveni
 MODELS = [
-    ("baseline", "tf-idf + Logistic Regression (baseline)", "float64"),
-    ("ffn", "fastText avg. + FFN, SGD (neural network)", "float32"),
-    ("teacher", "mBERT (Transformer)", "FP32"),
-    ("student", "DistilmBERT, distilled", "FP32"),
-    ("student_int8", "DistilmBERT INT8, ONNX Runtime (quantized, DECISION)", "INT8"),
-    ("teacher_int8", "mBERT INT8, ONNX Runtime", "INT8"),
+    ("student_int8", "★ DistilmBERT INT8 (decides)"),
+    ("baseline", "tf-idf + LR"),
+    ("ffn", "fastText + FFN"),
+    ("teacher", "mBERT"),
+    ("student", "DistilmBERT"),
+    ("teacher_int8", "mBERT INT8"),
 ]
 
 ensure_models()
-PREDICTORS = {k: load_predictor(k, device="cpu") for k, _, _ in MODELS if MODEL_DIRS[k].exists()}
+PREDICTORS = {k: load_predictor(k, device="cpu") for k, _ in MODELS if MODEL_DIRS[k].exists()}
 assert DECISION_MODEL in PREDICTORS, "Karar modeli (student_int8) bulunamadı"
-print("Yüklenen modeller:", list(PREDICTORS))
 for _ in range(3):  # ısınma: ilk gerçek mesajın gecikmesi, ilk çalıştırma maliyetini içermesin
     route("warm-up message for the models", PREDICTORS)
 
 EXAMPLES = [
-    "Merhaba, bulaşık makinem DW-6534 su boşaltmıyor ve E24 hatası veriyor",
-    "camasir makinam sıkma yaparken cok gurultu yapiyor",
-    "my refridgerator stopped cooling yesterday, model RF-450X",
-    "garanti belgemi kaybettim, yine de ücretsiz tamir olur mu?",
-    "can I move my technician visit to friday afternoon?",
-    "how do I transfer money to my savings account",
+    "bulaşık makinem DW-6534 su boşaltmıyor",
+    "camasir makinam sikarken cok ses yapiyor",
+    "my fridge stopped cooling, model RF-450X",
+    "garanti belgemi kaybettim, ücretsiz tamir olur mu?",
     "what is the capital of mongolia",
-    "selam nasılsın",
+    "merhaba",
 ]
+
+CSS = """
+.wrap {max-width: 860px; margin: 0 auto;}
+.card {border-radius: 14px; padding: 22px 24px; margin-top: 4px;}
+.card .label {font-size: 13px; letter-spacing: .06em; text-transform: uppercase; opacity: .7;}
+.card .team {font-size: 28px; font-weight: 700; margin: 4px 0 10px;}
+.card .sub {font-size: 15px; opacity: .85;}
+.card.team-ok {background: rgba(16,185,129,.12); border: 1px solid rgba(16,185,129,.45);}
+.card.human {background: rgba(245,158,11,.13); border: 1px solid rgba(245,158,11,.5);}
+.card.eliza {background: rgba(99,102,241,.12); border: 1px solid rgba(99,102,241,.45);}
+.bar {height: 8px; border-radius: 4px; background: rgba(127,127,127,.25); margin: 8px 0 4px; overflow: hidden;}
+.bar > div {height: 100%; border-radius: 4px; background: currentColor; opacity: .7;}
+.reply {margin-top: 10px; padding: 12px 14px; border-radius: 10px; background: rgba(127,127,127,.12);
+        font-size: 16px;}
+.muted {font-size: 13px; opacity: .65;}
+.wrap table, .wrap table * {font-family: inherit !important;}
+"""
+
+
+def result_card(r: dict) -> str:
+    main = r["models"][DECISION_MODEL]
+    conf = main["confidence"]
+    bar = (f'<div class="bar"><div style="width:{conf * 100:.0f}%"></div></div>'
+           f'<div class="muted">confidence {conf:.2f} · predicted intent <code>{html.escape(main["intent"])}</code>'
+           f' · {main["ms"]:.0f} ms</div>')
+    if r["team"] == RULE_REPLY:
+        return (f'<div class="card eliza"><div class="label">Automatic reply</div>'
+                f'<div class="team">💬 Small talk</div>'
+                f'<div class="reply">{html.escape(r["reply"])}</div></div>')
+    if r["team"] == HUMAN_AGENT:
+        why = ("The message is outside the topics this system handles."
+               if main["intent"] == "oos" else "The model is not confident enough to choose a team.")
+        return (f'<div class="card human"><div class="label">Routed to</div>'
+                f'<div class="team">🙋 Human agent</div><div class="sub">{why}</div>{bar}</div>')
+    return (f'<div class="card team-ok"><div class="label">Routed to</div>'
+            f'<div class="team">✅ {html.escape(r["team"])}</div>{bar}</div>')
+
+
+def details(r: dict) -> str:
+    rows = [f"**Normalized text:** `{r['normalized']}`"]
+    rows.append("**Model code:** " + (", ".join(r["model_codes"]) if r["model_codes"] else "—"))
+    rows.append("**Spelling corrections:** " + (", ".join(f"{a} → {b}" for a, b in r["corrections"])
+                                                 if r["corrections"] else "—"))
+    rows.append(f"**Decision reason:** {r['reason']}")
+    return "  \n".join(rows)
 
 
 def handle(text: str):
     if not text or not text.strip():
-        return "Please type a message.", "", []
+        return "", "", []
     r = route(text, PREDICTORS)
-    main = r["models"][DECISION_MODEL]
-
-    if r["team"] == HUMAN_AGENT:
-        head = f"## ➜ {HUMAN_AGENT}\n**Reason:** {r['reason']}"
-    elif r["team"] == RULE_REPLY:
-        head = f"## ➜ {RULE_REPLY}\n> {r['reply']}"
-    else:
-        head = f"## ➜ {r['team']}"
-    model_line = (f"`{main['intent']}` · **confidence:** {main['confidence']:.3f}"
-                  f" · **decision model:** DistilmBERT INT8 (ONNX Runtime, CPU) · {main['ms']:.1f} ms")
-    if r["eliza"]:
-        head += f"\n\n**Model prediction (not used, ELIZA answered):** {model_line}"
-    else:
-        head += f"\n\n**Predicted intent:** {model_line}"
-
-    details = [f"**Normalized text:** `{r['normalized']}`"]
-    if r["model_codes"]:
-        details.append(f"**Extracted model code(s):** {', '.join(r['model_codes'])}")
-    if r["corrections"]:
-        details.append("**Spelling corrections (edit distance):** "
-                       + ", ".join(f"`{a}` → `{b}`" for a, b in r["corrections"]))
-    if r["eliza"]:
-        details.append("**ELIZA:** the whole message matched a small-talk rule, so no team is assigned.")
-
     table = []
-    for key, label, precision in MODELS:
-        if key not in r["models"]:
-            continue
-        m = r["models"][key]
-        table.append([label, precision, m["intent"], round(m["confidence"], 3),
-                      HUMAN_AGENT if m["team"] == HUMAN_AGENT else m["team"], round(m["ms"], 1)])
-    return head, "\n\n".join(details), table
+    for key, label in MODELS:
+        if key in r["models"]:
+            m = r["models"][key]
+            table.append([label, m["intent"], round(m["confidence"], 2),
+                          "human agent" if m["team"] == HUMAN_AGENT else m["team"], round(m["ms"], 1)])
+    return result_card(r), details(r), table
 
 
-with gr.Blocks() as demo:
-    gr.Markdown("# Customer Support Ticket Router\n"
-                "SWE015 · Use Case 2 · Turkish / English home-appliance support messages are routed to the "
-                "right team. Low-confidence or out-of-scope messages go to **human agent**; greetings and "
-                "small talk get a rule-based reply.")
-    with gr.Row():
-        inp = gr.Textbox(label="Customer message", lines=3, scale=4,
-                         placeholder="e.g. bulaşık makinem su boşaltmıyor, model DW-6534")
-        btn = gr.Button("Route", variant="primary", scale=1)
-    head = gr.Markdown()
-    details = gr.Markdown()
-    table = gr.Dataframe(headers=["Model", "Precision", "Predicted intent", "Confidence",
-                                  "Routed to (after threshold)", "Latency (ms)"],
-                         label="All models side by side (only the INT8 model makes the decision)",
-                         interactive=False, wrap=True)
-    gr.Examples(EXAMPLES, inputs=inp)
-    btn.click(handle, inputs=inp, outputs=[head, details, table])
-    inp.submit(handle, inputs=inp, outputs=[head, details, table])
+with gr.Blocks(title="Support Ticket Router") as demo:
+    with gr.Column(elem_classes="wrap"):
+        gr.Markdown("# Support Ticket Router\nType a customer message in Turkish or English. "
+                    "It is routed to the right team, or to a human agent.")
+        inp = gr.Textbox(show_label=False, lines=2, placeholder="e.g. bulaşık makinem su boşaltmıyor, model DW-6534")
+        with gr.Row():
+            btn = gr.Button("Route message", variant="primary")
+            gr.ClearButton(inp, value="Clear")
+        gr.Examples(EXAMPLES, inputs=inp, label="Try an example")
+        card = gr.HTML()
+        table = gr.Dataframe(headers=["Model", "Predicted intent", "Confidence", "Routed to", "ms"],
+                             label="All models side by side (★ makes the decision)",
+                             interactive=False, wrap=True,
+                             column_widths=["27%", "22%", "11%", "32%", "8%"])
+        with gr.Accordion("How the message was processed", open=False):
+            info = gr.Markdown()
+        gr.Markdown('<div class="muted">Decision model: DistilmBERT distilled from mBERT, INT8 (ONNX Runtime), '
+                    'running on CPU. SWE015 · Use Case 2.</div>')
+    btn.click(handle, inputs=inp, outputs=[card, info, table])
+    inp.submit(handle, inputs=inp, outputs=[card, info, table])
 
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(css=CSS, theme=gr.themes.Soft())
