@@ -101,9 +101,9 @@
   <text x="773" y="315" class="lbl">no match</text>
   <path class="ln" d="M940,425 L1000,425"/>
   <text x="944" y="415" class="lbl">intent, conf</text>
-  <!-- ELIZA match -> straight to output (decision step is skipped, router.py) -->
+  <!-- ELIZA match -> rule reply; router.py still runs every model for the comparison table but ignores the decision -->
   <path class="ln" d="M890,165 L1470,165 L1470,655 L1240,655"/>
-  <text x="905" y="155" class="lbl">match → rule-based reply, no team (model decision is skipped)</text>
+  <text x="905" y="155" class="lbl">match → rule-based reply, no team (models still run for the table, their decision is not used)</text>
   <!-- output back to UI -->
   <path class="ln" d="M1230,550 L1230,655 L30,655 L30,205 L40,205"/>
   <text x="600" y="648" class="lbl">team  /  human agent  /  reply  +  confidence  +  all model predictions</text>
@@ -114,7 +114,7 @@
   <!-- offline -->
   <rect class="off" x="20" y="690" width="1460" height="150" rx="14"/>
   <text x="34" y="714" class="tag" fill="#64748b">OFFLINE · training and evaluation (GPU GTX 1650 Ti for models C and D, CPU for the rest)</text>
-  <text x="40" y="746" class="s">src/data.py  CLINC150 + 300 TR/EN appliance messages → fixed train / val / test (sha256)</text>
+  <text x="40" y="746" class="s">src/data.py  CLINC150 + 300 TR/EN appliance messages + 170 training-only sentences → fixed train / val / test (sha256)</text>
   <text x="40" y="770" class="s">src/train_baseline.py · src/train_ffn.py · src/train_teacher.py · src/distill_student.py (KD, T = 2)  →  src/quantize.py (ONNX export + ORT dynamic INT8)</text>
   <text x="40" y="794" class="s">src/calibrate.py  thresholds on VAL, metrics on TEST  →  src/benchmark.py  size (MB), latency (ms, batch 1, 200 runs)  →  src/eval_app.py  team-level routing</text>
   <text x="40" y="820" class="s">Weights + thresholds.json are uploaded to the Hugging Face Hub; the app downloads them on first run.</text>

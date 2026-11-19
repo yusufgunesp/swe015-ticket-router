@@ -173,15 +173,15 @@ Sonraki adımlarda yapılacaklar:
 
 **Doğruluk denetimi bulguları (19 Kas gecesi):**
 - **Sonuç:** Dört modelin tüm sayıları yeniden hesaplandı ve birebir tuttu. Sızıntı yok. Dinamik padding ve KD formülü doğrulandı.
-- **Yöntem slaytında (aynen) yer alacak cümle:** *"We switched from one to two confidence thresholds (CLINC / appliance intents) on 19 Nov, after seeing mBERT's single-threshold test accuracy on appliance sentences (16.7%). The diagnosis and every threshold choice, including the 0.3 floor, used the validation set only. The same rule is applied to all models, and the student was trained after the rule was fixed."*
-- **Tabloya dipnot:** Tek eşikli appliance acc: baseline 0.783, FFN 0.200, mBERT 0.167, student 0.283. Değerler `single_threshold_metrics` içinden alınacak.
+- **Yöntem slaytında (aynen) yer alacak cümle:** *"We switched from one to two confidence thresholds (CLINC / appliance intents) on 19 Nov, after seeing mBERT's single-threshold test accuracy on appliance sentences (16.7% with the first data version; 15.0% with the final data, results/metrics_teacher.json). The diagnosis and every threshold choice, including the 0.3 floor, used the validation set only. The same rule is applied to all models, and the student was trained after the rule was fixed."*
+- **Tabloya dipnot:** Tek eşikli appliance acc (v3, güncel): baseline 0.783, FFN 0.150, mBERT 0.150, student 0.667, student INT8 0.567. Değerler `results/metrics_*.json` → `single_threshold_metrics.custom_acc` içinden alınacak.
 - **Yedek slayt:** Val'deki MIN_THRESHOLD karşılaştırması (0 / 0.3 / 0.4 / 0.5).
 - **Sınırlılıklar slaytı:**
-  - Custom test setinin 60 cümlesinden 11'inin train'de güçlü TR↔EN karşılığı var. Bu çiftlerde doğruluk daha **düşük**. Güçlü çiftler hariç tutulunca (n=49): baseline, mBERT ve student 0.837, FFN 0.408.
+  - Custom test setinin 60 cümlesinden 11'inin train'de güçlü TR↔EN karşılığı var. Bu çiftlerde doğruluk daha **düşük**. Güçlü çiftler hariç tutulunca (n=49): baseline, mBERT ve student 0.837, FFN 0.408. ⚠ v2 sayısı, v3 için yeniden hesaplanmadı. Sunumda kullanılmayacak.
   - Türkçe ya da beyaz eşyaya benzeyen kapsam dışı mesajlar ölçülmüyor.
 - **Yorum kuralları:**
-  - n=60'ta baseline, mBERT ve student arasındaki fark 1 cümle. "Biri daha iyi" denmeyecek.
-  - Transformer'ların OOS recall'u baseline'dan düşük. Bu bir bulgu olarak açıklanacak.
+  - n=60'ta fark birkaç cümle (v3: baseline 49/60, mBERT 54/60, student 52/60, INT8 52/60). Güven aralıkları örtüşüyor; "biri daha iyi" denmeyecek.
+  - (v3) OOS recall: baseline 89.8%, mBERT 90.4%, INT8 90.6%. Sadece FP32 student (81.8%) düşük; bu bir bulgu olarak açıklanacak.
   - `in_scope_acc` 4.500 CLINC cümlesine ek olarak 60 custom cümleyi de içeriyor. Dipnotta belirtilecek.
   - v1 sayıları (ör. "FFN %15") sunumda kullanılmayacak, çünkü artık dosyaları yok.
 - **Kural:** Bundan sonra test sonucuna bakıp karar kuralı değiştirilmeyecek. INT8 modeller de eşiklerini aynı `calibrate.py` ile val'de alacak.

@@ -58,7 +58,9 @@ Classical NLP in the pipeline:
 
 All models are evaluated on the same held-out test set (5,560 sentences). Results, model sizes and CPU latency
 are in [`results/results.md`](results/results.md) (produced by `src/benchmark.py`; hardware in
-[`results/hardware.json`](results/hardware.json)).
+[`results/hardware.json`](results/hardware.json)). Accuracy counts a prediction as correct when the final decision
+(intent, or out-of-scope after the confidence thresholds) matches the label. Latency is measured per message
+(batch 1, 10 warm-up + 200 runs, 4 CPU threads) and includes text normalization.
 
 ## Data
 
@@ -77,7 +79,10 @@ are in [`results/results.md`](results/results.md) (produced by `src/benchmark.py
   the first result on this set, so a second, **independent hold-out set** of 40 sentences with unseen devices
   and topics (`data/custom/extra_oos_holdout_tr_en.csv`) was written afterwards and never used for any tuning
   (`python -m src.eval_extra_oos extra_oos_holdout` → [`results/extra_oos_holdout.json`](results/extra_oos_holdout.json)).
-- Pretrained models from the Hugging Face Hub: `bert-base-multilingual-cased`, `distilbert-base-multilingual-cased`.
+- Pretrained models from the Hugging Face Hub: `bert-base-multilingual-cased` (Devlin et al., 2019, *BERT*,
+  NAACL) and `distilbert-base-multilingual-cased` (Sanh et al., 2019, *DistilBERT*, arXiv:1910.01108).
+  fastText vectors are trained on our own training split with gensim (Bojanowski et al., 2017, *Enriching Word
+  Vectors with Subword Information*, TACL). Knowledge distillation follows Hinton et al., 2015 (arXiv:1503.02531).
 
 ## Reproduce everything (optional, GPU recommended for models 3–4)
 
@@ -114,6 +119,7 @@ results/                metrics, results table, error examples
 
 ## AI usage
 
-AI coding assistant: Claude (Claude Code). It was used for writing and debugging the code, writing the 300
-custom support messages (with the instructor's permission) and drafting the documentation. Every number in
+AI coding assistant: Claude (Claude Code). It was used for writing and debugging the code, writing the custom
+sentences (300 appliance messages, 170 extra training sentences, 80 extra evaluation sentences; with the
+instructor's permission) and drafting the documentation. Every number in
 the results was produced by running the code in this repository.
