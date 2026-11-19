@@ -1,0 +1,46 @@
+{
+  "model": "student",
+  "test_sha256": "7e8db122c0969fc17dad20cf26b752e96d448c4cda5d15e99d1b49609240db1e",
+  "in_scope_acc": 0.9,
+  "oos_recall": 0.851,
+  "overall_acc": 0.8911870503597122,
+  "n_in_scope": 4560,
+  "n_oos": 1000,
+  "custom_acc": 0.8,
+  "n_custom": 60,
+  "custom_acc_ci95": [
+    0.6822,
+    0.8817
+  ],
+  "thresholds": {
+    "clinc": 0.76,
+    "custom": 0.3
+  },
+  "val_metrics": {
+    "in_scope_acc": 0.9049019607843137,
+    "oos_recall": 0.92,
+    "overall_acc": 0.9053797468354431,
+    "n_in_scope": 3060,
+    "n_oos": 100,
+    "custom_acc": 0.7833333333333333,
+    "n_custom": 60,
+    "custom_acc_ci95": [
+      0.6638,
+      0.8688
+    ]
+  },
+  "single_threshold": 0.76,
+  "single_threshold_metrics": {
+    "in_scope_acc": 0.8932017543859649,
+    "oos_recall": 0.852,
+    "overall_acc": 0.8857913669064749,
+    "n_in_scope": 4560,
+    "n_oos": 1000,
+    "custom_acc": 0.2833333333333333,
+    "n_custom": 60,
+    "custom_acc_ci95": [
+      0.1851,
+      0.4077
+    ]
+  }
+}

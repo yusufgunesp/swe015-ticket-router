@@ -1,0 +1,301 @@
+text,intent,lang
+"bulaşık makinem su boşaltmıyor, model DW-6534",dishwasher_issue,tr
+bulasik makinem calismiyor,dishwasher_issue,tr
+bulaşık makinesi yıkama sonunda tabaklarda beyaz leke bırakıyor,dishwasher_issue,tr
+bulasik makinsi E24 hata kodu veriyor ne yapmalıyım,dishwasher_issue,tr
+DW-7120 bulaşık makinemin kapağı kapanmıyor,dishwasher_issue,tr
+bulaşık makinesinin altından su sızıyor mutfak su içinde kaldı,dishwasher_issue,tr
+"bulaşıklar kurumadan çıkıyor, kurutma çalışmıyor sanırım",dishwasher_issue,tr
+bulaşk makinesi programın ortasında durup bip sesi çıkarıyor,dishwasher_issue,tr
+"deterjan haznesi açılmıyor, tablet olduğu gibi kalıyor",dishwasher_issue,tr
+bulasik makinasi cok gurultulu calisiyor model DW-5510,dishwasher_issue,tr
+"my dishwasher won't drain, there's water left at the bottom",dishwasher_issue,en
+"dishwaser not starting at all, model DW-6534",dishwasher_issue,en
+the dishes come out still dirty after a full cycle,dishwasher_issue,en
+dishwasher shows error code E15 and stops,dishwasher_issue,en
+water is leaking from under my dishwasher,dishwasher_issue,en
+the dishwasher door latch is broken and it won't close,dishwasher_issue,en
+my DW-7120 dish washer makes a grinding noise,dishwasher_issue,en
+dishwasher keeps beeping and the lights are flashing,dishwasher_issue,en
+glasses come out cloudy from the dishwasher every time,dishwasher_issue,en
+the spray arm in my dishwasher isn't spinning,dishwasher_issue,en
+"çamaşır makinem sıkma yapmıyor, çamaşırlar sırılsıklam çıkıyor",washing_machine_issue,tr
+camasir makinasi sikarken cok ses yapiyor,washing_machine_issue,tr
+WM-1200 çamaşır makinemin kapağı açılmıyor,washing_machine_issue,tr
+"çamaşır makinesi su almıyor, program başlamıyor",washing_machine_issue,tr
+"makinenin altından su akıyor, model WM-8400",washing_machine_issue,tr
+çamaşır makinesi sıkmada titreyip yerinden yürüyor,washing_machine_issue,tr
+camasir makinsi F05 hatasi veriyor,washing_machine_issue,tr
+"yıkama bittikten sonra çamaşırlar deterjan kokuyor, durulama yapmıyor galiba",washing_machine_issue,tr
+çamaşır makinemin ekranı yanmıyor hiç çalışmıyor,washing_machine_issue,tr
+"tamburda su kalıyor, çamaşır makinesi WM-1200 suyu boşaltmıyor",washing_machine_issue,tr
+my washing machine is not spinning,washing_machine_issue,en
+washing machine door is locked and won't open after the cycle,washing_machine_issue,en
+"loud banging noise from my washer during spin, model WM-8400",washing_machine_issue,en
+the washing machine won't fill with water,washing_machine_issue,en
+washng machine leaking water all over the laundry room,washing_machine_issue,en
+my washer shows error F21 and stops mid-cycle,washing_machine_issue,en
+clothes still smell of detergent after washing,washing_machine_issue,en
+the drum of my washing machine doesn't turn,washing_machine_issue,en
+"washer won't turn on at all, no lights",washing_machine_issue,en
+my laundry machine shakes violently and moves across the floor,washing_machine_issue,en
+"buzdolabım soğutmuyor, yiyecekler bozuluyor",refrigerator_issue,tr
+buzdolabi cok ses yapiyor gece uyuyamiyorum,refrigerator_issue,tr
+RF-450X buzdolabımın dondurucu kısmında aşırı buzlanma var,refrigerator_issue,tr
+buzdolabının altından su akıyor,refrigerator_issue,tr
+buzdolabının içindeki ışık yanmıyor,refrigerator_issue,tr
+"buzdolabı sürekli çalışıyor hiç durmuyor, motor ısınıyor",refrigerator_issue,tr
+"buz dolabı kapağı tam kapanmıyor, conta yırtılmış",refrigerator_issue,tr
+"derin dondurucu bölümü dondurmuyor, model RF-620",refrigerator_issue,tr
+buzdolabinin ekraninda hata kodu yaniyor,refrigerator_issue,tr
+"buzdolabında kötü koku var, fan çalışmıyor sanırım",refrigerator_issue,tr
+my fridge is not cooling properly,refrigerator_issue,en
+refridgerator making a loud buzzing noise,refrigerator_issue,en
+"there is too much ice building up in my freezer, model RF-450X",refrigerator_issue,en
+water pooling under the refrigerator,refrigerator_issue,en
+the freezer works but the fridge section is warm,refrigerator_issue,en
+my fridge's ice maker stopped making ice,refrigerator_issue,en
+refrigerator light doesn't turn on when I open the door,refrigerator_issue,en
+the fridge door seal is broken and it doesn't close tightly,refrigerator_issue,en
+fridge compressor keeps clicking on and off,refrigerator_issue,en
+my RF-620 refrigerator display shows an error and beeps,refrigerator_issue,en
+çamaşır makinemin garantisi ne zaman bitiyor,warranty_inquiry,tr
+garanti kapsamında ücretsiz tamir yapılıyor mu,warranty_inquiry,tr
+garanti belgemi kaybettim ne yapabilirim,warranty_inquiry,tr
+DW-6534 bulaşık makinesinin garanti süresi kaç yıl,warranty_inquiry,tr
+"ek garanti satın almak istiyorum, fiyatı nedir",warranty_inquiry,tr
+garantim devam ediyor mu nasıl sorgulayabilirim,warranty_inquiry,tr
+buzdolabının kompresörü garantiye dahil mi,warranty_inquiry,tr
+garanti suresi uzatilabiliyor mu,warranty_inquiry,tr
+faturam yok ama ürün garantili mi,warranty_inquiry,tr
+"taşınma sırasında hasar gördü, garanti karşılar mı",warranty_inquiry,tr
+how long is the warranty on my washing machine,warranty_inquiry,en
+"is my fridge still under warranty, model RF-450X",warranty_inquiry,en
+does the warranty cover water damage,warranty_inquiry,en
+"I lost my warranty card, can I still get free repair",warranty_inquiry,en
+can I buy an extended warranty for my dishwasher,warranty_inquiry,en
+how do I register my product for warranty,warranty_inquiry,en
+what parts are covered by the manufacturer warranty,warranty_inquiry,en
+"my warranty expired last month, will the repair be paid",warranty_inquiry,en
+check warranty status for serial number WM-8400-22391,warranty_inquiry,en
+is the warranty transferable if I sell the appliance,warranty_inquiry,en
+servis randevusu almak istiyorum,technician_appointment,tr
+teknisyen yarın kaçta gelecek,technician_appointment,tr
+randevumu cuma gününe ertelemek istiyorum,technician_appointment,tr
+"servis randevumu iptal etmek istiyorum, sorun kendiliğinden düzeldi",technician_appointment,tr
+bulaşık makinesi için evime teknik servis gönderebilir misiniz,technician_appointment,tr
+"hafta sonu servis hizmetiniz var mı, cumartesi randevu alabilir miyim",technician_appointment,tr
+"teknisyen gelmedi, randevum neden iptal oldu",technician_appointment,tr
+"yeni çamaşır makinesi aldım, kurulum için usta ne zaman gelir",technician_appointment,tr
+servis randevu saatini öğleden sonraya alabilir misiniz,technician_appointment,tr
+randevu almak icin hangi bilgiler gerekiyor,technician_appointment,tr
+I'd like to book a technician visit,technician_appointment,en
+can someone come to fix my fridge this week,technician_appointment,en
+reschedule my repair appointment to next monday,technician_appointment,en
+cancel my service appointment please,technician_appointment,en
+what time will the technician arrive tomorrow,technician_appointment,en
+"I need installation for my new dishwasher, when can you come",technician_appointment,en
+the repairman didn't show up for my appointment,technician_appointment,en
+are technician visits available on weekends,technician_appointment,en
+change my appointment from morning to afternoon,technician_appointment,en
+"how do I schedule a home visit for my washer, model WM-1200",technician_appointment,en
+"bulaşık makinesi suyu ısıtmıyor, bulaşıklar soğuk suyla yıkanıyor",dishwasher_issue,tr
+"makinenin içinde sürekli su birikiyor, gider tıkanmış olabilir mi",dishwasher_issue,tr
+bulaşık makinem açılıyor ama program seçince hiçbir şey olmuyor,dishwasher_issue,tr
+"tencere ve tavalar yağlı kalıyor, bulaşık makinesi iyi yıkamıyor",dishwasher_issue,tr
+bulasik makinesinin pervanesi donmuyor,dishwasher_issue,tr
+bulaşık makinesinden yanık kokusu geliyor korktum,dishwasher_issue,tr
+DW-6534 makinemde tuz uyarı ışığı sürekli yanıyor,dishwasher_issue,tr
+bulaşık makinesi yıkama sırasında su taşırıyor,dishwasher_issue,tr
+parlatıcı bitmedi ama bardaklarda iz kalıyor bulaşık makinesi,dishwasher_issue,tr
+bulaşık makinem iki saattir aynı programda takılı kaldı,dishwasher_issue,tr
+bulaşık makinesinin sepet tekerleği kırıldı sepet raydan çıkıyor,dishwasher_issue,tr
+"makinenin kapağını açınca ekran sönüyor, bulaşık makinem DW-7120",dishwasher_issue,tr
+bulaşık makinasından çok ses geliyor sanki içinde bir şey var,dishwasher_issue,tr
+yıkama bitince bulaşıkların içi hâlâ ıslak ve buhar kokuyor,dishwasher_issue,tr
+"bulaşık makinesi sigortayı attırıyor, çalıştırınca evin elektriği gidiyor",dishwasher_issue,tr
+bulaşk makinem su almıyor musluk açık olduğu halde,dishwasher_issue,tr
+bulaşık makinesinin filtresini temizledim yine de pis yıkıyor,dishwasher_issue,tr
+makinenin içinde kireç birikti bulaşıklar beyazlaşıyor,dishwasher_issue,tr
+bulaşık makinesi E15 hatası verip duruyor su koruma diyor,dishwasher_issue,tr
+tabletli program bitince deterjan erimemiş halde kalıyor,dishwasher_issue,tr
+"bulaşık makinemin tuşları basmıyor, panel çalışmıyor",dishwasher_issue,tr
+alt sepetteki tabaklar hiç yıkanmamış gibi çıkıyor,dishwasher_issue,tr
+bulasik makinam suyu bosaltirken gurul gurul ses yapiyor,dishwasher_issue,tr
+bulaşık makinesinin kapak contasından su damlıyor,dishwasher_issue,tr
+hızlı programda bile üç saat sürüyor bulaşık makinesi,dishwasher_issue,tr
+bulaşık makinesi gece kendi kendine çalışmaya başladı,dishwasher_issue,tr
+"makineden gelen su kahverengi, bulaşıklar lekeli çıkıyor",dishwasher_issue,tr
+bulaşık makinemi yeni taşıdım şimdi hiç su basmıyor,dishwasher_issue,tr
+çatal kaşık sepetindeki parçalar paslanmış çıkıyor,dishwasher_issue,tr
+bulaşık makinasi ortasında durup tüm ışıkları yakıp söndürüyor,dishwasher_issue,tr
+my dishwasher smells really bad even after cleaning the filter,dishwasher_issue,en
+the dishwasher isn't heating the water,dishwasher_issue,en
+dishwasher stops halfway through the program and won't resume,dishwasher_issue,en
+there's standing water and food bits in the bottom of my dishwasher,dishwasher_issue,en
+the detergent pod doesn't dissolve completely,dishwasher_issue,en
+dishwasher trips the circuit breaker every time I turn it on,dishwasher_issue,en
+my DW-5510 control panel buttons are unresponsive,dishwasher_issue,en
+the lower rack wheels came off and the rack won't slide,dishwasher_issue,en
+dishwasher is overflowing onto the kitchen floor,dishwasher_issue,en
+plates on the top rack come out greasy,dishwasher_issue,en
+çamaşır makinesi programı bitirmeden kapanıyor,washing_machine_issue,tr
+çamaşır makinemden yanık plastik kokusu geliyor,washing_machine_issue,tr
+makine suyu ısıtmıyor çamaşırlar soğuk suyla yıkanıyor,washing_machine_issue,tr
+çamaşır makinesinin deterjan çekmecesinde su birikiyor yumuşatıcı çekmiyor,washing_machine_issue,tr
+camasir makinem sikma devrinde cok sallaniyor,washing_machine_issue,tr
+"çamaşırlar makineden yırtık çıkıyor, tamburda bir şey takılıyor olabilir",washing_machine_issue,tr
+çamaşır makinesinin lastik körüğü yırtılmış su akıtıyor,washing_machine_issue,tr
+WM-8400 ekranda E21 yazıyor ve su boşaltmıyor,washing_machine_issue,tr
+çamaşır makinem çalışırken sigortayı attırıyor,washing_machine_issue,tr
+yıkama sonunda kapak kilitli kalıyor çamaşırları çıkaramıyorum,washing_machine_issue,tr
+çamaşır makinesinin tamburu dönerken gıcırdıyor,washing_machine_issue,tr
+çamaşır makinesi programı seçiyorum ama başlat tuşu çalışmıyor,washing_machine_issue,tr
+makine su alıyor ama hemen geri boşaltıyor sürekli böyle,washing_machine_issue,tr
+çamaşır makinemde kurutma bölümü kurutmuyor çamaşırlar nemli,washing_machine_issue,tr
+camasir makinasinin pompa sesi cok yuksek,washing_machine_issue,tr
+çamaşır makinemin filtre kapağı kırıldı,washing_machine_issue,tr
+60 derece programı iki saatten fazla sürüyor normal mi,washing_machine_issue,tr
+çamaşır makinesinden sızan su parkeyi bozdu,washing_machine_issue,tr
+"makine sıkmaya geçmiyor, durulamada bekliyor",washing_machine_issue,tr
+çamaşır makinesi titreyerek banyo kapısına kadar yürüdü,washing_machine_issue,tr
+makinenin içinde küf kokusu var temizlesem de geçmiyor,washing_machine_issue,tr
+çamaşır makinesi ekranında süre hiç azalmıyor,washing_machine_issue,tr
+çamaşırlarda gri lekeler çıkıyor makine yağ bırakıyor sanırım,washing_machine_issue,tr
+yeni aldığım çamaşır makinesi çok ses yapıyor nakliye vidası söküldü mü bilmiyorum,washing_machine_issue,tr
+çamaşır makinesinin elektrik kablosu ısınıyor,washing_machine_issue,tr
+WM-1200 makinem yarım yükte bile dengesiz sıkıyor,washing_machine_issue,tr
+çamaşır makinem suyu boşaltırken hortumdan taşıyor,washing_machine_issue,tr
+çamaşır makinemin kapağı kapanmıyor kilit tutmuyor,washing_machine_issue,tr
+çamaşırlar sabun köpüğüyle dolu çıkıyor durulamıyor,washing_machine_issue,tr
+çamaşır makinesi açılıyor ama tambur hiç hareket etmiyor,washing_machine_issue,tr
+my washing machine won't drain the water,washing_machine_issue,en
+the washer smells musty inside,washing_machine_issue,en
+washing machine stops in the middle of the rinse cycle,washing_machine_issue,en
+"fabric softener doesn't get used, it stays in the drawer",washing_machine_issue,en
+my WM-8400 displays E21 and won't finish the wash,washing_machine_issue,en
+washer drum squeaks loudly when turning,washing_machine_issue,en
+the rubber door seal on my washing machine is torn,washing_machine_issue,en
+washing machine trips the breaker during the spin,washing_machine_issue,en
+clothes come out with grey stains after the wash,washing_machine_issue,en
+"washer takes forever, the timer doesn't count down",washing_machine_issue,en
+buzdolabının alt rafında su birikiyor,refrigerator_issue,tr
+buzdolabım çok soğutuyor sebzeler donuyor,refrigerator_issue,tr
+dondurucuda yiyecekler eriyor buzdolabı dondurmuyor,refrigerator_issue,tr
+buzdolabı kapağı açık kaldı alarmı susmuyor,refrigerator_issue,tr
+buzdolabimin arkasindan tik tik ses geliyor,refrigerator_issue,tr
+buzdolabı çalışmıyor tamamen kapandı ışığı da yanmıyor,refrigerator_issue,tr
+buzdolabının dış yüzeyi çok ısınıyor normal mi,refrigerator_issue,tr
+RF-620 buzdolabımın sıcaklık ayarı değişmiyor,refrigerator_issue,tr
+buzdolabının içinde buz tutuyor arka duvar buz kaplı,refrigerator_issue,tr
+buz makinesi buz yapmıyor su da vermiyor,refrigerator_issue,tr
+buzdolabı kompresörü sürekli çalışıp duruyor elektrik faturası arttı,refrigerator_issue,tr
+buzdolabımın kapı rafı kırıldı yedek parça lazım,refrigerator_issue,tr
+buzdolabının sebzeliği nem yapıyor sebzeler çürüyor,refrigerator_issue,tr
+buzdolabı çok gürültülü uğultu gece de devam ediyor,refrigerator_issue,tr
+no frost buzdolabım karlanma yapıyor,refrigerator_issue,tr
+buzdolabının fanı ses çıkarıyor pervane bir yere sürtüyor,refrigerator_issue,tr
+buzdolabımın göstergesi E5 hatası yazıyor,refrigerator_issue,tr
+buzdolabının altında su birikintisi var ama sızıntı nerede bilmiyorum,refrigerator_issue,tr
+taşındıktan sonra buzdolabı soğutmayı bıraktı,refrigerator_issue,tr
+buz dolabinin kapisi kendi kendine aciliyor,refrigerator_issue,tr
+buzdolabımın ışığı yanıp sönüyor,refrigerator_issue,tr
+buzdolabının içi ter yapıyor damlalar oluşuyor,refrigerator_issue,tr
+buzdolabı soğutuyor ama derin dondurucu ılık,refrigerator_issue,tr
+RF-450X buzdolabımın kapağındaki su pınarı su akıtmıyor,refrigerator_issue,tr
+buzdolabım hiç durmadan çalışıyor motor hiç susmuyor,refrigerator_issue,tr
+buzdolabının içinde plastik yanık kokusu var,refrigerator_issue,tr
+buzdolabımın dondurucu çekmecesi buzdan açılmıyor,refrigerator_issue,tr
+buzdolabı fişe takılı ama hiç soğutma yapmıyor,refrigerator_issue,tr
+buzdolabında yiyecekler çabuk bozuluyor ısı yüksek gibi,refrigerator_issue,tr
+buzdolabının çekmece rayı kırıldı,refrigerator_issue,tr
+"my freezer is not freezing, ice cream is soft",refrigerator_issue,en
+the fridge is too cold and vegetables freeze,refrigerator_issue,en
+refrigerator door alarm keeps beeping even when closed,refrigerator_issue,en
+"my fridge stopped working completely, no light no cooling",refrigerator_issue,en
+frost is building up on the back wall of the fridge,refrigerator_issue,en
+RF-620 temperature display shows E5,refrigerator_issue,en
+water dispenser on the fridge door doesn't work,refrigerator_issue,en
+the fridge fan makes a rattling noise,refrigerator_issue,en
+condensation drops inside my refrigerator,refrigerator_issue,en
+my refrigerator runs constantly and never stops,refrigerator_issue,en
+garanti süresi içinde arıza olursa servis ücreti alınır mı,warranty_inquiry,tr
+"ürünümün garantisi kaç yıl, iki yıl mı üç yıl mı",warranty_inquiry,tr
+garanti belgesi olmadan fatura ile garanti geçerli mi,warranty_inquiry,tr
+internetten aldığım buzdolabının garantisi geçerli mi,warranty_inquiry,tr
+garanti kapsamında parça değişimi ücretsiz mi,warranty_inquiry,tr
+garanti süresi bitmek üzere uzatma yapabilir miyim,warranty_inquiry,tr
+seri numarasıyla garanti sorgulama nasıl yapılır,warranty_inquiry,tr
+kullanıcı hatası garanti kapsamı dışında mı,warranty_inquiry,tr
+ikinci el aldığım çamaşır makinesinin garantisi devam eder mi,warranty_inquiry,tr
+elektrik kesintisinde yanan kart garantiye girer mi,warranty_inquiry,tr
+garanti belgemin fotoğrafını göndersem yeterli olur mu,warranty_inquiry,tr
+ürün değişimi için garanti şartları neler,warranty_inquiry,tr
+bulaşık makinemin garantisi bitti mi öğrenmek istiyorum,warranty_inquiry,tr
+garantili ürünün aynı arızası üçüncü kez çıktı değişim hakkım var mı,warranty_inquiry,tr
+uzatılmış garanti paketi neleri kapsıyor,warranty_inquiry,tr
+garanti başlangıç tarihi fatura tarihi mi kurulum tarihi mi,warranty_inquiry,tr
+yurt dışından aldığım ürüne garanti veriyor musunuz,warranty_inquiry,tr
+garanti suresi dolmadan ariza bildirmem lazim mi,warranty_inquiry,tr
+kampanyada aldığım üründe garanti süresi farklı mı,warranty_inquiry,tr
+garanti kapsamında nakliye ücreti alınıyor mu,warranty_inquiry,tr
+kompresöre ek garanti var mı kaç yıl,warranty_inquiry,tr
+garanti kartını doldurmadım sorun olur mu,warranty_inquiry,tr
+ürünü hediye aldım faturası bende değil garanti nasıl işler,warranty_inquiry,tr
+garanti dışı tamir ücretleri ne kadar,warranty_inquiry,tr
+RF-620 için garanti belgesi nereden indirebilirim,warranty_inquiry,tr
+garanti süresi kurulumdan itibaren mi başlıyor,warranty_inquiry,tr
+su kaçağı garanti kapsamında karşılanıyor mu,warranty_inquiry,tr
+garantim bitti ama arıza garanti süresinde başlamıştı,warranty_inquiry,tr
+garanti kaydımı e-devlet üzerinden görebilir miyim,warranty_inquiry,tr
+kurumsal alımlarda garanti şartları farklı mı,warranty_inquiry,tr
+does the warranty cover parts and labor,warranty_inquiry,en
+"when does the warranty period start, purchase date or installation date",warranty_inquiry,en
+is a receipt enough as proof of warranty,warranty_inquiry,en
+how many years of warranty does the compressor have,warranty_inquiry,en
+is damage from a power surge covered under warranty,warranty_inquiry,en
+can I extend my warranty before it expires,warranty_inquiry,en
+"my appliance was a gift, how do I claim the warranty",warranty_inquiry,en
+does the warranty still apply if I bought it online,warranty_inquiry,en
+what does the extended warranty plan include,warranty_inquiry,en
+is shipping covered when the repair is under warranty,warranty_inquiry,en
+en yakın servis randevusu ne zaman,technician_appointment,tr
+teknisyen ziyareti için bugün kimse gelebilir mi,technician_appointment,tr
+randevu tarihimi öne çekmek istiyorum,technician_appointment,tr
+salı günü sabah için servis randevusu oluşturun lütfen,technician_appointment,tr
+teknik servis randevusunu değiştirmek istiyorum işe gitmem gerekiyor,technician_appointment,tr
+usta gelmeden önce beni arayabilir mi,technician_appointment,tr
+randevum onaylandı mı kontrol eder misiniz,technician_appointment,tr
+servis randevusu için hangi saat aralıkları uygun,technician_appointment,tr
+teknisyen geldi ama parça yoktu yeni randevu lazım,technician_appointment,tr
+buzdolabı için ev ziyareti talep ediyorum,technician_appointment,tr
+randevu saatinde evde olamayacağım komşum bekleyebilir mi,technician_appointment,tr
+yeni bulaşık makinesi için kurulum randevusu almak istiyorum,technician_appointment,tr
+teknisyen geç kaldı ne zaman gelecek,technician_appointment,tr
+servisi pazartesi yerine çarşamba gününe alabilir miyiz,technician_appointment,tr
+randevumu iptal edip yeniden almak istiyorum,technician_appointment,tr
+servis ekibi kaç gün içinde gelir,technician_appointment,tr
+akşam saatlerinde servis randevusu verebiliyor musunuz,technician_appointment,tr
+teknisyenin telefon numarasını öğrenebilir miyim,technician_appointment,tr
+randevu numaram 4521 durumunu öğrenmek istiyorum,technician_appointment,tr
+teknik servis kaydı açtım ama kimse aramadı,technician_appointment,tr
+servisin geleceği saati SMS ile bildirir misiniz,technician_appointment,tr
+çamaşır makinemin montajı için usta istiyorum,technician_appointment,tr
+randevu icin musait gunleri ogrenebilir miyim,technician_appointment,tr
+aynı gün servis hizmeti var mı acil durum,technician_appointment,tr
+randevu almadan önce teknisyen ziyaret ücretini sormak istedim,technician_appointment,tr
+iki cihaz için aynı randevuda bakım yapılabilir mi,technician_appointment,tr
+yarınki servis randevumu teyit etmek istiyorum,technician_appointment,tr
+servis randevumu öğleden önceye çekmek mümkün mü,technician_appointment,tr
+periyodik bakım için randevu oluşturmak istiyorum,technician_appointment,tr
+teknisyen adresimi bulamamış yeniden randevu verin,technician_appointment,tr
+when is the earliest available service appointment,technician_appointment,en
+"can a technician come today, it's urgent",technician_appointment,en
+please confirm my repair appointment for tomorrow,technician_appointment,en
+I need to move my appointment to thursday,technician_appointment,en
+is it possible to get an evening appointment,technician_appointment,en
+"the technician came but didn't have the part, I need a new visit",technician_appointment,en
+can the repairman call me before coming,technician_appointment,en
+book installation for my new washing machine,technician_appointment,en
+how many days until a technician can visit,technician_appointment,en
+I want to schedule annual maintenance for my fridge,technician_appointment,en

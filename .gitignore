@@ -1,0 +1,35 @@
+# Sanal ortam
+.venv/
+
+# Buyuk dosyalar: model agirliklari Hugging Face Hub'a yuklenir, repoya girmez (R7)
+models/
+*.bin
+*.safetensors
+*.onnx
+*.pt
+*.pkl
+*.joblib
+*.model
+
+# Indirilen ham veri (data/custom haric, onu biz yaziyoruz)
+data/*
+!data/custom/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Gradio
+.gradio/
+flagged/
+
+# Ogretmenin Word dosyasi
+*.docx
+
+# Hocanin odev metni (sadece denetciler icin, repoya girmez)
+docs/odev_metni.md
+
+# Claude Code yerel ayarlari
+.claude/settings.local.json
+.claude/launch.json

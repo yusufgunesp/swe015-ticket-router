@@ -1,0 +1,38 @@
+{
+  "test_sha256": "7e8db122c0969fc17dad20cf26b752e96d448c4cda5d15e99d1b49609240db1e",
+  "decision_model": "student_int8",
+  "eliza_matches": 7,
+  "eliza_matches_true_small_talk": 7,
+  "models": {
+    "baseline": {
+      "routing_acc_with_eliza": 0.8906474820143885,
+      "routing_acc_model_only": 0.8906474820143885,
+      "routing_acc_appliance": 0.8166666666666667
+    },
+    "ffn": {
+      "routing_acc_with_eliza": 0.8438848920863309,
+      "routing_acc_model_only": 0.8438848920863309,
+      "routing_acc_appliance": 0.4166666666666667
+    },
+    "teacher": {
+      "routing_acc_with_eliza": 0.908273381294964,
+      "routing_acc_model_only": 0.908273381294964,
+      "routing_acc_appliance": 0.8166666666666667
+    },
+    "student": {
+      "routing_acc_with_eliza": 0.9043165467625899,
+      "routing_acc_model_only": 0.9043165467625899,
+      "routing_acc_appliance": 0.8
+    },
+    "student_int8": {
+      "routing_acc_with_eliza": 0.8931654676258993,
+      "routing_acc_model_only": 0.8931654676258993,
+      "routing_acc_appliance": 0.7333333333333333
+    },
+    "teacher_int8": {
+      "routing_acc_with_eliza": 0.9116906474820143,
+      "routing_acc_model_only": 0.9116906474820143,
+      "routing_acc_appliance": 0.8333333333333334
+    }
+  }
+}

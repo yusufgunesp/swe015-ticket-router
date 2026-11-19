@@ -1,0 +1,46 @@
+{
+  "model": "ffn",
+  "test_sha256": "7e8db122c0969fc17dad20cf26b752e96d448c4cda5d15e99d1b49609240db1e",
+  "in_scope_acc": 0.8100877192982456,
+  "oos_recall": 0.892,
+  "overall_acc": 0.8248201438848921,
+  "n_in_scope": 4560,
+  "n_oos": 1000,
+  "custom_acc": 0.4166666666666667,
+  "n_custom": 60,
+  "custom_acc_ci95": [
+    0.3006,
+    0.5427
+  ],
+  "thresholds": {
+    "clinc": 0.84,
+    "custom": 0.3
+  },
+  "val_metrics": {
+    "in_scope_acc": 0.8091503267973856,
+    "oos_recall": 0.94,
+    "overall_acc": 0.8132911392405063,
+    "n_in_scope": 3060,
+    "n_oos": 100,
+    "custom_acc": 0.5166666666666667,
+    "n_custom": 60,
+    "custom_acc_ci95": [
+      0.3931,
+      0.6383
+    ]
+  },
+  "single_threshold": 0.83,
+  "single_threshold_metrics": {
+    "in_scope_acc": 0.8089912280701754,
+    "oos_recall": 0.895,
+    "overall_acc": 0.8244604316546763,
+    "n_in_scope": 4560,
+    "n_oos": 1000,
+    "custom_acc": 0.2,
+    "n_custom": 60,
+    "custom_acc_ci95": [
+      0.1183,
+      0.3178
+    ]
+  }
+}

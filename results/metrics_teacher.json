@@ -1,0 +1,46 @@
+{
+  "model": "teacher",
+  "test_sha256": "7e8db122c0969fc17dad20cf26b752e96d448c4cda5d15e99d1b49609240db1e",
+  "in_scope_acc": 0.9070175438596492,
+  "oos_recall": 0.864,
+  "overall_acc": 0.8992805755395683,
+  "n_in_scope": 4560,
+  "n_oos": 1000,
+  "custom_acc": 0.8166666666666667,
+  "n_custom": 60,
+  "custom_acc_ci95": [
+    0.7008,
+    0.8944
+  ],
+  "thresholds": {
+    "clinc": 0.82,
+    "custom": 0.3
+  },
+  "val_metrics": {
+    "in_scope_acc": 0.9111111111111111,
+    "oos_recall": 0.93,
+    "overall_acc": 0.9117088607594936,
+    "n_in_scope": 3060,
+    "n_oos": 100,
+    "custom_acc": 0.9,
+    "n_custom": 60,
+    "custom_acc_ci95": [
+      0.7985,
+      0.9534
+    ]
+  },
+  "single_threshold": 0.81,
+  "single_threshold_metrics": {
+    "in_scope_acc": 0.899780701754386,
+    "oos_recall": 0.864,
+    "overall_acc": 0.8933453237410072,
+    "n_in_scope": 4560,
+    "n_oos": 1000,
+    "custom_acc": 0.16666666666666666,
+    "n_custom": 60,
+    "custom_acc_ci95": [
+      0.0931,
+      0.2803
+    ]
+  }
+}

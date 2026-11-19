@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 860" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#334155"/>
+    </marker>
+    <style>
+      .box{fill:#ffffff;stroke:#334155;stroke-width:1.6;rx:10}
+      .ui{fill:#eef2ff;stroke:#4f46e5;stroke-width:1.8}
+      .pre{fill:#ecfdf5;stroke:#059669;stroke-width:1.8}
+      .dec{fill:#fff7ed;stroke:#ea580c;stroke-width:2.4}
+      .post{fill:#fefce8;stroke:#ca8a04;stroke-width:1.8}
+      .cmp{fill:#f8fafc;stroke:#64748b;stroke-width:1.4;stroke-dasharray:5 4}
+      .off{fill:#f1f5f9;stroke:#94a3b8;stroke-width:1.4;stroke-dasharray:3 3}
+      .t{font-size:17px;font-weight:700;fill:#0f172a}
+      .s{font-size:13.5px;fill:#1e293b}
+      .f{font-size:12px;fill:#475569;font-family:Consolas, monospace}
+      .tag{font-size:12px;font-weight:700}
+      .ln{stroke:#334155;stroke-width:1.8;fill:none;marker-end:url(#a)}
+      .lnd{stroke:#64748b;stroke-width:1.4;fill:none;stroke-dasharray:5 4;marker-end:url(#a)}
+      .lbl{font-size:12.5px;fill:#334155;font-style:italic}
+    </style>
+  </defs>
+
+  <rect width="1500" height="860" fill="#ffffff"/>
+  <text x="30" y="40" font-size="24" font-weight="700" fill="#0f172a">Customer Support Ticket Router: architecture and data flow</text>
+  <text x="30" y="64" class="s">Everything inside the large frame runs on CPU on a local machine (measured on Intel i5-10300H, Python 3.11). Weights are downloaded from the Hugging Face Hub on the first run (src/download.py).</text>
+
+  <!-- runtime frame -->
+  <rect x="20" y="82" width="1460" height="590" rx="14" fill="none" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="34" y="104" class="tag" fill="#64748b">RUNTIME · CPU · python app.py</text>
+
+  <!-- 1. user + UI -->
+  <rect class="ui" x="40" y="130" width="230" height="150" rx="10"/>
+  <text x="56" y="158" class="t">User interface</text>
+  <text x="56" y="182" class="s">Gradio web page</text>
+  <text x="56" y="202" class="s">free-text message (TR / EN)</text>
+  <text x="56" y="228" class="f">app.py</text>
+  <text x="56" y="252" class="s">shows team, reply, confidence,</text>
+  <text x="56" y="270" class="s">all models side by side</text>
+
+  <!-- 2. preprocessing -->
+  <rect class="pre" x="320" y="130" width="270" height="190" rx="10"/>
+  <text x="336" y="158" class="t">Preprocessing  (B)</text>
+  <text x="336" y="182" class="s">1  model-code regex: DW / WM / RF</text>
+  <text x="336" y="202" class="s">2  lowercase, repeated letters,</text>
+  <text x="336" y="220" class="s">    punctuation (regex)</text>
+  <text x="336" y="242" class="s">3  minimum edit distance spelling</text>
+  <text x="336" y="260" class="s">    correction of product names</text>
+  <text x="336" y="286" class="f">src/normalize.py</text>
+  <text x="336" y="304" class="f">src/resources/known_words.txt</text>
+
+  <!-- 3. ELIZA -->
+  <rect class="pre" x="640" y="130" width="250" height="150" rx="10"/>
+  <text x="656" y="158" class="t">ELIZA rules  (B)</text>
+  <text x="656" y="182" class="s">does the WHOLE message match</text>
+  <text x="656" y="200" class="s">a greeting / thanks / goodbye</text>
+  <text x="656" y="218" class="s">regex pattern?</text>
+  <text x="656" y="250" class="f">src/eliza.py · eliza_reply()</text>
+
+  <!-- 4. decision model -->
+  <rect class="dec" x="640" y="340" width="300" height="170" rx="10"/>
+  <text x="656" y="368" class="t">Decision model  (C + D)</text>
+  <text x="656" y="392" class="s">DistilmBERT, distilled from mBERT</text>
+  <text x="656" y="412" class="s">ONNX Runtime, dynamic INT8</text>
+  <text x="656" y="432" class="s">(UInt8 weights + embeddings,</text>
+  <text x="656" y="450" class="s">dynamic UInt8 activations), batch = 1</text>
+  <text x="656" y="474" class="s">output: intent + softmax confidence</text>
+  <text x="656" y="498" class="f">models/student_int8/model.onnx</text>
+
+  <!-- 5. post-processing -->
+  <rect class="post" x="1000" y="300" width="460" height="250" rx="10"/>
+  <text x="1016" y="328" class="t">Post-processing: routing decision</text>
+  <text x="1016" y="354" class="s">two confidence thresholds, chosen on the validation set</text>
+  <text x="1016" y="372" class="f">models/student_int8/thresholds.json  (clinc / custom, min 0.3)</text>
+  <text x="1016" y="400" class="s">• intent = oos  or  confidence &lt; threshold  →  human agent</text>
+  <text x="1016" y="424" class="s">• small-talk intent  →  rule-based reply (ELIZA)</text>
+  <text x="1016" y="448" class="s">• otherwise intent → team:</text>
+  <text x="1030" y="470" class="s">5 appliance teams (dishwashers, washing machines,</text>
+  <text x="1030" y="488" class="s">refrigerators, warranty, appointments) + 10 CLINC teams</text>
+  <text x="1016" y="520" class="f">src/evaluate.py · decide()     src/router.py · route(), TEAM_OF</text>
+
+  <!-- 6. comparison models -->
+  <rect class="cmp" x="40" y="340" width="540" height="290" rx="10"/>
+  <text x="56" y="368" class="t">Comparison models (shown side by side, not deciding)</text>
+  <text x="56" y="392" class="s">same normalized text, each with its own thresholds.json</text>
+  <text x="56" y="424" class="s">A  fastText avg. embeddings → feedforward net (SGD)   FP32</text>
+  <text x="56" y="448" class="s">B  tf-idf (word + char n-grams) + Logistic Regression   float64</text>
+  <text x="56" y="472" class="s">C  mBERT, bert-base-multilingual-cased   FP32  (PyTorch)</text>
+  <text x="56" y="496" class="s">D  DistilmBERT (distilled student)   FP32  (PyTorch)</text>
+  <text x="56" y="520" class="s">D  mBERT INT8   (ONNX Runtime)</text>
+  <text x="56" y="552" class="f">src/predictors.py · load_predictor()</text>
+  <text x="56" y="572" class="f">models/{baseline, ffn, teacher, student, teacher_int8}/</text>
+  <text x="56" y="604" class="s">all models: CPU · the app runs them one after another</text>
+  <text x="56" y="624" class="s">for the comparison table</text>
+
+  <!-- arrows: main path -->
+  <path class="ln" d="M270,190 L320,190"/>
+  <text x="274" y="180" class="lbl">text</text>
+  <path class="ln" d="M590,190 L640,190"/>
+  <path class="ln" d="M765,280 L765,340"/>
+  <text x="773" y="315" class="lbl">no match</text>
+  <path class="ln" d="M940,425 L1000,425"/>
+  <text x="944" y="415" class="lbl">intent, conf</text>
+  <!-- ELIZA match -> straight to output (decision step is skipped, router.py) -->
+  <path class="ln" d="M890,165 L1470,165 L1470,655 L1240,655"/>
+  <text x="905" y="155" class="lbl">match → rule-based reply, no team (model decision is skipped)</text>
+  <!-- output back to UI -->
+  <path class="ln" d="M1230,550 L1230,655 L30,655 L30,205 L40,205"/>
+  <text x="600" y="648" class="lbl">team  /  human agent  /  reply  +  confidence  +  all model predictions</text>
+  <!-- preprocessing -> comparison models, comparison models -> output -->
+  <path class="lnd" d="M455,320 L455,340"/>
+  <path class="lnd" d="M310,630 L310,653"/>
+
+  <!-- offline -->
+  <rect class="off" x="20" y="690" width="1460" height="150" rx="14"/>
+  <text x="34" y="714" class="tag" fill="#64748b">OFFLINE · training and evaluation (GPU GTX 1650 Ti for models C and D, CPU for the rest)</text>
+  <text x="40" y="746" class="s">src/data.py  CLINC150 + 300 TR/EN appliance messages → fixed train / val / test (sha256)</text>
+  <text x="40" y="770" class="s">src/train_baseline.py · src/train_ffn.py · src/train_teacher.py · src/distill_student.py (KD, T = 2)  →  src/quantize.py (ONNX export + ORT dynamic INT8)</text>
+  <text x="40" y="794" class="s">src/calibrate.py  thresholds on VAL, metrics on TEST  →  src/benchmark.py  size (MB), latency (ms, batch 1, 200 runs)  →  src/eval_app.py  team-level routing</text>
+  <text x="40" y="820" class="s">Weights + thresholds.json are uploaded to the Hugging Face Hub; the app downloads them on first run.</text>
+</svg>
