@@ -1,46 +1,46 @@
 {
   "model": "student_int8",
   "test_sha256": "7e8db122c0969fc17dad20cf26b752e96d448c4cda5d15e99d1b49609240db1e",
-  "in_scope_acc": 0.8820175438596491,
-  "oos_recall": 0.884,
-  "overall_acc": 0.8823741007194245,
+  "in_scope_acc": 0.8651315789473685,
+  "oos_recall": 0.906,
+  "overall_acc": 0.8724820143884892,
   "n_in_scope": 4560,
   "n_oos": 1000,
-  "custom_acc": 0.7333333333333333,
+  "custom_acc": 0.8666666666666667,
   "n_custom": 60,
   "custom_acc_ci95": [
-    0.6099,
-    0.8287
+    0.7583,
+    0.9309
   ],
   "thresholds": {
-    "clinc": 0.8,
+    "clinc": 0.84,
     "custom": 0.3
   },
   "val_metrics": {
-    "in_scope_acc": 0.8859477124183006,
-    "oos_recall": 0.94,
-    "overall_acc": 0.8876582278481012,
+    "in_scope_acc": 0.8722222222222222,
+    "oos_recall": 0.95,
+    "overall_acc": 0.8746835443037975,
     "n_in_scope": 3060,
     "n_oos": 100,
-    "custom_acc": 0.8,
+    "custom_acc": 0.8666666666666667,
     "n_custom": 60,
     "custom_acc_ci95": [
-      0.6822,
-      0.8817
+      0.7583,
+      0.9309
     ]
   },
-  "single_threshold": 0.76,
+  "single_threshold": 0.62,
   "single_threshold_metrics": {
-    "in_scope_acc": 0.8833333333333333,
-    "oos_recall": 0.869,
-    "overall_acc": 0.8807553956834533,
+    "in_scope_acc": 0.9017543859649123,
+    "oos_recall": 0.842,
+    "overall_acc": 0.8910071942446043,
     "n_in_scope": 4560,
     "n_oos": 1000,
-    "custom_acc": 0.21666666666666667,
+    "custom_acc": 0.5666666666666667,
     "n_custom": 60,
     "custom_acc_ci95": [
-      0.1312,
-      0.3362
+      0.441,
+      0.6843
     ]
   }
 }

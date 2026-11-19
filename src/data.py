@@ -23,6 +23,7 @@ from sklearn.model_selection import train_test_split
 
 ROOT = Path(__file__).resolve().parent.parent
 CUSTOM_CSV = ROOT / "data" / "custom" / "appliance_tr_en.csv"
+TRAIN_EXTRA_CSV = ROOT / "data" / "custom" / "train_extra_v3.csv"
 OUT_DIR = ROOT / "data" / "processed"
 KNOWN_WORDS = ROOT / "src" / "resources" / "known_words.txt"
 SEED = 42
@@ -62,6 +63,20 @@ def load_custom() -> dict[str, pd.DataFrame]:
     return {"train": train, "val": val, "test": test}
 
 
+def load_train_extra() -> pd.DataFrame:
+    """Veri v3 (19 Kas): SADECE eğitime eklenen cümleler (data/custom/train_extra_v3.csv).
+    - 90 Türkçe + 30 İngilizce kapsam dışı ("oos") cümle: genel sorular ve desteklenmeyen cihazlar
+    - 50 İngilizce beyaz eşya cümlesi (5 niyet × 10)
+    Neden: Ek değerlendirme (src/eval_extra_oos.py), Transformer'ların Türkçe ilgisiz mesajları
+    beyaz eşya ekiplerine gönderdiğini gösterdi. Eğitimde hiç Türkçe "oos" örneği yoktu.
+    İngilizce beyaz eşya cümleleri ise v1'de İngilizce beyaz eşya doğruluğu düşük olduğu için eklendi
+    (v1 sonuçları görüldükten sonra yazıldı, bkz. YOL_HARITASI.md bölüm 11).
+    Val ve test bölmeleri DEĞİŞMEZ (SPLIT_INFO.json'daki parmak izleri aynı kalır)."""
+    df = pd.read_csv(TRAIN_EXTRA_CSV).dropna(subset=["text", "intent"])
+    df["source"] = "custom_train_extra"
+    return df[["text", "intent", "source", "lang"]]
+
+
 def build_known_words(train_clinc: pd.DataFrame) -> None:
     """Yazım düzeltme için 'bilinen kelimeler' listesi: CLINC eğitim setinde en az 2 kez geçen kelimeler.
     Sadece TRAIN kullanılır (test sızıntısı olmasın). Bu listedeki bir kelime 'yanlış yazılmış' sayılmaz."""
@@ -78,7 +93,8 @@ def main() -> None:
     clinc = load_clinc()
     info = {"seed": SEED, "splits": {}}
     for split in ["train", "val", "test"]:
-        df = pd.concat([clinc[split], custom[split]], ignore_index=True)
+        parts = [clinc[split], custom[split]] + ([load_train_extra()] if split == "train" else [])
+        df = pd.concat(parts, ignore_index=True)
         df = df.sample(frac=1, random_state=SEED).reset_index(drop=True)  # karıştır
         path = OUT_DIR / f"{split}.csv"
         df.to_csv(path, index=False)

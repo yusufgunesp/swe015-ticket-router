@@ -1,0 +1,66 @@
+{
+  "set": "extra_oos_holdout",
+  "models_dir": "C:\\Users\\User\\Masaüstü\\LLM\\models",
+  "n": 40,
+  "groups": {
+    "general": 20,
+    "other_device": 20
+  },
+  "models": {
+    "baseline": {
+      "human_agent_rate": 0.95,
+      "human_agent_rate_general": 1.0,
+      "human_agent_rate_other_device": 0.9,
+      "wrongly_routed_to": {
+        "Technical Service – Washing Machines": 2
+      }
+    },
+    "ffn": {
+      "human_agent_rate": 0.6,
+      "human_agent_rate_general": 0.95,
+      "human_agent_rate_other_device": 0.25,
+      "wrongly_routed_to": {
+        "Technical Service – Dishwashers": 15,
+        "Technical Service – Refrigerators": 1
+      }
+    },
+    "teacher": {
+      "human_agent_rate": 0.875,
+      "human_agent_rate_general": 0.9,
+      "human_agent_rate_other_device": 0.85,
+      "wrongly_routed_to": {
+        "Appointment Scheduling": 2,
+        "Technical Service – Dishwashers": 1,
+        "Technical Service – Washing Machines": 1,
+        "Home Team": 1
+      }
+    },
+    "student": {
+      "human_agent_rate": 0.925,
+      "human_agent_rate_general": 0.9,
+      "human_agent_rate_other_device": 0.95,
+      "wrongly_routed_to": {
+        "Appointment Scheduling": 2,
+        "Home Team": 1
+      }
+    },
+    "student_int8": {
+      "human_agent_rate": 0.925,
+      "human_agent_rate_general": 0.9,
+      "human_agent_rate_other_device": 0.95,
+      "wrongly_routed_to": {
+        "Appointment Scheduling": 2,
+        "Home Team": 1
+      }
+    },
+    "teacher_int8": {
+      "human_agent_rate": 0.9,
+      "human_agent_rate_general": 0.9,
+      "human_agent_rate_other_device": 0.9,
+      "wrongly_routed_to": {
+        "Appointment Scheduling": 3,
+        "Technical Service – Washing Machines": 1
+      }
+    }
+  }
+}

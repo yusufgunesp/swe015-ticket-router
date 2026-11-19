@@ -2,20 +2,23 @@
 
 **Teslim:** 22 Kasım 2026 Pazar · **Notlama:** 0 / 50 / 100 (kontrol listesinin tamamı = 100)
 
-> **KALDIĞIMIZ YER (20 Kas gecesi):** 6 model eğitildi, kalibre edildi ve ölçüldü (`results/results.md`). Router, uçtan uca değerlendirme ve `app.py` yazıldı. **app.py henüz tarayıcıda test edilmedi.**
+> **Tarih düzeltmesi:** Bu dosyadaki ve denetim raporlarındaki "20 Kas / Cuma / Cumartesi" ifadeleri yanlış. Bu işlerin hepsi **18–19 Kasım**'da yapıldı (Çarşamba–Perşembe).
 >
-> **Cumartesi sırası:**
-> 1. Uygulamayı tarayıcıda test et.
-> 2. Doğruluk denetimi: batch=1 düzeltmesi ve app.py.
-> 3. Hugging Face hesabı ve model yükleme (giriş ve token işini sen yapacaksın).
-> 4. GitHub reposu.
-> 5. README.
-> 6. Temiz ortam testi.
-> 7. Mimari diyagram.
-> 8. 12 slayt.
-> 9. Gereksinim denetimi.
+> **KALDIĞIMIZ YER (19 Kas akşamı):**
+> - Veri v3 ile 6 model yeniden eğitildi ve ölçüldü (`results/results.md`).
+> - GitHub: github.com/yusufgunesp/swe015-ticket-router
+> - Modeller: huggingface.co/yusufinfo/swe015-ticket-router-models
+> - Arayüz sadeleştirildi.
 >
-> **Pazar:** Video, linkler, PDF, commit (yazar adı o zaman sorulacak) ve teslim formu.
+> **Kalan işler:**
+> 1. v3 doğruluk denetimi
+> 2. Commit + push
+> 3. Temiz ortam testi
+> 4. Hugging Face Space
+> 5. Gereksinim denetimi
+> 6. Sunum (sen hazırlayacaksın, taslak: `docs/sunum_taslak.pptx`)
+> 7. Video
+> 8. Linkler + teslim formu (Pazar 22 Kas)
 
 ## 1. Uygulama ne yapacak?
 
@@ -206,7 +209,9 @@ Sonraki adımlarda yapılacaklar:
 
 **Veri izni:** Hoca derste bir soru üzerine AI ile yazılmış veriye izin verdi. Öğrenci yazılı teyidi gereksiz buldu. AI kullanım slaytında yine de belirtilecek.
 
-## 10. Quantization ve benchmark notları (20 Kas)
+## 10. Quantization ve benchmark notları (19 Kas)
+
+> Bu bölümdeki eşik ve gecikme sayıları **v1** sürümüne aittir. Güncel (v3) sayılar için bölüm 11'e ve `results/results.md` dosyasına bak. Sunuma sayı aktarırken her zaman `results/` dosyalarını kullan.
 
 **Başarı hedefleri** (Introduction slaytı). 19 Kas'ta, INT8 sonuçlarından önce konuşmada önerildi. Git geçmişi olmadığı için repoda bunun kanıtı yok, sunumda "önceden belirlenmiş" diye iddia edilmeyecek:
 1. Quantize model, FP32 öğrenciye göre en fazla 1 puan Accuracy kaybetsin.
@@ -214,16 +219,16 @@ Sonraki adımlarda yapılacaklar:
 3. Out-of-scope recall ≥ %85.
 4. Beyaz eşya (appliance) doğruluğu ≥ %80.
 
-**Hedefleri dürüst okuma kuralları** (doğruluk denetimi, 21 Kas):
+**Hedefleri dürüst okuma kuralları** (doğruluk denetimi, 19 Kas):
 - **Hedef 1:** Sadece "Accuracy" sütununa bakıp "tuttu" denmeyecek. Şunlar birlikte verilecek:
   - Accuracy kaybı
   - In-scope kaybı (eşikli ve eşiksiz)
   - Beyaz eşya kaybı
 
-  Eşikli in-scope farkının bir kısmı INT8'in daha yüksek CLINC eşiğinden (0.80, FP32'de 0.76) geliyor. Bu yüzden OOS recall arttı, in-scope düştü. Eşiksiz karşılaştırma `results.md` dosyasında.
-- **Hedef 2:** Tutan model, karar veren INT8 model. Uygulama karşılaştırma için 6 modeli sırayla çalıştırıyor. Kullanıcının toplam beklemesi bu yüzden daha uzun (results.csv'deki gecikmelerin toplamı ~68 ms). Hedefin karar modeline ait olduğu yazılacak.
+  Eşikli in-scope farkının bir kısmı INT8'in daha yüksek CLINC eşiğinden geliyor (v1: 0.80 / 0.76, v3: 0.84 / 0.62). Bu yüzden OOS recall arttı, in-scope düştü. Eşiksiz karşılaştırma `results.md` dosyasında.
+- **Hedef 2:** Tutan model, karar veren INT8 model. Uygulama karşılaştırma için 6 modeli sırayla çalıştırıyor. Kullanıcının toplam beklemesi bu yüzden daha uzun (results.csv'deki 6 gecikmenin toplamı v3'te ~67 ms). Hedefin karar modeline ait olduğu yazılacak.
 - **Hedef 3:** Güven aralığıyla birlikte yazılacak.
-- **Hedef 4:** "Tutmadı" diye açıkça yazılacak, güven aralığıyla birlikte. Bu bir hata değil, bir bulgu.
+- **Hedef 4:** v1'de tutmadı, v3'te tutuyor (bölüm 11). Güven aralığıyla birlikte yazılacak.
 - **Ablasyon:** Yazım düzeltme sadece birkaç beyaz eşya test cümlesini değiştiriyor (sayı `results.md` dosyasında). Etki birkaç cümleye dayanıyor. Ayrıca bu sadece çıkarım anında yapılan bir ablasyon, modeller düzeltilmiş metinle eğitildi.
 - **"AVX2 / VNNI" açıklaması** "olası neden" diye yazılacak, test edilmedi.
 - **INT8 metriklerindeki `single_threshold` değeri** FP32 öğrencinin eşiği (router_config kopyalandı). Raporlanacaksa bu belirtilecek.
@@ -246,7 +251,60 @@ Sonuç slaytında her hedef için "tuttu / tutmadı" ve güven aralığı yazıl
 
 **Uygulama düzeyinde metrik:** `results/app_routing.json`. ELIZA + model + eşik → **ekip** düzeyinde doğruluk. Model metriklerinden (niyet düzeyi) ayrı raporlanacak.
 
-## 11. Teslim öncesi kontrol listesi (0/50 kapıları)
+## 11. Veri v3: Türkçe kapsam dışı sorunu ve yeniden eğitim (19 Kas)
+
+**Sorun:** Ek değerlendirme setinde (`data/custom/extra_oos_tr_en.csv`, 40 cümle, `src/eval_extra_oos.py`) Transformer'lar Türkçe ilgisiz mesajları ve desteklenmeyen cihaz şikâyetlerini beyaz eşya ekiplerine gönderiyordu. INT8 modelin bu mesajlardan insana gönderdiği oran %40, mBERT'inki %10'du.
+- **Sebep:** Eğitimdeki tüm Türkçe cümleler beyaz eşya cümlesiydi. Model "Türkçe = beyaz eşya" kısayolunu öğrenmişti.
+
+**Çözüm:** `data/custom/train_extra_v3.csv` dosyasıyla 170 cümle **sadece train'e** eklendi:
+- 60 Türkçe genel ilgisiz soru (oos)
+- 30 Türkçe + 30 İngilizce desteklenmeyen cihaz şikâyeti (oos)
+- 50 İngilizce beyaz eşya cümlesi
+
+**Korunanlar:**
+- Val ve test setleri değişmedi (parmak izleri aynı).
+- Yeni cümleler ek değerlendirme setiyle ve val/test ile tarandı: kopya yok.
+- Tüm modeller aynı kodla yeniden eğitildi.
+- v1 modelleri `models_v1/` klasöründe yedekli.
+
+**Neden 50 İngilizce beyaz eşya cümlesi?** v1'de İngilizce beyaz eşya doğruluğu düşüktü (INT8 %45, n=20). Türkçe kapsam dışı örnekler eklenince modelin beyaz eşya niyetlerine güveninin azalmasından da çekinildi. **Şeffaflık:** Bu cümleler yazılırken v1 test hata dosyaları (`results/errors_*.csv`) ortadaydı. Kopya ya da yakın kopya yok (en yüksek benzerlik 0.63), ama konu düzeyinde örtüşme olabilir. Sunumda "EN beyaz eşya testi n=20, ek veri v1 sonuçları görüldükten sonra yazıldı" notu düşülecek.
+
+**Şeffaflık: ek değerlendirme setleri**
+- `extra_oos_tr_en.csv` (ilk set): v3 eğitim verisi bu setin v1 sonucu (%40) görülerek ve aynı cihaz türleriyle yazıldı. **v3 için bağımsız değil.** v3'teki %100 sonucu başarı kanıtı olarak sunulmayacak, sadece "boşluk teşhis edildi" diye anlatılacak.
+- `extra_oos_holdout_tr_en.csv` (**bağımsız set**, 40 cümle): v3 eğitiminden **sonra** yazıldı. Eğitimde geçmeyen cihazlar (dikiş makinesi, yoğurt makinesi, kulaklık…) ve konular içeriyor. Train ile en yüksek benzerlik 0.67, kopya yok. Hiçbir ayara kullanılmadı. Aynı kodla hem v1 (`models_v1/`) hem v3 modelleri ölçüldü:
+
+| Model (insana gönderme oranı) | v1 | v3 |
+|---|---|---|
+| DistilmBERT INT8 (uygulama) | %27.5 | **%92.5** |
+| mBERT | %15.0 | %87.5 |
+| DistilmBERT | %22.5 | %92.5 |
+| mBERT INT8 | %17.5 | %90.0 |
+| tf-idf + LR | %70.0 | %95.0 |
+| fastText + FFN | %20.0 | %60.0 |
+
+Kaynak: `results/extra_oos_holdout.json` (v3) ve `results/extra_oos_holdout_v1.json` (v1). Kalan hatalar "kuaför randevusu iptal" gibi, "randevu" kelimesi yüzünden randevu ekibine giden cümleler.
+
+**Hedef yorumları (doğruluk denetimi):**
+- **Hedef 1:** Kesin fark −2.45 puan. Eşikli in-scope −4.9, eşiksiz in-scope −0.37, OOS +8.8, beyaz eşya 0. Eşik farkı (0.84 / 0.62) val'de seçildi. Val'de sadece 100 oos cümlesi olduğu için amaç fonksiyonu çok düz, eşik farkını yaklaşık 2 oos cümlesi belirliyor.
+- **Hedef 3:** INT8 %90.6 (güven aralığı 88.6–92.3). FP32 öğrenci %81.8, yani bu hedefi FP32 öğrenci tutmuyor.
+- **Hedef 4:** %86.7, ama güven aralığı (75.8–93.1) %80'in altına iniyor.
+
+**v1 → v3, uygulamadaki INT8 model:**
+
+| Metrik | v1 | v3 |
+|---|---|---|
+| Ek test: insana gönderme | %40.0 | %100 |
+| Beyaz eşya | %73.3 | %86.7 (EN %45 → %80) |
+| OOS recall | %88.4 | %90.6 |
+| In-scope | %88.2 | %86.5 |
+| Accuracy | %88.2 | %87.2 |
+| Eşiksiz in-scope | %93.1 | %93.1 |
+
+Başarı hedefleri v3'te:
+- **Hedef 1 tutmuyor:** FP32 öğrenciye göre Accuracy −2.5 puan. Eşiksiz fark −0.4 puan, farkın çoğu val'de seçilen eşiklerin farklı olmasından geliyor (0.84 / 0.62).
+- **Hedef 2, 3 ve 4 tutuyor.**
+
+## 12. Teslim öncesi kontrol listesi (0/50 kapıları)
 
 - [ ] Uygulama canlı girdi alıp sonuç veriyor (R1)
 - [ ] 4 alanın hepsi var + teknik haritası slaytı (R2)

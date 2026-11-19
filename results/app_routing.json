@@ -5,34 +5,34 @@
   "eliza_matches_true_small_talk": 7,
   "models": {
     "baseline": {
-      "routing_acc_with_eliza": 0.8906474820143885,
-      "routing_acc_model_only": 0.8906474820143885,
+      "routing_acc_with_eliza": 0.8838129496402878,
+      "routing_acc_model_only": 0.8838129496402878,
       "routing_acc_appliance": 0.8166666666666667
     },
     "ffn": {
-      "routing_acc_with_eliza": 0.8438848920863309,
-      "routing_acc_model_only": 0.8438848920863309,
-      "routing_acc_appliance": 0.4166666666666667
+      "routing_acc_with_eliza": 0.8462230215827338,
+      "routing_acc_model_only": 0.8462230215827338,
+      "routing_acc_appliance": 0.4
     },
     "teacher": {
-      "routing_acc_with_eliza": 0.908273381294964,
-      "routing_acc_model_only": 0.908273381294964,
-      "routing_acc_appliance": 0.8166666666666667
+      "routing_acc_with_eliza": 0.8883093525179856,
+      "routing_acc_model_only": 0.8883093525179856,
+      "routing_acc_appliance": 0.9
     },
     "student": {
-      "routing_acc_with_eliza": 0.9043165467625899,
-      "routing_acc_model_only": 0.9043165467625899,
-      "routing_acc_appliance": 0.8
+      "routing_acc_with_eliza": 0.9140287769784172,
+      "routing_acc_model_only": 0.9140287769784172,
+      "routing_acc_appliance": 0.8666666666666667
     },
     "student_int8": {
-      "routing_acc_with_eliza": 0.8931654676258993,
-      "routing_acc_model_only": 0.8931654676258993,
-      "routing_acc_appliance": 0.7333333333333333
+      "routing_acc_with_eliza": 0.8798561151079136,
+      "routing_acc_model_only": 0.8798561151079136,
+      "routing_acc_appliance": 0.8666666666666667
     },
     "teacher_int8": {
-      "routing_acc_with_eliza": 0.9116906474820143,
-      "routing_acc_model_only": 0.9116906474820143,
-      "routing_acc_appliance": 0.8333333333333334
+      "routing_acc_with_eliza": 0.891726618705036,
+      "routing_acc_model_only": 0.891726618705036,
+      "routing_acc_appliance": 0.9
     }
   }
 }

@@ -54,6 +54,15 @@ are in [`results/results.md`](results/results.md) (produced by `src/benchmark.py
 - **300 home-appliance support messages** (`data/custom/appliance_tr_en.csv`): 5 intents × (40 Turkish + 20
   English). Written with AI assistance (see "AI usage") and reviewed. Split 180 / 60 / 60, stratified by intent
   and language. See [`data/custom/NASIL_YAZILIR.md`](data/custom/NASIL_YAZILIR.md).
+- **170 extra training-only sentences** (`data/custom/train_extra_v3.csv`): 90 Turkish and 30 English
+  out-of-scope messages (general questions, devices the brand does not support) and 50 English appliance
+  messages. Added only to the training split; validation and test splits are unchanged.
+- **40 extra evaluation sentences** (`data/custom/extra_oos_tr_en.csv`, `src/eval_extra_oos.py`): Turkish
+  out-of-scope questions and unsupported-device complaints, used only for evaluation
+  ([`results/extra_oos.json`](results/extra_oos.json)). The extra training sentences were written after seeing
+  the first result on this set, so a second, **independent hold-out set** of 40 sentences with unseen devices
+  and topics (`data/custom/extra_oos_holdout_tr_en.csv`) was written afterwards and never used for any tuning
+  (`python -m src.eval_extra_oos extra_oos_holdout` → [`results/extra_oos_holdout.json`](results/extra_oos_holdout.json)).
 - Pretrained models from the Hugging Face Hub: `bert-base-multilingual-cased`, `distilbert-base-multilingual-cased`.
 
 ## Reproduce everything (optional, GPU recommended for models 3–4)
@@ -68,6 +77,7 @@ python -m src.quantize           # model 5 (+ INT8 teacher)
 python -m src.calibrate          # choose thresholds on validation, evaluate on test
 python -m src.benchmark          # results table: metrics, size (MB), latency (ms)
 python -m src.eval_app           # end-to-end routing accuracy (ELIZA + model + thresholds → team)
+python -m src.eval_extra_oos     # extra Turkish / unsupported-device out-of-scope evaluation
 python -m src.quant_experiments  # quantization method comparison (validation set only)
 ```
 

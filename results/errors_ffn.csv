@@ -1,975 +1,990 @@
 text,true,pred,model_top,confidence,source,lang
-do i have enough fuel to travel to san diego from here,gas,oos,travel_suggestion,0.4395,clinc150,en
-what is my current location,share_location,current_location,current_location,0.9998,clinc150,en
-can i get more credit,credit_limit_change,oos,order_checks,0.7393,clinc150,en
-"help me plan my traveling itinerary for my trip to madrid, i want to see lots of sights!",travel_suggestion,oos,travel_suggestion,0.462,clinc150,en
-i want to find a new car under $25000,oos,car_rental,car_rental,0.9621,clinc150,en
-what's on my to-buy list,shopping_list,oos,shopping_list,0.7857,clinc150,en
-how many transactions do i have on flower shops from last wednesday between 2pm and 7pm,transactions,oos,oos,0.377,clinc150,en
-i no longer want you to be synced to my phone,sync_device,oos,sync_device,0.6629,clinc150,en
-give me some ideas for boosting my credit score,improve_credit_score,oos,credit_score,0.7743,clinc150,en
-please read me the last text message i received,oos,text,text,0.9742,clinc150,en
-what's the amusement park like,oos,weather,weather,0.9954,clinc150,en
-where do you call home,where_are_you_from,oos,make_call,0.8119,clinc150,en
-you got that wrong,no,yes,yes,0.9591,clinc150,en
-i must get a hotel in phoenix near chase field from january 4th to the 8th,book_hotel,oos,book_hotel,0.8065,clinc150,en
-show me ideas for hamburger,recipe,oos,oos,0.5029,clinc150,en
-how many more miles can i drive on my current tank,gas,oos,gas,0.6626,clinc150,en
-"if something is 15% off $35, how much is it",calculator,oos,oos,0.4169,clinc150,en
-how much of my pto is left,pto_used,pto_balance,pto_balance,0.9567,clinc150,en
-"tamburda su kalıyor, çamaşır makinesi WM-1200 suyu boşaltmıyor",washing_machine_issue,dishwasher_issue,dishwasher_issue,0.3617,custom,tr
-"tell me the time in san francisco, please",time,oos,time,0.6327,clinc150,en
-how can i unfreeze my bank account,account_blocked,oos,account_blocked,0.8318,clinc150,en
-list my todo list items,todo_list,oos,todo_list,0.4542,clinc150,en
-what rating do the critics give the french laundry,restaurant_reviews,oos,spelling,0.6342,clinc150,en
-who am i speaking with,what_is_your_name,oos,whisper_mode,0.2828,clinc150,en
-i need options or italian tonight,meal_suggestion,oos,meal_suggestion,0.4212,clinc150,en
-give me a joke about the subject of bugs,tell_joke,oos,fun_fact,0.5015,clinc150,en
-"could you call me by a different name, please",change_user_name,oos,user_name,0.5782,clinc150,en
-will my fico score decrease if i increase my student loan debt,improve_credit_score,oos,credit_limit_change,0.6352,clinc150,en
-"on my reminders list, is there an item called conference call",reminder,oos,calendar,0.4441,clinc150,en
-you're right,yes,oos,are_you_a_bot,0.336,clinc150,en
-tell me what to make for dinner,meal_suggestion,oos,meal_suggestion,0.7117,clinc150,en
-how long do i have to wait to get a day off,next_holiday,oos,next_holiday,0.5098,clinc150,en
-how do i freeze my bank account,freeze_account,oos,freeze_account,0.6134,clinc150,en
-do i need a vaccine for the congo,vaccines,oos,vaccines,0.6561,clinc150,en
-don't call me bill anymore - call me bob,change_user_name,make_call,make_call,0.9232,clinc150,en
-how would i say what is your name if i were french,translate,oos,translate,0.7482,clinc150,en
-in my motivational playlist include the song rap god,update_playlist,oos,update_playlist,0.7774,clinc150,en
-tell me my credit raing,credit_score,oos,credit_score,0.5654,clinc150,en
-what's it take to get a mastercard,new_card,oos,new_card,0.5907,clinc150,en
-that isn't correct,no,oos,yes,0.6213,clinc150,en
-please make sure the alarm is set,alarm,oos,alarm,0.6604,clinc150,en
-that is the wrong answer,no,oos,no,0.7463,clinc150,en
-how do you prepare omelet,recipe,oos,recipe,0.8127,clinc150,en
-give me a suggestion for roofers,oos,meal_suggestion,meal_suggestion,0.9132,clinc150,en
-thank you goodbye,goodbye,thank_you,thank_you,0.9931,clinc150,en
-i would like for my phone to be synced with you,sync_device,oos,sync_device,0.6343,clinc150,en
-the repairman didn't show up for my appointment,technician_appointment,oos,reminder,0.3757,custom,en
-is electricity the same in france,plug_type,warranty_inquiry,warranty_inquiry,0.7046,clinc150,en
-how much have i spent on my bank card sine i last paid my bill,transactions,oos,spending_history,0.5246,clinc150,en
-how much have i been spending on booze this month,spending_history,oos,income,0.4945,clinc150,en
-what is the shipping status of my replacement card,replacement_card_duration,oos,order_status,0.4162,clinc150,en
-i bought 6 shirts at $499 each what was my total expenditure for them,calculator,oos,oos,0.253,clinc150,en
-it is false,no,oos,weather,0.7036,clinc150,en
-give me my wallet location,oos,current_location,current_location,0.997,clinc150,en
-"enjoy your day, goodbye",goodbye,what_are_your_hobbies,what_are_your_hobbies,0.9983,clinc150,en
+do i have enough fuel to travel to san diego from here,gas,oos,book_hotel,0.4225,clinc150,en
+what is my current location,share_location,current_location,current_location,0.998,clinc150,en
+can i get more credit,credit_limit_change,order_checks,order_checks,0.9116,clinc150,en
+"help me plan my traveling itinerary for my trip to madrid, i want to see lots of sights!",travel_suggestion,oos,travel_suggestion,0.2535,clinc150,en
+tell me how many days i took off,pto_used,oos,pto_used,0.5436,clinc150,en
+i want to find a new car under $25000,oos,car_rental,car_rental,0.9113,clinc150,en
+what's on my to-buy list,shopping_list,todo_list,todo_list,0.8988,clinc150,en
+how many transactions do i have on flower shops from last wednesday between 2pm and 7pm,transactions,oos,transactions,0.2458,clinc150,en
+give me some ideas for boosting my credit score,improve_credit_score,credit_score,credit_score,0.9467,clinc150,en
+please read me the last text message i received,oos,text,text,0.9932,clinc150,en
+where do you call home,where_are_you_from,oos,make_call,0.6513,clinc150,en
+you got that wrong,no,oos,yes,0.5142,clinc150,en
+show me ideas for hamburger,recipe,oos,meal_suggestion,0.6704,clinc150,en
+"if something is 15% off $35, how much is it",calculator,oos,oos,0.429,clinc150,en
+how much of my pto is left,pto_used,oos,pto_balance,0.6555,clinc150,en
+"tamburda su kalıyor, çamaşır makinesi WM-1200 suyu boşaltmıyor",washing_machine_issue,dishwasher_issue,dishwasher_issue,0.8695,custom,tr
+"i need to tell my bank i am, indeed, going to be in london in a few hours",travel_notification,oos,travel_notification,0.7253,clinc150,en
+how can i unfreeze my bank account,account_blocked,freeze_account,freeze_account,0.8379,clinc150,en
+where did you grow up,where_are_you_from,how_old_are_you,how_old_are_you,0.9383,clinc150,en
+what rating do the critics give the french laundry,restaurant_reviews,oos,spelling,0.6027,clinc150,en
+i want to buy some nintendo switch game,oos,technician_appointment,technician_appointment,0.6188,clinc150,en
+who am i speaking with,what_is_your_name,oos,are_you_a_bot,0.4612,clinc150,en
+find out when my next upcoming payday will be,payday,next_holiday,next_holiday,0.7647,clinc150,en
+i need options or italian tonight,meal_suggestion,oos,vaccines,0.6647,clinc150,en
+will my fico score decrease if i increase my student loan debt,improve_credit_score,oos,improve_credit_score,0.6,clinc150,en
+"on my reminders list, is there an item called conference call",reminder,oos,reminder,0.4541,clinc150,en
+you're right,yes,greeting,greeting,0.9387,clinc150,en
+what is money used for,oos,pto_used,pto_used,0.9188,clinc150,en
+how long do i have to wait to get a day off,next_holiday,oos,distance,0.6286,clinc150,en
+must call my bank about my travel plans,travel_notification,oos,travel_notification,0.6754,clinc150,en
+how should i proceed if i accidentally lost my luggage,lost_luggage,oos,lost_luggage,0.6347,clinc150,en
+don't call me bill anymore - call me bob,change_user_name,oos,change_user_name,0.7244,clinc150,en
+can you delete my saved credit card,oos,redeem_rewards,redeem_rewards,0.8002,clinc150,en
+is milk one of my shopping list items,shopping_list,oos,shopping_list,0.7582,clinc150,en
+what's it take to get a mastercard,new_card,oos,distance,0.4181,clinc150,en
+please make sure the alarm is set,alarm,oos,smart_home,0.7286,clinc150,en
+how much time is left on my laundry,oos,gas,gas,0.7657,clinc150,en
+give me a suggestion for roofers,oos,meal_suggestion,meal_suggestion,0.9991,clinc150,en
+thank you goodbye,goodbye,thank_you,thank_you,0.9886,clinc150,en
+is electricity the same in france,plug_type,oos,oos,0.9698,clinc150,en
+how much have i spent on my bank card sine i last paid my bill,transactions,oos,spending_history,0.5143,clinc150,en
+what is the shipping status of my replacement card,replacement_card_duration,order_status,order_status,0.9041,clinc150,en
+how do you prepare taco,recipe,oos,recipe,0.6622,clinc150,en
+i bought 6 shirts at $499 each what was my total expenditure for them,calculator,oos,oos,0.4641,clinc150,en
+it is false,no,oos,no,0.7505,clinc150,en
+is espn covering the golden state warriors game,oos,dishwasher_issue,dishwasher_issue,0.4821,clinc150,en
+give me my wallet location,oos,current_location,current_location,0.9214,clinc150,en
+"enjoy your day, goodbye",goodbye,what_are_your_hobbies,what_are_your_hobbies,0.999,clinc150,en
 how can i request a new credit card,replacement_card_duration,new_card,new_card,0.9998,clinc150,en
-when will i get to orlando,distance,flight_status,flight_status,0.9406,clinc150,en
-i want my account locked out,freeze_account,account_blocked,account_blocked,0.9168,clinc150,en
-how much farther is orlando from my location,distance,oos,current_location,0.3763,clinc150,en
-what is today's fun fact,fun_fact,oos,fun_fact,0.7385,clinc150,en
-i need to report that someone ran off with my td bank card earlier,report_lost_card,damaged_card,damaged_card,0.9807,clinc150,en
-i want to know how many vacation days i have used,pto_used,oos,pto_balance,0.8162,clinc150,en
-check current prime mortgage rate,oos,interest_rate,interest_rate,0.9989,clinc150,en
-"if you were traveling to indonesia, as i am, would you have your shots updated before your visit",vaccines,oos,where_are_you_from,0.3603,clinc150,en
-what parts are covered by the manufacturer warranty,warranty_inquiry,oos,oos,0.7656,custom,en
-my DW-7120 dish washer makes a grinding noise,dishwasher_issue,washing_machine_issue,washing_machine_issue,0.7221,custom,en
-please help me set up a vacation request,pto_request,oos,pto_request,0.7934,clinc150,en
-when can i expect meal of salmon to be finished,cook_time,oos,timezone,0.4424,clinc150,en
-how many days off have i taken until right now,pto_used,oos,pto_used,0.6439,clinc150,en
-do you know what is for dinner,meal_suggestion,oos,meal_suggestion,0.6317,clinc150,en
-empty the contents of my to do list,todo_list_update,todo_list,todo_list,0.9719,clinc150,en
-any new info on my vacation,pto_request_status,pto_balance,pto_balance,0.8534,clinc150,en
-do you mind if i ask how old you are,how_old_are_you,oos,what_can_i_ask_you,0.5237,clinc150,en
-what are the required shots in mozambique,vaccines,oos,vaccines,0.7119,clinc150,en
-what will tomorrow be on the calendar,date,oos,calendar,0.6492,clinc150,en
-i don't need toilet paper anymore; take it off my shopping list,shopping_list_update,oos,shopping_list_update,0.802,clinc150,en
-create a contact labeled mom,oos,text,text,0.9468,clinc150,en
-am i almost due for a tire change,tire_change,oos,tire_change,0.666,clinc150,en
-show my position on the map,current_location,oos,current_location,0.663,clinc150,en
-when does the current billing cycle end,bill_due,oos,oos,0.4231,clinc150,en
-there is no way in heck that is true,no,oos,no,0.473,clinc150,en
-what does post rush hour traffic generally look like heading into the lincoln tunnel in manhattan from new jersey,traffic,oos,directions,0.1866,clinc150,en
-is it after noon,time,weather,weather,0.9663,clinc150,en
-can you please let me know the status of my capital one application,application_status,oos,application_status,0.8214,clinc150,en
-roger that,yes,oos,yes,0.273,clinc150,en
-is my visa bill over my limit this month,transactions,bill_due,bill_due,0.8972,clinc150,en
-"""where is improve the credit score",improve_credit_score,credit_score,credit_score,0.9982,clinc150,en
-my visa has been damaged,damaged_card,oos,application_status,0.4869,clinc150,en
-are you a pet owner and what kind,do_you_have_pets,oos,do_you_have_pets,0.8202,clinc150,en
-who set up the numbers for it,timer,oos,smart_home,0.4297,clinc150,en
-what are the manufacturers guidance on oil changes,oil_change_when,oil_change_how,oil_change_how,0.999,clinc150,en
-what transactions did i make on electronics this morning after 6am,transactions,oos,transactions,0.8379,clinc150,en
-"could you cancel that request, please",cancel,oos,cancel,0.8295,clinc150,en
-"ai, my name is deb please use my name when you talk to me",change_user_name,oos,user_name,0.6059,clinc150,en
-can i deposit a check,oos,direct_deposit,direct_deposit,0.9998,clinc150,en
-what are people saying about chick-fil-a's chicken nuggets,restaurant_reviews,nutrition_info,nutrition_info,0.871,clinc150,en
-how far has my application for the hsbc card gone till now,application_status,oos,damaged_card,0.4795,clinc150,en
-how do you cooked eggs,recipe,oos,recipe,0.6347,clinc150,en
-can i get to cuba with this visa,international_visa,oos,international_visa,0.7029,clinc150,en
-what is the gas mileage of my car,mpg,oos,mpg,0.7425,clinc150,en
-"5 people are going to be at tropicana by 8pm, reserve the table under martins name please",restaurant_reservation,oos,restaurant_reservation,0.6811,clinc150,en
-how far from our destination are we,distance,oos,oos,0.9121,clinc150,en
-can you text walt and tell him to meet me at the car wash,text,oos,text,0.5008,clinc150,en
-what are my finances like lately,spending_history,income,income,0.925,clinc150,en
-can 401ks be moved,rollover_401k,oos,rollover_401k,0.8288,clinc150,en
-where can i go to have my tires checked out,schedule_maintenance,oos,tire_change,0.451,clinc150,en
-i would like to change the name on my capital one account,pin_change,oos,pin_change,0.732,clinc150,en
-can you help with delivery tracking,order_status,oos,calculator,0.7774,clinc150,en
-walk me through the process of scheduling a meeting,schedule_meeting,oos,rollover_401k,0.731,clinc150,en
-can you see if i have any vacation days available for a request,pto_balance,oos,pto_balance,0.7675,clinc150,en
-can you tell me the meaning of fluctuate,definition,oos,definition,0.7043,clinc150,en
-switch over to low power mode to preserve battery life,oos,smart_home,smart_home,0.8405,clinc150,en
-give me my todo list,todo_list,oos,todo_list,0.8148,clinc150,en
-will you please go on amazon so i can buy speakers,order,oos,order,0.6951,clinc150,en
-i'm going to need a coupe car in sedona from 5/1 until 5/4,car_rental,oos,car_rental,0.6319,clinc150,en
-phone number to state farm to change insurance,insurance_change,oos,insurance_change,0.777,clinc150,en
-who employs you,who_do_you_work_for,who_made_you,who_made_you,0.8732,clinc150,en
-can you tell me if your a bot,are_you_a_bot,oos,are_you_a_bot,0.6667,clinc150,en
-remind me to put gas in my car,reminder_update,gas_type,gas_type,0.9979,clinc150,en
-is vaccination necessary for travel to asia,vaccines,oos,vaccines,0.7046,clinc150,en
-bulaşık makinesinin filtresini temizledim yine de pis yıkıyor,dishwasher_issue,refrigerator_issue,refrigerator_issue,0.4131,custom,tr
-i appeciate it,thank_you,oos,thank_you,0.7107,clinc150,en
-how far has my application for the hsbc card proceeded till now,application_status,oos,application_status,0.4799,clinc150,en
-has there been anything breaking this afternoon,oos,meaning_of_life,meaning_of_life,0.8663,clinc150,en
-"i need to rent a car kfor one week in ocean city, nj so who has the best deal",car_rental,oos,oos,0.8404,clinc150,en
-what is the name of the place you work at,who_do_you_work_for,oos,oos,0.5735,clinc150,en
-do you have any idea if central needs reservations,accept_reservations,oos,cancel_reservation,0.6057,clinc150,en
-"yum, pulled pork tacos at the buffet",restaurant_reviews,oos,traffic,0.3417,clinc150,en
-would you give me examples of what some of your hobbies are,what_are_your_hobbies,oos,what_are_your_hobbies,0.7977,clinc150,en
-whens my insurance due and how much does it cost,bill_balance,bill_due,bill_due,0.8922,clinc150,en
+when will i get to orlando,distance,oos,flight_status,0.6251,clinc150,en
+if i lose my job will my credit score go down,improve_credit_score,oos,improve_credit_score,0.7484,clinc150,en
+how much farther is orlando from my location,distance,oos,current_location,0.2673,clinc150,en
+what name do you want me to use,what_is_your_name,oos,user_name,0.5397,clinc150,en
+i need to report that someone ran off with my td bank card earlier,report_lost_card,damaged_card,damaged_card,0.9668,clinc150,en
+i want to know how many vacation days i have used,pto_used,pto_balance,pto_balance,0.9759,clinc150,en
+check current prime mortgage rate,oos,interest_rate,interest_rate,0.9729,clinc150,en
+"if you were traveling to indonesia, as i am, would you have your shots updated before your visit",vaccines,oos,where_are_you_from,0.3885,clinc150,en
+what parts are covered by the manufacturer warranty,warranty_inquiry,oos,oos,0.6267,custom,en
+when can i expect meal of salmon to be finished,cook_time,oos,oos,0.5148,clinc150,en
+how many days off have i taken until right now,pto_used,oos,pto_balance,0.6843,clinc150,en
+empty the contents of my to do list,todo_list_update,todo_list,todo_list,0.7668,clinc150,en
+please assist me in looking for my phone,find_phone,oos,find_phone,0.5671,clinc150,en
+any new info on my vacation,pto_request_status,oos,pto_request_status,0.7487,clinc150,en
+do you mind if i ask how old you are,how_old_are_you,oos,are_you_a_bot,0.5667,clinc150,en
+the washer smells musty inside,washing_machine_issue,dishwasher_issue,dishwasher_issue,0.8837,custom,en
+what will tomorrow be on the calendar,date,calendar,calendar,0.8439,clinc150,en
+what's the spanish word for dog,translate,oos,translate,0.6764,clinc150,en
+create a contact labeled mom,oos,text,text,0.9956,clinc150,en
+clothes come out with grey stains after the wash,washing_machine_issue,dishwasher_issue,dishwasher_issue,0.9325,custom,en
+when does the current billing cycle end,bill_due,oos,oos,0.9768,clinc150,en
+there is no way in heck that is true,no,oos,no,0.692,clinc150,en
+what does post rush hour traffic generally look like heading into the lincoln tunnel in manhattan from new jersey,traffic,oos,oos,0.7534,clinc150,en
+is it after noon,time,oos,oos,0.4419,clinc150,en
+did i take my car to the mechanics recently,last_maintenance,oos,last_maintenance,0.6576,clinc150,en
+roger that,yes,oos,cancel_reservation,0.7076,clinc150,en
+is my visa bill over my limit this month,transactions,oos,pay_bill,0.4636,clinc150,en
+"""where is improve the credit score",improve_credit_score,credit_score,credit_score,0.9936,clinc150,en
+my visa has been damaged,damaged_card,oos,application_status,0.7397,clinc150,en
+who set up the numbers for it,timer,oos,oos,0.6484,clinc150,en
+what are the manufacturers guidance on oil changes,oil_change_when,oil_change_how,oil_change_how,0.9971,clinc150,en
+what transactions did i make on electronics this morning after 6am,transactions,oos,oos,0.5583,clinc150,en
+"could you cancel that request, please",cancel,oos,repeat,0.5044,clinc150,en
+"ai, my name is deb please use my name when you talk to me",change_user_name,oos,change_user_name,0.7561,clinc150,en
+can i deposit a check,oos,direct_deposit,direct_deposit,0.9829,clinc150,en
+in september i changed my tires are they in need of changing,tire_change,oos,tire_change,0.6742,clinc150,en
+what are people saying about chick-fil-a's chicken nuggets,restaurant_reviews,nutrition_info,nutrition_info,0.9732,clinc150,en
+how far has my application for the hsbc card gone till now,application_status,oos,application_status,0.618,clinc150,en
+how do you cooked eggs,recipe,oos,greeting,0.6187,clinc150,en
+can i get to cuba with this visa,international_visa,credit_limit_change,credit_limit_change,0.8661,clinc150,en
+what are the travel conditions for haiti,travel_alert,oos,travel_alert,0.6384,clinc150,en
+find the square root of 1243435,calculator,oos,calculator,0.4561,clinc150,en
+how far from our destination are we,distance,oos,oos,0.3403,clinc150,en
+what are my finances like lately,spending_history,oos,income,0.6915,clinc150,en
+can 401ks be moved,rollover_401k,oos,oos,0.5308,clinc150,en
+how old are you turning,how_old_are_you,greeting,greeting,0.9287,clinc150,en
+where can i go to have my tires checked out,schedule_maintenance,tire_pressure,tire_pressure,0.8461,clinc150,en
+i would like to change the name on my capital one account,pin_change,oos,pin_change,0.5567,clinc150,en
+can you help with delivery tracking,order_status,oos,what_can_i_ask_you,0.6553,clinc150,en
+walk me through the process of scheduling a meeting,schedule_meeting,oos,schedule_meeting,0.473,clinc150,en
+can you see if i have any vacation days available for a request,pto_balance,oos,pto_request,0.4196,clinc150,en
+tell me the price of bananas at whole foods this week,oos,spending_history,spending_history,0.8695,clinc150,en
+can you tell me the meaning of fluctuate,definition,oos,meaning_of_life,0.7585,clinc150,en
+will you please go on amazon so i can buy speakers,order,oos,order,0.3998,clinc150,en
+i'm going to need a coupe car in sedona from 5/1 until 5/4,car_rental,oos,car_rental,0.4089,clinc150,en
+who employs you,who_do_you_work_for,who_made_you,who_made_you,0.9281,clinc150,en
+can you tell me if your a bot,are_you_a_bot,oos,are_you_a_bot,0.4284,clinc150,en
+iki cihaz için aynı randevuda bakım yapılabilir mi,technician_appointment,oos,oos,0.4838,custom,tr
+remind me to put gas in my car,reminder_update,gas_type,gas_type,0.7762,clinc150,en
+i appeciate it,thank_you,maybe,maybe,0.9091,clinc150,en
+how far has my application for the hsbc card proceeded till now,application_status,oos,application_status,0.6597,clinc150,en
+are visas for international travel,international_visa,oos,international_visa,0.6731,clinc150,en
+"i need to rent a car kfor one week in ocean city, nj so who has the best deal",car_rental,oos,oos,0.6945,clinc150,en
+what is the name of the place you work at,who_do_you_work_for,oos,who_do_you_work_for,0.1766,clinc150,en
+do you have any idea if central needs reservations,accept_reservations,oos,accept_reservations,0.4485,clinc150,en
+"yum, pulled pork tacos at the buffet",restaurant_reviews,oos,how_busy,0.3568,clinc150,en
+whens my insurance due and how much does it cost,bill_balance,bill_due,bill_due,0.9726,clinc150,en
 read my friend's text message,oos,text,text,1.0,clinc150,en
-i don't want to forget to call mom,reminder_update,make_call,make_call,0.9986,clinc150,en
-tell me how to go about reporting a damaged card,damaged_card,oos,damaged_card,0.7593,clinc150,en
-am i close to arriving at the post office,distance,directions,directions,0.8792,clinc150,en
-what's the extended zipcode for my address,oos,warranty_inquiry,warranty_inquiry,0.4993,clinc150,en
-will there be heavy traffic near downtown philadelphia from lincoln drive in the next two hours,traffic,oos,traffic,0.5048,clinc150,en
-let me know when it's been 5 minutes,timer,oos,timer,0.5459,clinc150,en
-give me a joke about the topic of television,tell_joke,oos,fun_fact,0.7819,clinc150,en
-how many days later is it okay to eat curry that was in the fridge,food_last,oos,food_last,0.6888,clinc150,en
-call me an uber please,uber,oos,change_user_name,0.5495,clinc150,en
-how much have i spent on my debit card this month,transactions,oos,spending_history,0.3971,clinc150,en
-why my card stop working,card_declined,oos,card_declined,0.6813,clinc150,en
-would you tell me the hobbies the ai has,what_are_your_hobbies,oos,who_made_you,0.3446,clinc150,en
-did i set a day on my calendar for voting in the next election,calendar,oos,calendar,0.6999,clinc150,en
-how can i repair a broken watch,oos,warranty_inquiry,warranty_inquiry,0.5151,clinc150,en
-are there any open reservations at outback tonight,restaurant_reservation,oos,confirm_reservation,0.4774,clinc150,en
-i need to know what traffic is going to be like at 3:00 pm on the new jersey turnpike heading into camden from north jersey,traffic,oos,traffic,0.8254,clinc150,en
-my bank of america visa platinum was swiped from my belongings,report_lost_card,oos,travel_notification,0.3341,clinc150,en
-10-4,yes,calculator,calculator,0.9998,clinc150,en
-i'm struggling to remind myself the pin number to my card,pin_change,oos,reminder_update,0.6935,clinc150,en
-i want to hear a joke about elephants,tell_joke,oos,tell_joke,0.8276,clinc150,en
-"will you guide me through the process to jump start my car, please",jump_start,oos,jump_start,0.805,clinc150,en
-so what subjects do you like,what_can_i_ask_you,oos,what_are_your_hobbies,0.4674,clinc150,en
-can you let me know the next open slot for me to get my oil changed,schedule_maintenance,oos,tire_change,0.3277,clinc150,en
-deny incoming phone call,oos,make_call,make_call,0.9999,clinc150,en
-do you think they'll let me reserve a table at the olive garden,accept_reservations,restaurant_reservation,restaurant_reservation,0.8758,clinc150,en
-i need a delivery tracked,order_status,oos,order,0.7453,clinc150,en
-what are the ai's hobbies,what_are_your_hobbies,oos,what_are_your_hobbies,0.7895,clinc150,en
-what can you do to make yourself useful,what_can_i_ask_you,oos,what_is_your_name,0.7652,clinc150,en
-how many sick days do i have,pto_balance,oos,pto_balance,0.6827,clinc150,en
-accept incoming phone call,oos,make_call,make_call,0.9999,clinc150,en
-are carrots added to the grocery list,shopping_list,shopping_list_update,shopping_list_update,0.9425,clinc150,en
-what's the mileage to get the the taj mahal in atlantic city,distance,oos,directions,0.3905,clinc150,en
-who is the singer on the speaker now,what_song,oos,oos,0.9381,clinc150,en
-can i speak spanish to you hombre,change_language,oos,change_language,0.5654,clinc150,en
-make my location available with david and kate,share_location,oos,share_location,0.3951,clinc150,en
-what do you like to do besides work,what_are_your_hobbies,oos,what_is_your_name,0.6432,clinc150,en
-what do i go by,user_name,oos,user_name,0.7077,clinc150,en
-can i purchase a vacation using this,pto_request,oos,pto_request,0.7074,clinc150,en
-am i due for an oil change yet,oil_change_when,oos,schedule_maintenance,0.6278,clinc150,en
-how many calories does an orange have,calories,oos,calories,0.7814,clinc150,en
-can you tell me when my item will get here,order_status,oos,order_status,0.6979,clinc150,en
-what's your boss's name,who_do_you_work_for,what_is_your_name,what_is_your_name,0.9241,clinc150,en
-tell me the ingredients to make an apple pie,ingredients_list,oos,ingredients_list,0.8118,clinc150,en
-what are the steps to get my rewards for my visa card,redeem_rewards,oos,redeem_rewards,0.5389,clinc150,en
-what does chase pay in interest per year,interest_rate,oos,interest_rate,0.7723,clinc150,en
-i want to explore a new place but don't know where i should go do you have any ideas,travel_suggestion,oos,restaurant_suggestion,0.6319,clinc150,en
-who invented custardo,oos,who_made_you,who_made_you,0.8669,clinc150,en
-i am not able to say,maybe,oos,flip_coin,0.2185,clinc150,en
-is it payday,payday,oos,weather,0.7301,clinc150,en
-my capital one visa was taken without permission,report_lost_card,oos,oos,0.8412,clinc150,en
-show allison how to get to me,share_location,directions,directions,0.9508,clinc150,en
-my online bill has some items that i didn't purchase from penneys,report_fraud,oos,report_fraud,0.4442,clinc150,en
-i can't remember if i added the fun run to my calendar yet; did i,calendar,oos,damaged_card,0.4534,clinc150,en
-i need to understand how many points have i earned with my credit card,rewards_balance,oos,redeem_rewards,0.7928,clinc150,en
-what's the latest i can pay my cellular bill,bill_due,oos,min_payment,0.7326,clinc150,en
-"go ahead and hold a conference room for friday at 11 am, please",schedule_meeting,oos,schedule_meeting,0.7813,clinc150,en
-start listening to me dictate a letter,oos,reminder_update,reminder_update,0.8668,clinc150,en
-hush,cancel,oos,spelling,0.4216,clinc150,en
-let's take a look at the weather,weather,oos,how_busy,0.5435,clinc150,en
-tell me how much i have been buying as of late,spending_history,oos,spending_history,0.6573,clinc150,en
-what is the best way to remove this appointment,calendar_update,oos,what_song,0.2094,clinc150,en
-it's definitely a maybe for that,maybe,oos,maybe,0.7675,clinc150,en
-please lower the sound,change_volume,oos,change_volume,0.6368,clinc150,en
-i want you to change your accent,change_accent,oos,change_accent,0.6835,clinc150,en
-"my favorite, beef tacos at the buffet",restaurant_reviews,oos,ingredients_list,0.7355,clinc150,en
-speak spanish please,change_language,change_speed,change_speed,0.9882,clinc150,en
-are you able to put a stop on my bank account,freeze_account,oos,freeze_account,0.5187,clinc150,en
-what are you programmed to do for me,what_can_i_ask_you,oos,what_can_i_ask_you,0.4673,clinc150,en
-"can you give me a traffic update for driving routes nearest ocean city, new jersey from philadelphia",traffic,oos,directions,0.6888,clinc150,en
-show me how to make tuna casserole please,recipe,oos,recipe,0.7075,clinc150,en
-add grocery shopping to my to do list,todo_list_update,shopping_list_update,shopping_list_update,0.9414,clinc150,en
-please tell me how traffic from the new jersey turnpike into the lincoln tunnel looks currently,traffic,oos,oos,0.4387,clinc150,en
-give me some feedback about the pasta at piada please,restaurant_reviews,oos,oos,0.4138,clinc150,en
-what company are you employed by,who_do_you_work_for,oos,who_made_you,0.4981,clinc150,en
-when will i hear back about my days off,pto_request_status,oos,pto_request_status,0.3736,clinc150,en
-do i overspend when it comes to fast food,spending_history,oos,oos,0.8684,clinc150,en
-what have i spent things on,transactions,spending_history,spending_history,0.9958,clinc150,en
-what is the shipping wait for my card,replacement_card_duration,warranty_inquiry,warranty_inquiry,0.4856,clinc150,en
-is there a meeting with sam today,meeting_schedule,oos,schedule_meeting,0.7622,clinc150,en
-how do i go about cooking a 10lb turkey,recipe,oos,recipe,0.6959,clinc150,en
-restart your actions with the original settings you came with,reset_settings,oos,reset_settings,0.5862,clinc150,en
-what activities can i to do outside today,oos,todo_list,todo_list,0.9081,clinc150,en
-my account needs to be frozen,freeze_account,oos,account_blocked,0.5291,clinc150,en
-what is the definiton of auspicious,definition,oos,definition,0.723,clinc150,en
-are visas needed to travel to jamaica,international_visa,oos,international_visa,0.8135,clinc150,en
-call me bob from now on,change_user_name,change_ai_name,change_ai_name,0.9296,clinc150,en
-where would i get my rewards for my master card,redeem_rewards,rewards_balance,rewards_balance,0.9361,clinc150,en
-include rap god on the motivational playlist,update_playlist,oos,play_music,0.6478,clinc150,en
-i want to track a package i should be getting,order_status,oos,how_busy,0.1983,clinc150,en
-what are you feeling today,greeting,oos,greeting,0.4141,clinc150,en
-can you share something funny about traveling,tell_joke,fun_fact,fun_fact,0.9157,clinc150,en
-how do i ask the ai to help me with math problem,calculator,oos,calculator,0.6845,clinc150,en
-i'm trying to raise my credit score can you tell me what it is now,credit_score,oos,credit_score,0.7945,clinc150,en
-"alexa, buy my grocery list",order,shopping_list,shopping_list,0.9382,clinc150,en
-give me a recipe for tacos,ingredients_list,recipe,recipe,0.9993,clinc150,en
-"i'd like to make a reservation at rooth chris, can you do that",restaurant_reservation,oos,accept_reservations,0.6982,clinc150,en
-can i call you arnold instead,change_ai_name,oos,make_call,0.6828,clinc150,en
-what is the expiration month and year on my credit car,expiration_date,oos,expiration_date,0.7946,clinc150,en
-what time did my daughter get home from her date,oos,payday,payday,0.9602,clinc150,en
-i have a revolving store card and defaulted so will my fico score be affected,improve_credit_score,oos,damaged_card,0.6631,clinc150,en
-can i hurt my credit rating if i open several credit cards in a short time frame,improve_credit_score,oos,improve_credit_score,0.8259,clinc150,en
-find out how many miles the mississippi waterway runs,oos,spelling,spelling,0.963,clinc150,en
-what do mummies eat,oos,ingredients_list,ingredients_list,0.9473,clinc150,en
-recipes for garlic bread please,recipe,ingredient_substitution,ingredient_substitution,0.9914,clinc150,en
-i want to know the ingredients for making pizza,ingredients_list,oos,ingredients_list,0.5111,clinc150,en
-have i told you to add washing dishes to my todo list,todo_list,oos,todo_list_update,0.8386,clinc150,en
-do i have a ways to go or am i close to getting to penn station,distance,oos,directions,0.5911,clinc150,en
-it it possible to take pto from the 8th to the 11th,pto_request,oos,pto_request,0.6739,clinc150,en
-turn the oven to 350,smart_home,oos,smart_home,0.6746,clinc150,en
-your a bot aren't you,are_you_a_bot,oos,are_you_a_bot,0.751,clinc150,en
-i need the conversion between a cup and a tablespoon,measurement_conversion,oos,measurement_conversion,0.5693,clinc150,en
-search information on how to apply foundation,oos,new_card,new_card,0.8634,clinc150,en
-when did i last collect my salary,payday,oos,oos,0.45,clinc150,en
-what kind of indian would you recommend,meal_suggestion,oos,meal_suggestion,0.616,clinc150,en
-i think someone jacked my bank account,report_fraud,account_blocked,account_blocked,0.8987,clinc150,en
-can you set a reminder alarm for me to workout,reminder_update,oos,reminder_update,0.7492,clinc150,en
-what are the limits in my phone plan,oos,insurance,insurance,0.895,clinc150,en
-do i have a monthly spending limit,credit_limit,oos,credit_limit,0.7263,clinc150,en
-i would like to thank you ai,thank_you,oos,thank_you,0.3999,clinc150,en
-dial up dominos pizza,make_call,oos,oos,0.8638,clinc150,en
-are cool people at the bar at 9:00 pm,how_busy,restaurant_reservation,restaurant_reservation,0.8882,clinc150,en
-is my meeting with frank on my list of reminders,reminder,oos,todo_list,0.5021,clinc150,en
-look up articles on car washing at home,oos,schedule_maintenance,schedule_maintenance,0.8684,clinc150,en
-who plays han solo,oos,play_music,play_music,0.9214,clinc150,en
-what sorts of activities should i get up to while i am in dublin,travel_suggestion,oos,travel_suggestion,0.7603,clinc150,en
-how many miles are my tires rated for,tire_change,tire_pressure,tire_pressure,0.9852,clinc150,en
-ya,yes,oos,goodbye,0.6136,clinc150,en
-what's my phone's location,find_phone,current_location,current_location,0.9569,clinc150,en
-i want to be called timothy,change_user_name,oos,change_user_name,0.7505,clinc150,en
-where can i find measurement conversions,measurement_conversion,oos,oos,0.8633,clinc150,en
-i don't need grocery shopping on my todo list anymore,todo_list_update,order,order,0.87,clinc150,en
-that's a negatory,no,oos,oos,0.8967,clinc150,en
-how many voicemails are currently in my inbox,oos,spelling,spelling,0.9392,clinc150,en
-i would like to change the name on my credit card account,pin_change,change_user_name,change_user_name,0.8766,clinc150,en
-who do i have the pleasure of speaking with,what_is_your_name,oos,what_can_i_ask_you,0.1362,clinc150,en
-a hidden government facility,where_are_you_from,oos,oos,0.5666,clinc150,en
-any news on my vacation,pto_request_status,oos,pto_request_status,0.6705,clinc150,en
-delete the contact uncle john from my phone,oos,sync_device,sync_device,0.9274,clinc150,en
-show me the best times to book flights for traveling to another country,oos,book_flight,book_flight,0.9109,clinc150,en
-how much candy have i consumed this week,oos,income,income,0.94,clinc150,en
-how is traffic nearest the ben franklin bridge philadelphia heading to the new jersey turnpike,traffic,oos,directions,0.6971,clinc150,en
-what teams are playing right now,oos,what_song,what_song,0.9579,clinc150,en
-can i get a table for four at 8:00,how_busy,restaurant_reservation,restaurant_reservation,0.9995,clinc150,en
-what is some trivia about the weather,fun_fact,oos,fun_fact,0.6947,clinc150,en
-is the friday's full after 4,how_busy,oos,oos,0.8842,clinc150,en
-what is it like the temperature at ac,smart_home,oos,smart_home,0.6626,clinc150,en
-pull up the songs under slow,play_music,oos,play_music,0.4451,clinc150,en
-can you overnight me a few checkbooks,order_checks,oos,order,0.6763,clinc150,en
-how do you address my name,user_name,oos,user_name,0.7379,clinc150,en
-who do i speak with about my card that was lost,report_lost_card,oos,report_lost_card,0.6688,clinc150,en
-today is the day i should pay my electric bill,pay_bill,bill_due,bill_due,0.9767,clinc150,en
-find inner tube and buy it for me,order,oos,order,0.5725,clinc150,en
-where should i report a damaged card,damaged_card,oos,report_lost_card,0.7211,clinc150,en
-can you get me recipes for eggs please,recipe,oos,recipe,0.5317,clinc150,en
-what would you say my gas and phone bills are at,bill_balance,oos,gas,0.278,clinc150,en
-start calling me jake from now on,change_user_name,change_ai_name,change_ai_name,0.9904,clinc150,en
-not sure to be honest,maybe,oos,change_volume,0.3561,clinc150,en
-can you tell me where my item is,order_status,oos,current_location,0.3341,clinc150,en
-when will my vacation time be confirmed,pto_request_status,oos,flight_status,0.8261,clinc150,en
-do laundry,oos,todo_list_update,todo_list_update,0.9958,clinc150,en
-i'd like to know what bitcoin means,definition,oos,tell_joke,0.3937,clinc150,en
-could you find out if my bank charges transaction fees on my american card if use internationally,international_fees,oos,international_fees,0.7914,clinc150,en
-how to plan for weddings,oos,insurance_change,insurance_change,0.9139,clinc150,en
-could you call me a different name,change_user_name,oos,user_name,0.6333,clinc150,en
-locate my cellphone in this room,find_phone,oos,find_phone,0.2892,clinc150,en
-tell me what you can do for me,what_can_i_ask_you,oos,user_name,0.5309,clinc150,en
-give me step by step instructions for changing my oil,oil_change_how,oos,oil_change_how,0.727,clinc150,en
-give me the weather forecast for today,oos,weather,weather,0.9999,clinc150,en
-who do you take your orders from,who_do_you_work_for,oos,who_do_you_work_for,0.7452,clinc150,en
-"ürünümün garantisi kaç yıl, iki yıl mı üç yıl mı",warranty_inquiry,technician_appointment,technician_appointment,0.6549,custom,tr
-is garlic on my grocery list,shopping_list,oos,oos,0.458,clinc150,en
-please read the text message i just received,oos,text,text,0.9996,clinc150,en
-i would like the song playing right now put on my driving playlist,update_playlist,play_music,play_music,0.9795,clinc150,en
-forget what i told you to do,cancel,oos,what_is_your_name,0.5906,clinc150,en
-call an uber to take a group of 4 from this bar to the one on maple st,uber,oos,uber,0.8025,clinc150,en
-i need to bring my car in because the check engine light is staying lit,schedule_maintenance,oos,schedule_maintenance,0.4951,clinc150,en
-include asparagus on the list,shopping_list_update,oos,todo_list_update,0.3098,clinc150,en
-i need to know what's good for chinese around here,meal_suggestion,restaurant_suggestion,restaurant_suggestion,0.9131,clinc150,en
-"what is the correct spelling of the word comity, since i do not know",spelling,oos,oos,0.3549,clinc150,en
-how about lets start calling you juliette,change_ai_name,oos,what_is_your_name,0.4018,clinc150,en
-what's the ultimate day for me to pay the internet bill,bill_due,oos,min_payment,0.7368,clinc150,en
-can you tell me the apr of my target credit card,apr,oos,apr,0.7944,clinc150,en
-set a reminder for when the turkey is finished cooking,reminder_update,oos,reminder_update,0.6204,clinc150,en
-what to use to design my business cards,oos,redeem_rewards,redeem_rewards,0.9222,clinc150,en
-what does it mean to join the occult,oos,definition,definition,0.9175,clinc150,en
-what's the current prevailing interest rate for mortgages in my area,oos,interest_rate,interest_rate,0.9984,clinc150,en
-what is the expiration date for honey,food_last,date,date,0.8686,clinc150,en
-what do i need to do to cook a chicken,recipe,oos,ingredients_list,0.6816,clinc150,en
-where is the closest driving range,oos,directions,directions,0.9995,clinc150,en
-what is the next date for which i can get an oil change appointment,schedule_maintenance,oil_change_when,oil_change_when,0.9338,clinc150,en
-is there a list of good credit cards i can choose from to apply for,new_card,oos,new_card,0.6874,clinc150,en
-someone else used my account to buy stuff from mcdonald's,report_fraud,oos,report_fraud,0.6934,clinc150,en
-help me pick a new location to travel to,travel_suggestion,oos,directions,0.6744,clinc150,en
-i'm travelling to boston on march 2 until march 4 please make a hotel reservation for me,book_hotel,car_rental,car_rental,0.9753,clinc150,en
-what instructions do i need to bake a cake from scratch,recipe,ingredients_list,ingredients_list,0.983,clinc150,en
-what did i tell you to call me,user_name,oos,what_is_your_name,0.7087,clinc150,en
-someone used my chase card without my authorization,report_lost_card,report_fraud,report_fraud,0.962,clinc150,en
-what is the process of making a vacation request,pto_request,oos,pto_request,0.7865,clinc150,en
-what does my cable bill look like,bill_balance,oos,bill_balance,0.5165,clinc150,en
-please tell my bank i'm traveling to mexico between next wednesday for a week after,travel_notification,oos,travel_notification,0.8282,clinc150,en
-can i take an uber to the statue of liberty,uber,oos,uber,0.8131,clinc150,en
-what do i take home,income,oos,oos,0.7785,clinc150,en
+i don't want to forget to call mom,reminder_update,make_call,make_call,0.9969,clinc150,en
+tell me how to go about reporting a damaged card,damaged_card,oos,replacement_card_duration,0.3886,clinc150,en
+am i close to arriving at the post office,distance,directions,directions,0.8988,clinc150,en
+will there be heavy traffic near downtown philadelphia from lincoln drive in the next two hours,traffic,oos,oos,0.8028,clinc150,en
+let me know when it's been 5 minutes,timer,oos,oos,0.1935,clinc150,en
+what should you do if you can't be bothered to get out of bed,oos,what_can_i_ask_you,what_can_i_ask_you,0.9122,clinc150,en
+how many vacation days i have used,pto_used,pto_balance,pto_balance,0.77,clinc150,en
+many thank,thank_you,oos,oos,0.5317,clinc150,en
+how much have i spent on my debit card this month,transactions,spending_history,spending_history,0.7678,clinc150,en
+would you tell me the hobbies the ai has,what_are_your_hobbies,oos,who_made_you,0.4708,clinc150,en
+answer the phone,oos,find_phone,find_phone,0.8755,clinc150,en
+how many items are in a bakers dozen,oos,spelling,spelling,0.7726,clinc150,en
+did i set a day on my calendar for voting in the next election,calendar,oos,calendar,0.572,clinc150,en
+how can i repair a broken watch,oos,warranty_inquiry,warranty_inquiry,0.9881,clinc150,en
+are there any open reservations at outback tonight,restaurant_reservation,oos,accept_reservations,0.7176,clinc150,en
+is it safe for me to go to turkey,travel_alert,oos,travel_alert,0.6019,clinc150,en
+my bank of america visa platinum was swiped from my belongings,report_lost_card,oos,balance,0.4243,clinc150,en
+10-4,yes,calculator,calculator,1.0,clinc150,en
+i'm struggling to remind myself the pin number to my card,pin_change,oos,pin_change,0.687,clinc150,en
+camasir makinsi F05 hatasi veriyor,washing_machine_issue,dishwasher_issue,dishwasher_issue,0.8045,custom,tr
+so what subjects do you like,what_can_i_ask_you,what_are_your_hobbies,what_are_your_hobbies,0.9804,clinc150,en
+"çamaşırlar makineden yırtık çıkıyor, tamburda bir şey takılıyor olabilir",washing_machine_issue,dishwasher_issue,dishwasher_issue,0.7899,custom,tr
+can you let me know the next open slot for me to get my oil changed,schedule_maintenance,oos,oil_change_when,0.7401,clinc150,en
+deny incoming phone call,oos,make_call,make_call,0.9967,clinc150,en
+do you think they'll let me reserve a table at the olive garden,accept_reservations,oos,restaurant_reservation,0.3702,clinc150,en
+i need a delivery tracked,order_status,order,order,0.932,clinc150,en
+what can you do to make yourself useful,what_can_i_ask_you,oos,ingredients_list,0.5393,clinc150,en
+vacuum out the car,oos,car_rental,car_rental,0.891,clinc150,en
+i need to find a new babysitter,oos,insurance_change,insurance_change,0.8267,clinc150,en
+make a reservation for chik-fil-a at 3 o' clock please,restaurant_reservation,oos,restaurant_reservation,0.7203,clinc150,en
+can you tell me some strategies for raising my credit score,improve_credit_score,oos,credit_score,0.5357,clinc150,en
+accept incoming phone call,oos,make_call,make_call,0.9945,clinc150,en
+restart my newspaper delivery for monday,oos,dishwasher_issue,dishwasher_issue,0.6976,clinc150,en
+are carrots added to the grocery list,shopping_list,shopping_list_update,shopping_list_update,0.8444,clinc150,en
+tell me my water bill please,bill_balance,pay_bill,pay_bill,0.7961,clinc150,en
+what's the mileage to get the the taj mahal in atlantic city,distance,oos,oos,0.5593,clinc150,en
+see if you can purchase a spacesuit online,oos,order,order,0.9538,clinc150,en
+i need to know my credit card's rewards balance,rewards_balance,oos,rewards_balance,0.6878,clinc150,en
+who is the singer on the speaker now,what_song,oos,oos,0.9498,clinc150,en
+remind me of the address for my workplace please,oos,reminder,reminder,0.8194,clinc150,en
+can i speak spanish to you hombre,change_language,change_speed,change_speed,0.7707,clinc150,en
+buzdolabı çok gürültülü uğultu gece de devam ediyor,refrigerator_issue,dishwasher_issue,dishwasher_issue,0.7645,custom,tr
+can you see how many calories are in cream of mushroom soup,calories,oos,calories,0.5148,clinc150,en
+what do you like to do besides work,what_are_your_hobbies,oos,oos,0.5019,clinc150,en
+what do i go by,user_name,oos,calculator,0.4181,clinc150,en
+how many calories does an orange have,calories,oos,oos,0.4453,clinc150,en
+please go though the bullet points on my reminder list,reminder,oos,reminder,0.58,clinc150,en
+why are you talking so slowly,change_speed,oos,change_speed,0.572,clinc150,en
+what's your boss's name,who_do_you_work_for,what_is_your_name,what_is_your_name,0.9902,clinc150,en
+tell me the ingredients to make an apple pie,ingredients_list,oos,recipe,0.5409,clinc150,en
+what are the steps to get my rewards for my visa card,redeem_rewards,oos,rewards_balance,0.5526,clinc150,en
+what does chase pay in interest per year,interest_rate,oos,interest_rate,0.6813,clinc150,en
+i want to explore a new place but don't know where i should go do you have any ideas,travel_suggestion,oos,restaurant_suggestion,0.6175,clinc150,en
+"siri, book a car rental to the poconos today right now",car_rental,oos,car_rental,0.5747,clinc150,en
+i am not able to say,maybe,oos,maybe,0.3321,clinc150,en
+is it payday,payday,oos,date,0.5423,clinc150,en
+my capital one visa was taken without permission,report_lost_card,oos,oos,0.7318,clinc150,en
+show allison how to get to me,share_location,directions,directions,0.889,clinc150,en
+my online bill has some items that i didn't purchase from penneys,report_fraud,oos,order,0.5791,clinc150,en
+i can't remember if i added the fun run to my calendar yet; did i,calendar,oos,todo_list,0.4114,clinc150,en
+i need to understand how many points have i earned with my credit card,rewards_balance,redeem_rewards,redeem_rewards,0.803,clinc150,en
+what's the latest i can pay my cellular bill,bill_due,oos,min_payment,0.6198,clinc150,en
+hush,cancel,oos,goodbye,0.6276,clinc150,en
+what song is this one,what_song,oos,what_song,0.6346,clinc150,en
+please tell me a recipe for this meal,recipe,oos,meal_suggestion,0.7037,clinc150,en
+let's take a look at the weather,weather,oos,traffic,0.5395,clinc150,en
+what is the best way to remove this appointment,calendar_update,oos,reminder,0.1689,clinc150,en
+it's definitely a maybe for that,maybe,no,no,0.9209,clinc150,en
+can i start calling you fred,change_ai_name,oos,change_ai_name,0.6435,clinc150,en
+"my favorite, beef tacos at the buffet",restaurant_reviews,oos,nutrition_info,0.3976,clinc150,en
+remove wrestlemania from my calendar for may 7th,calendar_update,oos,calendar_update,0.6479,clinc150,en
+speak spanish please,change_language,change_speed,change_speed,0.9779,clinc150,en
+be quiet,cancel,oos,cancel,0.6179,clinc150,en
+what are you programmed to do for me,what_can_i_ask_you,oos,user_name,0.2628,clinc150,en
+"can you give me a traffic update for driving routes nearest ocean city, new jersey from philadelphia",traffic,oos,directions,0.6946,clinc150,en
+"for this design, what company did it",who_made_you,oos,who_made_you,0.7209,clinc150,en
+add grocery shopping to my to do list,todo_list_update,shopping_list_update,shopping_list_update,0.9245,clinc150,en
+try to speak slowly,change_speed,oos,change_speed,0.7372,clinc150,en
+please tell me how traffic from the new jersey turnpike into the lincoln tunnel looks currently,traffic,oos,oos,0.433,clinc150,en
+give me some feedback about the pasta at piada please,restaurant_reviews,oos,oos,0.2876,clinc150,en
+what company are you employed by,who_do_you_work_for,who_made_you,who_made_you,0.8326,clinc150,en
+teknisyen geldi ama parça yoktu yeni randevu lazım,technician_appointment,oos,oos,0.5943,custom,tr
+what is the electricity bill,bill_balance,oos,bill_balance,0.6427,clinc150,en
+when will i hear back about my days off,pto_request_status,next_holiday,next_holiday,0.8609,clinc150,en
+should i take my car to a maintenance,schedule_maintenance,oos,schedule_maintenance,0.6073,clinc150,en
+do i overspend when it comes to fast food,spending_history,oos,oos,0.6719,clinc150,en
+what have i spent things on,transactions,spending_history,spending_history,0.989,clinc150,en
+call my name,user_name,oos,change_user_name,0.6457,clinc150,en
+what is the shipping wait for my card,replacement_card_duration,oos,expiration_date,0.2468,clinc150,en
+is there a meeting with sam today,meeting_schedule,schedule_meeting,schedule_meeting,0.9098,clinc150,en
+how do i go about cooking a 10lb turkey,recipe,oos,oos,0.4089,clinc150,en
+find a decent rental care for next week at the philadelphia airport,car_rental,oos,car_rental,0.7174,clinc150,en
+how do you make fried rice,recipe,oos,recipe,0.7435,clinc150,en
+what would you like me to call you,what_is_your_name,oos,what_is_your_name,0.6379,clinc150,en
+what is the definiton of auspicious,definition,oos,definition,0.5183,clinc150,en
+are visas needed to travel to jamaica,international_visa,vaccines,vaccines,0.9125,clinc150,en
+call me bob from now on,change_user_name,oos,change_user_name,0.7369,clinc150,en
+where would i get my rewards for my master card,redeem_rewards,rewards_balance,rewards_balance,0.9526,clinc150,en
+i need buy a birthday gift for sue taken off my calendar  it is on monday or tuesday last week,calendar_update,oos,calendar,0.3465,clinc150,en
+i want to track a package i should be getting,order_status,oos,directions,0.3811,clinc150,en
+how much do i take home yearly,income,oos,oos,0.7924,clinc150,en
+how do i ask the ai to help me with math problem,calculator,what_can_i_ask_you,what_can_i_ask_you,0.8699,clinc150,en
+las vegas weather today,weather,oos,weather,0.6279,clinc150,en
+give me an exact date of when i took my car to the mechanic,last_maintenance,oos,last_maintenance,0.506,clinc150,en
+"alexa, buy my grocery list",order,shopping_list,shopping_list,0.7755,clinc150,en
+give me a recipe for tacos,ingredients_list,recipe,recipe,0.9953,clinc150,en
+"i'd like to make a reservation at rooth chris, can you do that",restaurant_reservation,oos,confirm_reservation,0.5296,clinc150,en
+can i call you arnold instead,change_ai_name,oos,make_call,0.5443,clinc150,en
+what is the expiration month and year on my credit car,expiration_date,oos,expiration_date,0.5723,clinc150,en
+i have a revolving store card and defaulted so will my fico score be affected,improve_credit_score,oos,damaged_card,0.5146,clinc150,en
+can i hurt my credit rating if i open several credit cards in a short time frame,improve_credit_score,oos,improve_credit_score,0.7054,clinc150,en
+change voice speed,change_speed,change_accent,change_accent,0.9393,clinc150,en
+find out how many miles the mississippi waterway runs,oos,spelling,spelling,0.8174,clinc150,en
+recipes for garlic bread please,recipe,ingredient_substitution,ingredient_substitution,0.9411,clinc150,en
+i want to know the ingredients for making pizza,ingredients_list,oos,recipe,0.4764,clinc150,en
+have i told you to add washing dishes to my todo list,todo_list,todo_list_update,todo_list_update,0.8739,clinc150,en
+do i have a ways to go or am i close to getting to penn station,distance,directions,directions,0.8752,clinc150,en
+what stuff am i trying to remember,reminder,oos,reminder,0.5964,clinc150,en
+it it possible to take pto from the 8th to the 11th,pto_request,change_volume,change_volume,0.8035,clinc150,en
+i wanna know where to find a w2,w2,oos,directions,0.6092,clinc150,en
+what kind of weather can i expect now,weather,oos,weather,0.6393,clinc150,en
+your a bot aren't you,are_you_a_bot,oos,who_made_you,0.4028,clinc150,en
+i need the conversion between a cup and a tablespoon,measurement_conversion,oos,measurement_conversion,0.7458,clinc150,en
+when did i last collect my salary,payday,oos,payday,0.588,clinc150,en
+what kind of indian would you recommend,meal_suggestion,oos,what_can_i_ask_you,0.4636,clinc150,en
+i think someone jacked my bank account,report_fraud,account_blocked,account_blocked,0.9812,clinc150,en
+i can't say for certain either way,maybe,no,no,0.8271,clinc150,en
+what are the limits in my phone plan,oos,insurance,insurance,0.9842,clinc150,en
+i would like to thank you ai,thank_you,oos,thank_you,0.7171,clinc150,en
+dial up dominos pizza,make_call,oos,goodbye,0.7247,clinc150,en
+are cool people at the bar at 9:00 pm,how_busy,restaurant_reservation,restaurant_reservation,0.9612,clinc150,en
+my tires are 29 months old should u change them,tire_change,oos,tire_change,0.6179,clinc150,en
+is my meeting with frank on my list of reminders,reminder,meeting_schedule,meeting_schedule,0.795,clinc150,en
+how many miles are my tires rated for,tire_change,tire_pressure,tire_pressure,0.9738,clinc150,en
+ya,yes,oos,oos,0.5655,clinc150,en
+what's my phone's location,find_phone,current_location,current_location,0.9484,clinc150,en
+i want to be called timothy,change_user_name,oos,change_user_name,0.7587,clinc150,en
+where can i find measurement conversions,measurement_conversion,oos,oos,0.9685,clinc150,en
+i don't need grocery shopping on my todo list anymore,todo_list_update,oos,shopping_list_update,0.4513,clinc150,en
+that's a negatory,no,oos,no,0.3896,clinc150,en
+how many voicemails are currently in my inbox,oos,spelling,spelling,0.8503,clinc150,en
+i would like to change the name on my credit card account,pin_change,oos,pin_change,0.3751,clinc150,en
+who do i have the pleasure of speaking with,what_is_your_name,oos,oos,0.1957,clinc150,en
+a hidden government facility,where_are_you_from,oos,oos,0.8302,clinc150,en
+i'd like to start calling you jake,change_ai_name,oos,change_ai_name,0.6513,clinc150,en
+search up the cast in the walking dead,oos,jump_start,jump_start,0.84,clinc150,en
+delete the contact uncle john from my phone,oos,sync_device,sync_device,0.9335,clinc150,en
+what will i be paying for utilities this month,bill_balance,oos,bill_balance,0.714,clinc150,en
+how is traffic nearest the ben franklin bridge philadelphia heading to the new jersey turnpike,traffic,oos,directions,0.7357,clinc150,en
+what teams are playing right now,oos,what_song,what_song,0.7627,clinc150,en
+can i get a table for four at 8:00,how_busy,restaurant_reservation,restaurant_reservation,0.9981,clinc150,en
+is the friday's full after 4,how_busy,oos,oos,0.9627,clinc150,en
+pull up the songs under slow,play_music,oos,change_volume,0.6491,clinc150,en
+can you overnight me a few checkbooks,order_checks,order,order,0.9039,clinc150,en
+who do i speak with about my card that was lost,report_lost_card,oos,report_lost_card,0.3354,clinc150,en
+today is the day i should pay my electric bill,pay_bill,bill_due,bill_due,0.9887,clinc150,en
+find inner tube and buy it for me,order,oos,order,0.407,clinc150,en
+where should i report a damaged card,damaged_card,report_lost_card,report_lost_card,0.9943,clinc150,en
+can you get me recipes for eggs please,recipe,oos,what_can_i_ask_you,0.3241,clinc150,en
+not sure,maybe,oos,maybe,0.5227,clinc150,en
+what would you say my gas and phone bills are at,bill_balance,oos,taxes,0.4747,clinc150,en
+talk fast,change_speed,oos,change_speed,0.6313,clinc150,en
+not sure to be honest,maybe,no,no,0.86,clinc150,en
+can you tell me where my item is,order_status,oos,order_status,0.5181,clinc150,en
+when will my vacation time be confirmed,pto_request_status,oos,pto_request_status,0.556,clinc150,en
+do laundry,oos,todo_list_update,todo_list_update,0.9945,clinc150,en
+i'd like to know what bitcoin means,definition,oos,definition,0.6715,clinc150,en
+that would be correct,yes,oos,yes,0.6874,clinc150,en
+how to plan for weddings,oos,insurance_change,insurance_change,0.9936,clinc150,en
+i want to know who your boss is,who_do_you_work_for,oos,who_do_you_work_for,0.6579,clinc150,en
+locate my cellphone in this room,find_phone,oos,current_location,0.7309,clinc150,en
+i need to replace a card that my daughter spilled juice on,damaged_card,oos,damaged_card,0.6245,clinc150,en
+give me step by step instructions for changing my oil,oil_change_how,oos,insurance_change,0.5014,clinc150,en
+give me the weather forecast for today,oos,weather,weather,0.9996,clinc150,en
+who do you take your orders from,who_do_you_work_for,oos,who_made_you,0.5981,clinc150,en
+"ürünümün garantisi kaç yıl, iki yıl mı üç yıl mı",warranty_inquiry,oos,oos,0.6573,custom,tr
+is garlic on my grocery list,shopping_list,oos,todo_list,0.4893,clinc150,en
+please read the text message i just received,oos,text,text,0.9997,clinc150,en
+i would like the song playing right now put on my driving playlist,update_playlist,oos,play_music,0.6713,clinc150,en
+forget what i told you to do,cancel,oos,what_can_i_ask_you,0.2915,clinc150,en
+can i ask your age,how_old_are_you,oos,how_old_are_you,0.6252,clinc150,en
+include asparagus on the list,shopping_list_update,oos,todo_list,0.3208,clinc150,en
+i need to know what's good for chinese around here,meal_suggestion,restaurant_suggestion,restaurant_suggestion,0.9808,clinc150,en
+"what is the correct spelling of the word comity, since i do not know",spelling,oos,oos,0.557,clinc150,en
+how about lets start calling you juliette,change_ai_name,oos,oos,0.3689,clinc150,en
+what's the ultimate day for me to pay the internet bill,bill_due,oos,pay_bill,0.3899,clinc150,en
+what to use to design my business cards,oos,redeem_rewards,redeem_rewards,0.8596,clinc150,en
+what does it mean to join the occult,oos,definition,definition,0.8576,clinc150,en
+what is the meaning of incandescent,definition,oos,definition,0.7309,clinc150,en
+what's the current prevailing interest rate for mortgages in my area,oos,interest_rate,interest_rate,0.9987,clinc150,en
+what is the expiration date for honey,food_last,oos,date,0.4339,clinc150,en
+clear my calendar for april 20th,calendar_update,oos,calendar_update,0.5973,clinc150,en
+what do i need to do to cook a chicken,recipe,oos,ingredients_list,0.7275,clinc150,en
+where is the closest driving range,oos,directions,directions,0.8451,clinc150,en
+i want to talk english,change_language,oos,change_language,0.7227,clinc150,en
+what is the next date for which i can get an oil change appointment,schedule_maintenance,oil_change_when,oil_change_when,0.9202,clinc150,en
+"what's a good, popular american meal",meal_suggestion,oos,meal_suggestion,0.5865,clinc150,en
+is there a list of good credit cards i can choose from to apply for,new_card,oos,new_card,0.5749,clinc150,en
+someone else used my account to buy stuff from mcdonald's,report_fraud,oos,report_fraud,0.2965,clinc150,en
+help me pick a new location to travel to,travel_suggestion,directions,directions,0.9197,clinc150,en
+i'm travelling to boston on march 2 until march 4 please make a hotel reservation for me,book_hotel,oos,car_rental,0.3836,clinc150,en
+disconnect from wifi immediately please,oos,sync_device,sync_device,0.9998,clinc150,en
+what instructions do i need to bake a cake from scratch,recipe,ingredients_list,ingredients_list,0.9626,clinc150,en
+someone used my chase card without my authorization,report_lost_card,report_fraud,report_fraud,0.9444,clinc150,en
+what does my cable bill look like,bill_balance,oos,bill_due,0.6507,clinc150,en
+please tell my bank i'm traveling to mexico between next wednesday for a week after,travel_notification,oos,travel_notification,0.6943,clinc150,en
+can i take an uber to the statue of liberty,uber,oos,uber,0.7179,clinc150,en
+what do i take home,income,oos,oos,0.9065,clinc150,en
 read text,oos,text,text,1.0,clinc150,en
-i am itching to travel but don't know where to go,travel_suggestion,oos,travel_suggestion,0.2744,clinc150,en
-are you able to remind me about something,reminder_update,oos,reminder_update,0.7102,clinc150,en
-what kind of calories do chicken tenders have,calories,oos,calories,0.6822,clinc150,en
-what's the food can easily get in canada,restaurant_suggestion,oos,restaurant_suggestion,0.6419,clinc150,en
-"did i add ""cleaning the foyer"" to my todo list yet",todo_list,oos,todo_list,0.6531,clinc150,en
-check battery health on this device,oos,jump_start,jump_start,0.9936,clinc150,en
-please speak in tagalog,change_language,oos,change_language,0.7174,clinc150,en
-i would like to change the name on my first bankcard account,pin_change,oos,pin_change,0.7037,clinc150,en
-do people say per se is any good or not,restaurant_reviews,oos,restaurant_reviews,0.445,clinc150,en
-what kind of camera should i buy,oos,gas_type,gas_type,0.9833,clinc150,en
-is there another person that controls you,who_do_you_work_for,oos,who_do_you_work_for,0.6315,clinc150,en
-verify my reservation for smith and wollensky at 6:45,confirm_reservation,oos,confirm_reservation,0.7462,clinc150,en
-i need to sign up for a new allstate plan,insurance_change,oos,insurance_change,0.6276,clinc150,en
+was my car in the shop this past week,last_maintenance,oos,spending_history,0.694,clinc150,en
+i am itching to travel but don't know where to go,travel_suggestion,oos,directions,0.4315,clinc150,en
+i want to hear your best joke,tell_joke,oos,tell_joke,0.7282,clinc150,en
+i saw suspicious activity on my bank account,report_fraud,oos,freeze_account,0.6603,clinc150,en
+buzdolabı çalışmıyor tamamen kapandı ışığı da yanmıyor,refrigerator_issue,dishwasher_issue,dishwasher_issue,0.7958,custom,tr
+what's the food can easily get in canada,restaurant_suggestion,oos,travel_suggestion,0.6531,clinc150,en
+"did i add ""cleaning the foyer"" to my todo list yet",todo_list,oos,todo_list,0.5939,clinc150,en
+check battery health on this device,oos,jump_start,jump_start,0.9751,clinc150,en
+please speak in tagalog,change_language,oos,change_language,0.3187,clinc150,en
+do people say per se is any good or not,restaurant_reviews,oos,oos,0.2858,clinc150,en
+please answer the phone and put it on speaker on the tv,oos,change_volume,change_volume,0.8315,clinc150,en
+verify my reservation for smith and wollensky at 6:45,confirm_reservation,oos,confirm_reservation,0.7476,clinc150,en
+find my wallet,oos,order_status,order_status,0.9931,clinc150,en
+i need to sign up for a new allstate plan,insurance_change,oos,insurance_change,0.539,clinc150,en
 who controls you,who_do_you_work_for,who_made_you,who_made_you,0.9999,clinc150,en
-could be,maybe,oos,maybe,0.6645,clinc150,en
-find a place near me to have my tires inspected,schedule_maintenance,oos,tire_pressure,0.6911,clinc150,en
-that is so false,no,oos,yes,0.6126,clinc150,en
-my name is going to be sherlock,change_user_name,oos,change_user_name,0.8212,clinc150,en
-i need a laptop with 16gb of ram,oos,calculator,calculator,0.87,clinc150,en
-i need to know the next billing date of my american express card,bill_due,expiration_date,expiration_date,0.9769,clinc150,en
-do you speak english,change_language,oos,whisper_mode,0.8062,clinc150,en
-i need some suggestions for dinner places tonight,restaurant_suggestion,oos,restaurant_suggestion,0.736,clinc150,en
-and your name is,what_is_your_name,oos,change_ai_name,0.5768,clinc150,en
-what do i need to buy for spaghetti,ingredients_list,oos,shopping_list,0.618,clinc150,en
-i need to know the answer to 10000 multiplied by 44,calculator,oos,calculator,0.5981,clinc150,en
-which day is it now,date,oos,date,0.7727,clinc150,en
-simulate rolling a dice and tell me what it lands on,roll_dice,oos,roll_dice,0.5061,clinc150,en
-how many stars does babbo have,restaurant_reviews,oos,oos,0.7591,clinc150,en
-can you order some ointment for me,oos,order,order,0.9999,clinc150,en
-what's my oil change status,oil_change_when,last_maintenance,last_maintenance,0.9596,clinc150,en
-what's the estimated travel time to get to dc via bus,distance,oos,distance,0.8085,clinc150,en
-garanti kartını doldurmadım sorun olur mu,warranty_inquiry,refrigerator_issue,refrigerator_issue,0.4925,custom,tr
-where can i find bluetooth speakers,order,oos,oos,0.9586,clinc150,en
-"i don't like this song, can skip it",next_song,oos,play_music,0.7638,clinc150,en
-get me my slow sounds,play_music,oos,change_speed,0.7612,clinc150,en
-what exactly is my pin,pin_change,oos,pin_change,0.4158,clinc150,en
-make a reminder to pay my cable bill today,reminder_update,pay_bill,pay_bill,0.9984,clinc150,en
-tell time for another city: dallas,time,distance,distance,0.896,clinc150,en
-that isn't right,no,yes,yes,0.9677,clinc150,en
-"how do i deal with angry, painful red bumps",oos,recipe,recipe,0.8676,clinc150,en
-what'd you say,repeat,oos,translate,0.5688,clinc150,en
-how long does the average set of tire last before needing replacement,tire_change,oos,tire_change,0.588,clinc150,en
-can i set up mobile deposits,oos,direct_deposit,direct_deposit,0.9991,clinc150,en
-can you help me plan a vacation,pto_request,oos,pto_request,0.7099,clinc150,en
-what kid of subjects do you excel in,what_can_i_ask_you,oos,what_can_i_ask_you,0.4943,clinc150,en
-turn to the voice of the woman,change_accent,change_volume,change_volume,0.8983,clinc150,en
-"i heard some woman say she was going to yerd me, what's that mean",definition,oos,translate,0.2195,clinc150,en
-seri numarasıyla garanti sorgulama nasıl yapılır,warranty_inquiry,technician_appointment,technician_appointment,0.6456,custom,tr
-sorry i missed that,repeat,oos,repeat,0.3221,clinc150,en
-my credit score stinks but i don't know how to improve it,improve_credit_score,oos,improve_credit_score,0.7791,clinc150,en
-what kind of mileage does this car get,mpg,oos,mpg,0.7825,clinc150,en
-do you know if l'arpege will ask for reservations,accept_reservations,oos,accept_reservations,0.7761,clinc150,en
-did i put grocery shopping on my todo list,todo_list,shopping_list,shopping_list,0.9911,clinc150,en
-what do you do on off days,what_are_your_hobbies,oos,pto_request,0.6458,clinc150,en
-that can't be true,no,yes,yes,0.9964,clinc150,en
-i'm feeling like a greek meal and need some suggestions,meal_suggestion,oos,order,0.7646,clinc150,en
-how much interest is my nfcu accrueing,interest_rate,oos,income,0.5395,clinc150,en
-renew gym membership,oos,technician_appointment,technician_appointment,0.3598,clinc150,en
-"ai, refer to me as deb when answering me",change_user_name,user_name,user_name,0.9261,clinc150,en
-quieter please,change_volume,whisper_mode,whisper_mode,0.9778,clinc150,en
-abort mission,cancel,oos,cancel,0.4552,clinc150,en
-recite the items i'm planning to purchase,shopping_list,order,order,0.997,clinc150,en
-is mr joes pizza available for a seating,how_busy,restaurant_reviews,restaurant_reviews,0.8833,clinc150,en
-x needs to be called by me,make_call,change_user_name,change_user_name,0.9224,clinc150,en
-how many minutes am i from texaco,distance,oos,calculator,0.408,clinc150,en
-will only having five late payments really make my credit bad,improve_credit_score,oos,income,0.7031,clinc150,en
-i dont want to listen to this song,next_song,oos,update_playlist,0.4591,clinc150,en
-when is the next payday i can look forward to,payday,next_holiday,next_holiday,0.9045,clinc150,en
-how many teaspoons is one tablespoon,measurement_conversion,oos,measurement_conversion,0.4975,clinc150,en
-how come my credit card isn't working,card_declined,oos,damaged_card,0.7565,clinc150,en
-please let's do it,yes,cancel,cancel,0.9905,clinc150,en
-tell me whether or not i have a reservation at gramercy tavern for tad,confirm_reservation,oos,confirm_reservation,0.8087,clinc150,en
-is it going to be much longer until i reach the bank,distance,oos,change_volume,0.3507,clinc150,en
-are there any meetings between 2 and 5 pm,meeting_schedule,oos,schedule_meeting,0.5225,clinc150,en
-i'd rather call you gloria,change_ai_name,oos,change_ai_name,0.5413,clinc150,en
-i seem to have a purchase that i didn't make from olive garden on my account,report_fraud,oos,maybe,0.5974,clinc150,en
-look up the current auto loan rate at chase bank,oos,interest_rate,interest_rate,0.9895,clinc150,en
-what's on my purchase list,shopping_list,oos,shopping_list,0.5489,clinc150,en
-how do i adjust my credit limit,credit_limit_change,credit_limit,credit_limit,0.8468,clinc150,en
-cross off grocery shopping from todo list,todo_list_update,shopping_list_update,shopping_list_update,0.9943,clinc150,en
-what time do i need to arrive to make it on time,oos,time,time,0.8905,clinc150,en
-fold my hand,oos,income,income,0.9022,clinc150,en
-is my order on its way or what's going on,order_status,oos,oos,0.3969,clinc150,en
-what is the phone number of the car rental place,car_rental,oos,oos,0.8118,clinc150,en
-I'd like to book a technician visit,technician_appointment,oos,car_rental,0.4831,custom,en
-go ahead and give me the tire pressure of my vehicle,tire_pressure,oos,tire_pressure,0.7047,clinc150,en
-park the car,oos,gas_type,gas_type,0.8568,clinc150,en
-you know me by what right now,user_name,oos,user_name,0.7087,clinc150,en
-make a purchase of doritos,order,ingredients_list,ingredients_list,0.9984,clinc150,en
-how much do i pay the irs,taxes,oos,taxes,0.4646,clinc150,en
-can you call alexa,make_call,oos,make_call,0.6232,clinc150,en
-how much can i use on my visa,credit_limit,oos,credit_limit,0.5489,clinc150,en
-i need to know the time it takes to get a new credit card sent to someone who lost theirs,replacement_card_duration,oos,replacement_card_duration,0.6246,clinc150,en
-that will be all have a nice day!,goodbye,oos,weather,0.7841,clinc150,en
-what is the amount due on my visa,bill_balance,oos,bill_due,0.699,clinc150,en
-"can you call me a different name, please",change_user_name,oos,what_is_your_name,0.4243,clinc150,en
-are you my insubordinate,who_do_you_work_for,oos,order_status,0.6319,clinc150,en
-i need to track a package,order_status,oos,w2,0.7597,clinc150,en
-will you make sure ann and scott know my location,share_location,current_location,current_location,0.8488,clinc150,en
-"makinenin içinde sürekli su birikiyor, gider tıkanmış olabilir mi",dishwasher_issue,refrigerator_issue,refrigerator_issue,0.599,custom,tr
-add mopping to the to do list,todo_list_update,oos,todo_list_update,0.5763,clinc150,en
-i have a car payment that needs to be paid,pay_bill,oos,payday,0.4909,clinc150,en
-who should i talk to about the fact that i inadvertently split my card almost in half,damaged_card,oos,damaged_card,0.2528,clinc150,en
-do you know my phone's location,find_phone,oos,current_location,0.8249,clinc150,en
-what kinds of things are you supposed to remind me of,reminder,oos,what_can_i_ask_you,0.5692,clinc150,en
-60 derece programı iki saatten fazla sürüyor normal mi,washing_machine_issue,refrigerator_issue,refrigerator_issue,0.8233,custom,tr
-what amount of interest does my checking account earn,interest_rate,oos,interest_rate,0.6737,clinc150,en
-move rap god to my motivational playlist,update_playlist,play_music,play_music,0.9632,clinc150,en
-tell fred that i don't have his guitar,text,oos,maybe,0.4368,clinc150,en
-i want to use spanish with you,change_language,oos,change_language,0.6687,clinc150,en
-"siri, place my amazon order",order,order_status,order_status,0.9916,clinc150,en
-please clean the car windows,oos,smart_home,smart_home,0.9887,clinc150,en
-undecided,maybe,change_ai_name,change_ai_name,0.9695,clinc150,en
-the oven be set at 350,smart_home,oos,smart_home,0.421,clinc150,en
-camasir makinasinin pompa sesi cok yuksek,washing_machine_issue,refrigerator_issue,refrigerator_issue,0.6498,custom,tr
-purchase grass seed from the store,order,oos,cancel,0.5897,clinc150,en
-freeze my account at the bank immediately,freeze_account,account_blocked,account_blocked,0.9691,clinc150,en
-what's my savings account interest,interest_rate,oos,balance,0.8062,clinc150,en
-is there a better bus route i should be taking,oos,traffic,traffic,0.9339,clinc150,en
-i agree,yes,oos,maybe,0.7055,clinc150,en
-place my order alexa,order,order_status,order_status,0.8718,clinc150,en
-is it six o clock yet,time,oos,oos,0.2746,clinc150,en
-is my oil change coming up soon,oil_change_when,oos,oil_change_when,0.7098,clinc150,en
-can you call me a different name,change_user_name,oos,user_name,0.3887,clinc150,en
-i want to tell susan that the meeting has been cancelled,text,oos,pto_request_status,0.5594,clinc150,en
-what is the expiration date for those eg,food_last,oos,food_last,0.4487,clinc150,en
-can you speak louder,change_volume,oos,change_speed,0.7429,clinc150,en
-what subjects do you like,what_can_i_ask_you,oos,what_can_i_ask_you,0.4264,clinc150,en
-what are my hours this week at work,oos,income,income,0.9027,clinc150,en
-is make a hair appointment on my todo list right now,todo_list,oos,todo_list_update,0.4394,clinc150,en
-how do you refer to me,user_name,oos,user_name,0.795,clinc150,en
-"that's all i need, i'm going now",goodbye,oos,goodbye,0.2361,clinc150,en
-"i want to bring my card on the texas trip in june, will it be expired by then",expiration_date,oos,damaged_card,0.3382,clinc150,en
-is there traffic on i-95 north to new york from philadelphia,traffic,oos,directions,0.4827,clinc150,en
-what name do you go by,what_is_your_name,oos,what_is_your_name,0.5891,clinc150,en
-can you place an order for the olive oil i just finished,order,oos,order_checks,0.3776,clinc150,en
-how do i get help with a vacation itinerary,pto_request,oos,pto_request,0.8016,clinc150,en
-can you tell me about what time i should be arriving at the airport,distance,oos,how_busy,0.543,clinc150,en
-how is a vacation request made,pto_request,pto_request_status,pto_request_status,0.9088,clinc150,en
-find square root of 453,calculator,oos,calculator,0.4935,clinc150,en
-where do i see what interest my mortgage has,interest_rate,oos,interest_rate,0.383,clinc150,en
-give me an eta on when i will arrive at my destination,distance,flight_status,flight_status,0.9476,clinc150,en
-how can i improve my golf swing,oos,improve_credit_score,improve_credit_score,0.8586,clinc150,en
-vacation request information,pto_request,pto_request_status,pto_request_status,0.9999,clinc150,en
-it could go either way,maybe,oos,maybe,0.8033,clinc150,en
-is it too late to wear white,oos,weather,weather,0.882,clinc150,en
-i wanna know where the w2 is,w2,oos,w2,0.8323,clinc150,en
-is everything ok today,greeting,oos,date,0.6473,clinc150,en
-is it ok if i use some of my pto on may 24th to may 29th,pto_request,oos,calendar_update,0.3992,clinc150,en
-start the dishwasher,smart_home,oos,oos,0.9591,clinc150,en
-"ai, address me as deb when speaking to me",change_user_name,oos,change_user_name,0.3857,clinc150,en
-tell me: car gas mileage,mpg,oos,mpg,0.8085,clinc150,en
-what the numerical number inside my bank accounts,balance,oos,routing,0.5593,clinc150,en
-change settings to sound like a female,change_accent,oos,change_accent,0.7911,clinc150,en
-i wanna know your maker,who_made_you,oos,what_is_your_name,0.7218,clinc150,en
-when were you made,how_old_are_you,oos,where_are_you_from,0.694,clinc150,en
-would you tell me about your hobbies,what_are_your_hobbies,oos,what_are_your_hobbies,0.8272,clinc150,en
-is the phone bill the same as last month,bill_balance,oos,bill_due,0.7618,clinc150,en
-what are the minutes needed to cook the meal,cook_time,oos,ingredients_list,0.4322,clinc150,en
-you need to shut it,cancel,oos,cancel,0.5586,clinc150,en
-dial her up,make_call,text,text,0.8699,clinc150,en
-see if there is a recipe to make a casserole without any dairy,oos,recipe,recipe,0.9767,clinc150,en
-please add the song i'm listening to right now to my relaxation playlist,update_playlist,oos,play_music,0.7168,clinc150,en
-do i have twinkies on the grocery list,shopping_list,todo_list,todo_list,0.92,clinc150,en
-who is your maker,who_made_you,oos,who_made_you,0.6051,clinc150,en
-how much time is left until we get there,distance,oos,next_holiday,0.2961,clinc150,en
-how do i use my card reward points for my next flight,redeem_rewards,oos,rewards_balance,0.6125,clinc150,en
-can you cancel that request,cancel,oos,cancel,0.7932,clinc150,en
-find out the next available date and time i can go to get my oil changed please,schedule_maintenance,oos,schedule_maintenance,0.4663,clinc150,en
-how about i call you sue,change_ai_name,what_is_your_name,what_is_your_name,0.8725,clinc150,en
-don't call me anything besides bailey,change_user_name,oos,order,0.2638,clinc150,en
-is it possible to reserve a table at white castle,accept_reservations,oos,restaurant_reservation,0.6099,clinc150,en
-should i go to a car maintenance,schedule_maintenance,oos,schedule_maintenance,0.7664,clinc150,en
-çamaşırlar sabun köpüğüyle dolu çıkıyor durulamıyor,washing_machine_issue,refrigerator_issue,refrigerator_issue,0.871,custom,tr
-add laundry detergent to the list,shopping_list_update,oos,shopping_list_update,0.7535,clinc150,en
-is there any meetings from 5 to 6 pm,meeting_schedule,oos,schedule_meeting,0.5383,clinc150,en
-i don't remember buying this,report_fraud,cancel,cancel,0.9713,clinc150,en
-what day are we in,date,oos,date,0.7994,clinc150,en
-what do you think about changing your name to heath,change_ai_name,what_is_your_name,what_is_your_name,0.964,clinc150,en
-i gotta know how many points i have gotten with my debit card,rewards_balance,oos,redeem_rewards,0.5463,clinc150,en
-what's my current electric bill,oos,bill_balance,bill_balance,0.9998,clinc150,en
-i want to eat something from turkey,meal_suggestion,oos,travel_suggestion,0.4565,clinc150,en
-how much do i owe visa,bill_balance,oos,taxes,0.3725,clinc150,en
-i want to hear my name,user_name,oos,user_name,0.4564,clinc150,en
-can you assist me with finding my phone,find_phone,oos,sync_device,0.5082,clinc150,en
-can you see if paying garbage bill is on my todo list for this week,todo_list,oos,bill_balance,0.5772,clinc150,en
-can we please,yes,oos,oos,0.473,clinc150,en
-show what i have spent things on,transactions,spending_history,spending_history,0.9459,clinc150,en
-how many holidays are there and when is the next one here,next_holiday,oos,next_holiday,0.5717,clinc150,en
-what were my last 10 charges on my credit card,transactions,oos,transactions,0.8091,clinc150,en
-which gas would be best,gas_type,oos,oos,0.4453,clinc150,en
-my bill shows a purchase from payless shoes but i didn't buy anything,report_fraud,oos,report_fraud,0.6626,clinc150,en
-bulasik makinem calismiyor,dishwasher_issue,washing_machine_issue,washing_machine_issue,0.5213,custom,tr
-can you tell me the date of my last check,payday,oos,last_maintenance,0.4557,clinc150,en
-"today my electric bill will be paid, or should be",pay_bill,oos,bill_due,0.7828,clinc150,en
-show me some restaurants that have high reviews for eating out,restaurant_suggestion,oos,restaurant_reviews,0.7603,clinc150,en
-check warranty status for serial number WM-8400-22391,warranty_inquiry,oos,oos,0.5149,custom,en
-turn on metallicas greatest hits,play_music,oos,oos,0.8804,clinc150,en
-is there a spending limit,credit_limit,oos,credit_limit_change,0.7907,clinc150,en
-what kind of animals do you own,do_you_have_pets,oos,what_are_your_hobbies,0.5696,clinc150,en
-thai food suggestions,meal_suggestion,oos,restaurant_suggestion,0.5361,clinc150,en
-what is needed to cook lasagna,ingredients_list,oos,recipe,0.5656,clinc150,en
-"thanks for your help, goodbye!",goodbye,thank_you,thank_you,0.9999,clinc150,en
-play the song called dancing on the ceiling,play_music,oos,play_music,0.7664,clinc150,en
-i'm in the mood for slow songs and nothing else,play_music,oos,cancel,0.7425,clinc150,en
-what are my mastercard points good for,redeem_rewards,rewards_balance,rewards_balance,0.9702,clinc150,en
-can you recommend thai food,meal_suggestion,restaurant_suggestion,restaurant_suggestion,0.9719,clinc150,en
-i placed an order and i need it tracked,order_status,order,order,0.9055,clinc150,en
-how come my chase account has a hold on it,account_blocked,oos,account_blocked,0.7804,clinc150,en
-i need to up by noon,alarm,oos,schedule_meeting,0.4021,clinc150,en
-i'd like to start calling you friend,change_ai_name,oos,change_ai_name,0.6056,clinc150,en
+can you tell me what gas this car takes,gas_type,oos,gas_type,0.6588,clinc150,en
+find a place near me to have my tires inspected,schedule_maintenance,tire_pressure,tire_pressure,0.8026,clinc150,en
+i need a good italian dish,meal_suggestion,restaurant_suggestion,restaurant_suggestion,0.8014,clinc150,en
+my name is going to be sherlock,change_user_name,oos,change_user_name,0.6039,clinc150,en
+i need to know the next billing date of my american express card,bill_due,expiration_date,expiration_date,0.7857,clinc150,en
+do you speak english,change_language,oos,change_language,0.7148,clinc150,en
+is there a reason you put a hold on my chase account,account_blocked,oos,freeze_account,0.546,clinc150,en
+i need some suggestions for dinner places tonight,restaurant_suggestion,meal_suggestion,meal_suggestion,0.8408,clinc150,en
+and your name is,what_is_your_name,oos,change_ai_name,0.7061,clinc150,en
+i need to know the answer to 10000 multiplied by 44,calculator,oos,calculator,0.4316,clinc150,en
+simulate rolling a dice and tell me what it lands on,roll_dice,oos,roll_dice,0.7312,clinc150,en
+how many stars does babbo have,restaurant_reviews,oos,oos,0.9863,clinc150,en
+can you order some ointment for me,oos,order,order,0.9898,clinc150,en
+what are the lowest prices of bottled water at costco,oos,dishwasher_issue,dishwasher_issue,0.5093,clinc150,en
+what's the estimated travel time to get to dc via bus,distance,oos,directions,0.744,clinc150,en
+where can i find bluetooth speakers,order,oos,oos,0.9822,clinc150,en
+"i don't like this song, can skip it",next_song,oos,next_song,0.6942,clinc150,en
+please add laundry to the chores,todo_list_update,oos,todo_list_update,0.7342,clinc150,en
+get me my slow sounds,play_music,change_speed,change_speed,0.849,clinc150,en
+what exactly is my pin,pin_change,oos,oos,0.3614,clinc150,en
+make a reminder to pay my cable bill today,reminder_update,pay_bill,pay_bill,0.9946,clinc150,en
+tell time for another city: dallas,time,distance,distance,0.7881,clinc150,en
+what'd you say,repeat,oos,greeting,0.4503,clinc150,en
+how long does the average set of tire last before needing replacement,tire_change,food_last,food_last,0.8379,clinc150,en
+can i set up mobile deposits,oos,direct_deposit,direct_deposit,0.9983,clinc150,en
+can you help me plan a vacation,pto_request,oos,pto_request,0.6718,clinc150,en
+what kid of subjects do you excel in,what_can_i_ask_you,oos,what_can_i_ask_you,0.6968,clinc150,en
+what is the sum of eleven and ten,calculator,oos,calculator,0.6117,clinc150,en
+RF-620 buzdolabımın sıcaklık ayarı değişmiyor,refrigerator_issue,dishwasher_issue,dishwasher_issue,0.947,custom,tr
+turn to the voice of the woman,change_accent,oos,change_volume,0.5783,clinc150,en
+"i heard some woman say she was going to yerd me, what's that mean",definition,oos,definition,0.2523,clinc150,en
+seri numarasıyla garanti sorgulama nasıl yapılır,warranty_inquiry,technician_appointment,technician_appointment,0.359,custom,tr
+sorry i missed that,repeat,oos,repeat,0.4349,clinc150,en
+did i put grocery shopping on my todo list,todo_list,shopping_list,shopping_list,0.989,clinc150,en
+i need to use a timer,timer,change_accent,change_accent,0.925,clinc150,en
+what can i use to convert from centimeters to inches,measurement_conversion,oos,change_accent,0.4341,clinc150,en
+what do you do on off days,what_are_your_hobbies,oos,what_are_your_hobbies,0.3559,clinc150,en
+i'm feeling like a greek meal and need some suggestions,meal_suggestion,oos,meal_suggestion,0.553,clinc150,en
+how much interest is my nfcu accrueing,interest_rate,income,income,0.8065,clinc150,en
+quieter please,change_volume,oos,whisper_mode,0.6977,clinc150,en
+abort mission,cancel,oos,cancel,0.7131,clinc150,en
+recite the items i'm planning to purchase,shopping_list,oos,shopping_list_update,0.4198,clinc150,en
+is mr joes pizza available for a seating,how_busy,oos,restaurant_reviews,0.3975,clinc150,en
+x needs to be called by me,make_call,change_user_name,change_user_name,0.9939,clinc150,en
+how many minutes am i from texaco,distance,oos,calculator,0.4165,clinc150,en
+will only having five late payments really make my credit bad,improve_credit_score,oos,improve_credit_score,0.4113,clinc150,en
+when is the next payday i can look forward to,payday,next_holiday,next_holiday,0.824,clinc150,en
+how many teaspoons is one tablespoon,measurement_conversion,oos,oos,0.4728,clinc150,en
+how come my credit card isn't working,card_declined,oos,damaged_card,0.4724,clinc150,en
+please let's do it,yes,cancel,cancel,0.9939,clinc150,en
+is there a minimum payment i can make,min_payment,oos,pay_bill,0.5525,clinc150,en
+is it going to be much longer until i reach the bank,distance,oos,distance,0.4151,clinc150,en
+i'd rather call you gloria,change_ai_name,change_user_name,change_user_name,0.8917,clinc150,en
+i seem to have a purchase that i didn't make from olive garden on my account,report_fraud,oos,report_fraud,0.2319,clinc150,en
+how do i get downtown by foot,directions,oos,directions,0.7499,clinc150,en
+look up the current auto loan rate at chase bank,oos,interest_rate,interest_rate,0.9254,clinc150,en
+what's on my purchase list,shopping_list,oos,shopping_list,0.749,clinc150,en
+what were you supposed to remind me of,reminder,oos,how_old_are_you,0.4692,clinc150,en
+how do i adjust my credit limit,credit_limit_change,oos,credit_limit,0.4935,clinc150,en
+cross off grocery shopping from todo list,todo_list_update,shopping_list_update,shopping_list_update,0.9913,clinc150,en
+what time do i need to arrive to make it on time,oos,time,time,0.821,clinc150,en
+is my order on its way or what's going on,order_status,oos,oos,0.5894,clinc150,en
+what is the phone number of the car rental place,car_rental,oos,oos,0.6138,clinc150,en
+I'd like to book a technician visit,technician_appointment,oos,car_rental,0.6156,custom,en
+what is my payment going to be,income,oos,income,0.5327,clinc150,en
+this charge is bs,report_fraud,oos,oos,0.7543,clinc150,en
+how much pto is gone,pto_used,oos,pto_used,0.4261,clinc150,en
+you know me by what right now,user_name,oos,user_name,0.5222,clinc150,en
+make a purchase of doritos,order,oos,ingredients_list,0.5899,clinc150,en
+what were indians like 100 years ago,oos,how_old_are_you,how_old_are_you,0.8373,clinc150,en
+how much do i pay the irs,taxes,oos,taxes,0.595,clinc150,en
+how long do i have to wait to get my refund,oos,distance,distance,0.9523,clinc150,en
+how much can i use on my visa,credit_limit,oos,credit_limit,0.5386,clinc150,en
+i need to know the time it takes to get a new credit card sent to someone who lost theirs,replacement_card_duration,oos,replacement_card_duration,0.7374,clinc150,en
+that will be all have a nice day!,goodbye,oos,date,0.4115,clinc150,en
+what is the amount due on my visa,bill_balance,oos,bill_due,0.5633,clinc150,en
+are you my insubordinate,who_do_you_work_for,oos,current_location,0.2877,clinc150,en
+i need to track a package,order_status,oos,directions,0.3592,clinc150,en
+will you make sure ann and scott know my location,share_location,oos,share_location,0.7598,clinc150,en
+add mopping to the to do list,todo_list_update,oos,shopping_list_update,0.5536,clinc150,en
+how the bus moves,oos,directions,directions,0.8988,clinc150,en
+are visas required to go to cuba,international_visa,oos,international_visa,0.6287,clinc150,en
+i have a car payment that needs to be paid,pay_bill,bill_due,bill_due,0.7626,clinc150,en
+who should i talk to about the fact that i inadvertently split my card almost in half,damaged_card,oos,no,0.1197,clinc150,en
+do you know my phone's location,find_phone,current_location,current_location,0.8933,clinc150,en
+what kinds of things are you supposed to remind me of,reminder,oos,what_can_i_ask_you,0.3496,clinc150,en
+60 derece programı iki saatten fazla sürüyor normal mi,washing_machine_issue,oos,oos,0.8411,custom,tr
+tell fred that i don't have his guitar,text,oos,maybe,0.5041,clinc150,en
+"siri, place my amazon order",order,order_status,order_status,0.998,clinc150,en
+please clean the car windows,oos,smart_home,smart_home,0.9902,clinc150,en
+undecided,maybe,oos,cancel,0.4326,clinc150,en
+louder please,change_volume,oos,change_volume,0.7554,clinc150,en
+what is the year to date total on my vacation days,pto_balance,oos,pto_balance,0.4856,clinc150,en
+camasir makinasinin pompa sesi cok yuksek,washing_machine_issue,dishwasher_issue,dishwasher_issue,0.7418,custom,tr
+purchase grass seed from the store,order,cancel,cancel,0.96,clinc150,en
+what's my savings account interest,interest_rate,oos,interest_rate,0.5739,clinc150,en
+what could cause a hold on my savings account,account_blocked,oos,freeze_account,0.4959,clinc150,en
+i need you to cancel my reservation for 5 at red robin,cancel_reservation,oos,cancel_reservation,0.6984,clinc150,en
+i agree,yes,oos,maybe,0.5785,clinc150,en
+place my order alexa,order,order_status,order_status,0.997,clinc150,en
+is it six o clock yet,time,oos,oos,0.9259,clinc150,en
+i want you to cancel my reservation for 5 at red robin,cancel_reservation,oos,confirm_reservation,0.6306,clinc150,en
+i want to tell susan that the meeting has been cancelled,text,oos,technician_appointment,0.1976,clinc150,en
+can you speak louder,change_volume,change_speed,change_speed,0.9993,clinc150,en
+what subjects do you like,what_can_i_ask_you,what_are_your_hobbies,what_are_your_hobbies,0.8586,clinc150,en
+what is the la's time zone,timezone,oos,timezone,0.5418,clinc150,en
+what are my hours this week at work,oos,income,income,0.8277,clinc150,en
+is make a hair appointment on my todo list right now,todo_list,oos,todo_list_update,0.5623,clinc150,en
+i would like to know how many points have i earned with my credit card,rewards_balance,oos,rewards_balance,0.6636,clinc150,en
+"that's all i need, i'm going now",goodbye,oos,no,0.6137,clinc150,en
+"i want to bring my card on the texas trip in june, will it be expired by then",expiration_date,oos,expiration_date,0.4511,clinc150,en
+is there traffic on i-95 north to new york from philadelphia,traffic,oos,book_flight,0.4072,clinc150,en
+what's the timezone now in hiram,timezone,oos,time,0.5739,clinc150,en
+can you place an order for the olive oil i just finished,order,oos,order,0.6595,clinc150,en
+okay,yes,oos,food_last,0.7278,clinc150,en
+can you tell me about what time i should be arriving at the airport,distance,oos,flight_status,0.4805,clinc150,en
+find square root of 453,calculator,oos,calculator,0.5838,clinc150,en
+where do i see what interest my mortgage has,interest_rate,oos,order_status,0.3369,clinc150,en
+give me an eta on when i will arrive at my destination,distance,flight_status,flight_status,0.8778,clinc150,en
+how can i improve my golf swing,oos,improve_credit_score,improve_credit_score,0.9727,clinc150,en
+vacation request information,pto_request,pto_request_status,pto_request_status,0.9969,clinc150,en
+it could go either way,maybe,oos,maybe,0.402,clinc150,en
+i want to find new cyberpunk fiction books,oos,directions,directions,0.8457,clinc150,en
+i wanna know where the w2 is,w2,oos,w2,0.46,clinc150,en
+alert my bank of my travel to dubai for the dates april 14th through april 22nd,travel_notification,oos,travel_notification,0.6406,clinc150,en
+is everything ok today,greeting,oos,oos,0.3638,clinc150,en
+is it ok if i use some of my pto on may 24th to may 29th,pto_request,oos,calendar,0.2535,clinc150,en
+start the dishwasher,smart_home,oos,oos,0.9077,clinc150,en
+what day did i last take my car in,last_maintenance,oos,last_maintenance,0.5707,clinc150,en
+buzdolabında yiyecekler çabuk bozuluyor ısı yüksek gibi,refrigerator_issue,oos,oos,0.8341,custom,tr
+can you give me suggestions for a professional suit under $200,oos,meal_suggestion,meal_suggestion,0.7778,clinc150,en
+what's your bday,how_old_are_you,oos,how_old_are_you,0.5475,clinc150,en
+what the numerical number inside my bank accounts,balance,oos,oos,0.4791,clinc150,en
+i wanna know your maker,who_made_you,oos,change_speed,0.455,clinc150,en
+i wanna know my credit card's rewards balance,rewards_balance,oos,rewards_balance,0.6952,clinc150,en
+is the phone bill the same as last month,bill_balance,oos,bill_due,0.5246,clinc150,en
+what are the minutes needed to cook the meal,cook_time,oos,ingredients_list,0.6073,clinc150,en
+can you find out how to report a damaged card,damaged_card,oos,damaged_card,0.6016,clinc150,en
+can you wake me up at noon,alarm,oos,alarm,0.4276,clinc150,en
+you need to shut it,cancel,oos,cancel,0.4482,clinc150,en
+what day can i expect to receive payment on,payday,oos,payday,0.5817,clinc150,en
+do you know when my next check is coming,payday,next_holiday,next_holiday,0.8657,clinc150,en
+dial her up,make_call,oos,text,0.6272,clinc150,en
+see if there is a recipe to make a casserole without any dairy,oos,recipe,recipe,0.8984,clinc150,en
+do i have twinkies on the grocery list,shopping_list,todo_list,todo_list,0.9765,clinc150,en
+speak louder please,change_volume,change_speed,change_speed,0.9866,clinc150,en
+i've used the last can of tuna fish and need you to order a new case of it,order,oos,order,0.6574,clinc150,en
+what area did you come from,where_are_you_from,oos,how_old_are_you,0.3978,clinc150,en
+how much time is left until we get there,distance,oos,distance,0.3449,clinc150,en
+how do i use my card reward points for my next flight,redeem_rewards,oos,redeem_rewards,0.7401,clinc150,en
+can you cancel that request,cancel,oos,repeat,0.6554,clinc150,en
+can you fill in my credit card number on the screen,oos,redeem_rewards,redeem_rewards,0.8668,clinc150,en
+find out the next available date and time i can go to get my oil changed please,schedule_maintenance,oos,oil_change_when,0.4364,clinc150,en
+tell me what subjects you like,what_can_i_ask_you,oos,what_can_i_ask_you,0.6486,clinc150,en
+how about i call you sue,change_ai_name,oos,change_ai_name,0.6436,clinc150,en
+don't call me anything besides bailey,change_user_name,oos,change_user_name,0.5552,clinc150,en
+should i go to a car maintenance,schedule_maintenance,oos,jump_start,0.454,clinc150,en
+how can i get help for my mental health,oos,insurance_change,insurance_change,0.9769,clinc150,en
+çamaşırlar sabun köpüğüyle dolu çıkıyor durulamıyor,washing_machine_issue,dishwasher_issue,dishwasher_issue,0.7408,custom,tr
+add laundry detergent to the list,shopping_list_update,oos,shopping_list_update,0.6788,clinc150,en
+is there any meetings from 5 to 6 pm,meeting_schedule,schedule_meeting,schedule_meeting,0.8469,clinc150,en
+i don't remember buying this,report_fraud,oos,cancel,0.7049,clinc150,en
+what day are we in,date,oos,date,0.6932,clinc150,en
+what do you think about changing your name to heath,change_ai_name,oos,change_ai_name,0.5358,clinc150,en
+i gotta know how many points i have gotten with my debit card,rewards_balance,oos,redeem_rewards,0.4632,clinc150,en
+what's my current electric bill,oos,bill_balance,bill_balance,0.9783,clinc150,en
+i want to eat something from turkey,meal_suggestion,travel_suggestion,travel_suggestion,0.8219,clinc150,en
+how much do i owe visa,bill_balance,oos,bill_balance,0.4851,clinc150,en
+i want to hear my name,user_name,change_user_name,change_user_name,0.7938,clinc150,en
+can you assist me with finding my phone,find_phone,sync_device,sync_device,0.9914,clinc150,en
+can you see if paying garbage bill is on my todo list for this week,todo_list,oos,bill_balance,0.4351,clinc150,en
+can we please,yes,technician_appointment,technician_appointment,0.5147,clinc150,en
+show what i have spent things on,transactions,spending_history,spending_history,0.8348,clinc150,en
+how many holidays are there and when is the next one here,next_holiday,oos,next_holiday,0.7338,clinc150,en
+what's 47 times 83,calculator,oos,calculator,0.7299,clinc150,en
+which gas would be best,gas_type,oos,oos,0.9637,clinc150,en
+my bill shows a purchase from payless shoes but i didn't buy anything,report_fraud,oos,order,0.6547,clinc150,en
+can you tell me the date of my last check,payday,oos,how_old_are_you,0.4216,clinc150,en
+"today my electric bill will be paid, or should be",pay_bill,bill_due,bill_due,0.9702,clinc150,en
+show me some restaurants that have high reviews for eating out,restaurant_suggestion,oos,restaurant_reviews,0.7381,clinc150,en
+how long do i boil eggs,cook_time,oos,food_last,0.5791,clinc150,en
+check warranty status for serial number WM-8400-22391,warranty_inquiry,oos,oos,0.9016,custom,en
+turn on metallicas greatest hits,play_music,oos,oos,0.7876,clinc150,en
+what kind of animals do you own,do_you_have_pets,oos,do_you_have_pets,0.4959,clinc150,en
+please tell me how to find out when my rent is due,bill_due,oos,bill_due,0.6042,clinc150,en
+thai food suggestions,meal_suggestion,restaurant_suggestion,restaurant_suggestion,0.9954,clinc150,en
+give me some tips on building up my credit score,improve_credit_score,oos,credit_score,0.666,clinc150,en
+what is needed to cook lasagna,ingredients_list,oos,recipe,0.6991,clinc150,en
+"thanks for your help, goodbye!",goodbye,thank_you,thank_you,0.9989,clinc150,en
+is it safe to go to serbia,travel_alert,oos,travel_alert,0.6367,clinc150,en
+buzdolabının içinde plastik yanık kokusu var,refrigerator_issue,dishwasher_issue,dishwasher_issue,0.702,custom,tr
+what's going on in the world today,oos,weather,weather,0.8461,clinc150,en
+find out where i can by melamine dinner plates,oos,restaurant_suggestion,restaurant_suggestion,0.8874,clinc150,en
+i'm in the mood for slow songs and nothing else,play_music,oos,cancel,0.2141,clinc150,en
+what are my mastercard points good for,redeem_rewards,rewards_balance,rewards_balance,0.8137,clinc150,en
+can you recommend thai food,meal_suggestion,restaurant_suggestion,restaurant_suggestion,0.9989,clinc150,en
+i placed an order and i need it tracked,order_status,order,order,0.9822,clinc150,en
+how come my chase account has a hold on it,account_blocked,oos,freeze_account,0.5634,clinc150,en
+i need to up by noon,alarm,oos,change_user_name,0.6471,clinc150,en
+i'd like to start calling you friend,change_ai_name,oos,change_ai_name,0.6115,clinc150,en
+what is in a burrito recipe,recipe,oos,recipe,0.7541,clinc150,en
+what day is payday,payday,date,date,0.9567,clinc150,en
+cancel my reservation for bob at red robin,cancel_reservation,oos,cancel_reservation,0.5556,clinc150,en
+what kind of things to you like to outside of work,what_are_your_hobbies,oos,what_are_your_hobbies,0.7275,clinc150,en
 ignore call,oos,make_call,make_call,1.0,clinc150,en
-how many days on holiday do i have,pto_balance,oos,pto_balance,0.7448,clinc150,en
-can i used the same type of plug in z as i do in the us,plug_type,oos,plug_type,0.6847,clinc150,en
-does the state department say anything about traveling to haiti,travel_alert,oos,restaurant_reviews,0.8103,clinc150,en
-tell me all the things i need to buy to make pasta,ingredients_list,oos,ingredients_list,0.5824,clinc150,en
-drop some beats,play_music,oos,improve_credit_score,0.4405,clinc150,en
-so i get charged if i use my card in france,international_fees,oos,international_fees,0.652,clinc150,en
-what must i do today,todo_list,oos,meeting_schedule,0.5792,clinc150,en
-when should i remove my snow tires,oos,tire_change,tire_change,0.9173,clinc150,en
-please give me the time in tanzania at this moment,time,oos,time,0.6785,clinc150,en
-can you call the help desk line for my credit card company,replacement_card_duration,oos,oos,0.4275,clinc150,en
-"when does my card expire, the one ending in 1234",expiration_date,oos,replacement_card_duration,0.5492,clinc150,en
-find a credit mentoring service number for me please,oos,routing,routing,0.8937,clinc150,en
-i could not buy food using my card when i was in vietnam,card_declined,oos,card_declined,0.6724,clinc150,en
-i need a thai food suggestion,meal_suggestion,oos,restaurant_suggestion,0.5066,clinc150,en
-i need for you to get me the status of my american airlines flight,flight_status,oos,flight_status,0.6308,clinc150,en
-how do i sign up for a new allstatedplan,insurance_change,oos,oos,0.5221,clinc150,en
-did i remember to put oatmeal on my list,shopping_list,oos,todo_list,0.4997,clinc150,en
-is your voice from a human or is it synthesized,are_you_a_bot,oos,where_are_you_from,0.4625,clinc150,en
-please tell me how to go about reporting a lost card,report_lost_card,oos,report_lost_card,0.4176,clinc150,en
-go faster,change_speed,goodbye,goodbye,0.95,clinc150,en
-does z used the same plus as we do in the united states,plug_type,oos,oos,0.5266,clinc150,en
-how many minutes are involved in the preparation of curry,cook_time,oos,spelling,0.2722,clinc150,en
-how long does it take to get a divorce finalized,oos,distance,distance,0.8952,clinc150,en
-i want to convert kilos to pounds,measurement_conversion,oos,measurement_conversion,0.7826,clinc150,en
-define the meaning of life for me,meaning_of_life,oos,meaning_of_life,0.8142,clinc150,en
-has the market been up or down since the beginning of this year,oos,refrigerator_issue,refrigerator_issue,0.4382,clinc150,en
-can you tell me my apr on my credit card,apr,oos,apr,0.7123,clinc150,en
-can you tell me the traffic situation from philadelphia to the new jersey turnpike,traffic,oos,directions,0.7924,clinc150,en
-"denver's timezone is a mystery, i wonder where its located",timezone,oos,oos,0.5065,clinc150,en
-where can i satisfy my craving for french food in milwaukee,restaurant_suggestion,oos,translate,0.7049,clinc150,en
-unsure,maybe,tire_pressure,tire_pressure,0.979,clinc150,en
-please tell me what subjects you like,what_can_i_ask_you,oos,what_can_i_ask_you,0.7673,clinc150,en
-can you monitor my package's progress,order_status,oos,order_status,0.3568,clinc150,en
-i am grateful for the help,thank_you,oos,thank_you,0.753,clinc150,en
-what is the updated points that i earned with synovus card,rewards_balance,oos,rewards_balance,0.4238,clinc150,en
-what your numerical digit to display as your age,how_old_are_you,oos,who_do_you_work_for,0.5648,clinc150,en
-what are the rules for traveling with toothpaste,carry_on,oos,carry_on,0.7637,clinc150,en
-i need what i'm listening to right now to be put on my exercise playlist,update_playlist,oos,play_music,0.7914,clinc150,en
-what do you think about me calling you cora,change_ai_name,user_name,user_name,0.8884,clinc150,en
-how is ford's stock doing,oos,greeting,greeting,0.9922,clinc150,en
-what is amount of time it takes to get a new credit card i lost mine recently,replacement_card_duration,oos,replacement_card_duration,0.7628,clinc150,en
-how many calories does doing 20 situps burn,oos,calories,calories,0.9716,clinc150,en
-tell me what to call you,what_is_your_name,user_name,user_name,0.9659,clinc150,en
-please help me figure out how to set up a meeting,schedule_meeting,oos,schedule_meeting,0.7756,clinc150,en
-i'd like to speak in portuguese,change_language,oos,change_language,0.6408,clinc150,en
-i spent 34 dollars for 12 gallons of paint what is the average price for each gallon,calculator,oos,oos,0.4235,clinc150,en
-what veggies can i pair with mushrooms,oos,calculator,calculator,0.9588,clinc150,en
-would you understand me if i speak to you in navajo,change_language,oos,change_language,0.727,clinc150,en
-look up the conversion rate for the euro to dollar exchange,oos,exchange_rate,exchange_rate,1.0,clinc150,en
-i am traveling to paris soon and would like some suggestions of what to do and see,travel_suggestion,oos,travel_notification,0.3931,clinc150,en
-turn on top 20 country hits,play_music,oos,oos,0.636,clinc150,en
-"i have lost my card, what am i supposed to do",report_lost_card,oos,report_lost_card,0.8111,clinc150,en
-tell me about personal finance,oos,do_you_have_pets,do_you_have_pets,0.9306,clinc150,en
-i'd like for this person to know my location,share_location,current_location,current_location,0.998,clinc150,en
-do you have any information on how to open a new credit card,new_card,oos,new_card,0.6629,clinc150,en
-"what kind of traffic can i expect driving to newark, new jersey on i-95 from philadelphia at noon",traffic,oos,directions,0.4154,clinc150,en
-turn on my tunes,play_music,smart_home,smart_home,0.9703,clinc150,en
-who do i contact about updating my insurance,insurance_change,oos,insurance,0.3385,clinc150,en
-i would like thai food,meal_suggestion,oos,restaurant_suggestion,0.576,clinc150,en
-how do i apply do get myself a visa,new_card,oos,new_card,0.6663,clinc150,en
-change audio settings to the whisper option,whisper_mode,oos,reset_settings,0.4226,clinc150,en
-where is te lawrence,oos,text,text,0.9076,clinc150,en
-water pooling under the refrigerator,refrigerator_issue,warranty_inquiry,warranty_inquiry,0.3658,custom,en
-tell me the time in las vegas,time,oos,time,0.5122,clinc150,en
-dishwasher stops halfway through the program and won't resume,dishwasher_issue,refrigerator_issue,refrigerator_issue,0.5201,custom,en
-which subjects are you the most experienced with,what_can_i_ask_you,oos,oos,0.8068,clinc150,en
-i need to rent an suv in charlestown for the first week in june who do you suggest,car_rental,oos,car_rental,0.5005,clinc150,en
-"march 2nd through march 18th, i'm going to need a jeep in frankfort",car_rental,book_hotel,book_hotel,0.8569,clinc150,en
-show cody where i am,share_location,oos,share_location,0.7438,clinc150,en
-put in a request for cashing in credit points,redeem_rewards,oos,pto_request,0.5556,clinc150,en
-maybe it is,maybe,oos,maybe,0.4178,clinc150,en
-iterate over the items on my grocery list,shopping_list,oos,reminder,0.6609,clinc150,en
-are there meetings from 1 to 5 pm,meeting_schedule,schedule_meeting,schedule_meeting,0.9248,clinc150,en
-i need assistance with my current location,current_location,oos,share_location,0.5937,clinc150,en
-pull up some recommendations for places serving fish in maine,restaurant_suggestion,oos,travel_suggestion,0.8318,clinc150,en
-when will my new credit card arrive,expiration_date,replacement_card_duration,replacement_card_duration,0.9999,clinc150,en
-when is the expiration date for me discover,expiration_date,oos,date,0.5548,clinc150,en
-schedule an appointment with the credit counselor for tuesday,oos,calendar_update,calendar_update,0.9697,clinc150,en
-there seems to be an issue with my account,account_blocked,oos,report_fraud,0.603,clinc150,en
-that's correct,yes,oos,no,0.5827,clinc150,en
-i need to know traffic patterns heading to the george washington bridge from manhattan,traffic,oos,traffic,0.7692,clinc150,en
-yup,yes,oos,yes,0.3452,clinc150,en
-today is which day of the week,date,oos,date,0.6519,clinc150,en
-turn up the oven temperature to 350,smart_home,oos,smart_home,0.6599,clinc150,en
-i'd like to use you using russian,change_language,oos,change_accent,0.5501,clinc150,en
-what price is my credit card and my water bill at,bill_balance,oos,bill_due,0.7982,clinc150,en
-have i gotten around to adding the bike ride to my calendar yet,calendar,oos,calendar_update,0.3258,clinc150,en
-i would you like to learn something interesting about bees,fun_fact,oos,fun_fact,0.8106,clinc150,en
-how much money can i transfer today,transfer,oos,transfer,0.6163,clinc150,en
-find out how many whales are currently in monterey bay,oos,spelling,spelling,0.9936,clinc150,en
-how much do i have to pay this month,bill_balance,oos,bill_balance,0.7433,clinc150,en
-what is the shipping time for my card,replacement_card_duration,oos,damaged_card,0.3725,clinc150,en
-could you hit next,next_song,oos,oos,0.6322,clinc150,en
-have i recently had an oil change,last_maintenance,oos,last_maintenance,0.6901,clinc150,en
-ignore the previous command,cancel,oos,oos,0.9555,clinc150,en
-remove grocery shopping from todo list,todo_list_update,shopping_list_update,shopping_list_update,0.9499,clinc150,en
-how expensive is my internet,bill_balance,oos,oos,0.9444,clinc150,en
-i need you to order a new pair of eyeglasses for me,oos,order,order,0.9644,clinc150,en
-is the breakfast place full in the mornings,how_busy,oos,oos,0.9646,clinc150,en
-tell me what my wells fargo credit card apr is,apr,oos,apr,0.7586,clinc150,en
-"what will traffic be like nearest the george washington bridge, new york",traffic,oos,traffic,0.7568,clinc150,en
-would you be able to freeze my bank account,freeze_account,account_blocked,account_blocked,0.881,clinc150,en
-where is my package en route,order_status,oos,oos,0.425,clinc150,en
-that might be the case,maybe,yes,yes,0.976,clinc150,en
-that has to be false,no,yes,yes,0.947,clinc150,en
-they sold out of tacos at the buffet,restaurant_reviews,oos,restaurant_reviews,0.6448,clinc150,en
-i didn't understand you,repeat,oos,repeat,0.4716,clinc150,en
-my answer to your question is yes,yes,oos,yes,0.6924,clinc150,en
-is milk one of the things i need to buy,shopping_list,oos,order,0.6152,clinc150,en
-what were you just saying,repeat,oos,repeat,0.7869,clinc150,en
-does bank of america give credit cards to people like me,new_card,oos,new_card,0.6389,clinc150,en
-is my credit score over 700 yet,credit_score,improve_credit_score,improve_credit_score,0.9116,clinc150,en
-what's the best way to get a mastercard,new_card,directions,directions,0.9483,clinc150,en
-can you explain to me how i might boost my credit score,improve_credit_score,oos,improve_credit_score,0.7259,clinc150,en
-how can i claim my rewards for my visa card,redeem_rewards,oos,rewards_balance,0.7377,clinc150,en
-does cleveland have any good places that serve clams,restaurant_suggestion,oos,restaurant_suggestion,0.8292,clinc150,en
-I want to schedule annual maintenance for my fridge,technician_appointment,schedule_maintenance,schedule_maintenance,0.9287,custom,en
-i need to get a hotel in phoenix near chase field from january 4th to the 8th,book_hotel,oos,book_hotel,0.6518,clinc150,en
-retrieve events on my calendar,calendar,oos,calendar,0.7507,clinc150,en
-wash windshield,oos,washing_machine_issue,washing_machine_issue,0.8557,clinc150,en
-is my apr rate above average,apr,oos,apr,0.7519,clinc150,en
-"ai pick up the dice, then drop it",roll_dice,oos,cancel,0.5617,clinc150,en
-vacation request please,pto_request,pto_request_status,pto_request_status,0.997,clinc150,en
-what am i gonna need for sushi,ingredients_list,oos,restaurant_suggestion,0.6883,clinc150,en
-name unusual facts about the circus,fun_fact,oos,fun_fact,0.3443,clinc150,en
-take grocery shopping off my todo list,todo_list_update,shopping_list_update,shopping_list_update,0.9554,clinc150,en
-what will i get paid this year,income,payday,payday,0.9504,clinc150,en
-what day will i earn my payment from work,payday,oos,income,0.6702,clinc150,en
-are we allowed to wash our cars during the drought,oos,washing_machine_issue,washing_machine_issue,0.4767,clinc150,en
-"i need to know what traffic looks like nearest the smithsonian institute in washington, dc for the next hour",traffic,oos,oos,0.4175,clinc150,en
-can i use direct deposit for my tax refund,oos,direct_deposit,direct_deposit,0.9991,clinc150,en
-what is my minimum payment and when is it due,min_payment,bill_due,bill_due,0.9289,clinc150,en
-what's the name you use for me,user_name,oos,user_name,0.815,clinc150,en
-what other countries speak the english language,oos,change_language,change_language,0.9956,clinc150,en
-the pin number to my card has been forgotten,pin_change,oos,account_blocked,0.6184,clinc150,en
-don't forget to tell me to call my mother,reminder_update,make_call,make_call,0.931,clinc150,en
-thanks for the reply,thank_you,oos,repeat,0.7229,clinc150,en
-signing off,goodbye,pto_request,pto_request,0.8918,clinc150,en
-randevu tarihimi öne çekmek istiyorum,technician_appointment,refrigerator_issue,refrigerator_issue,0.6548,custom,tr
-bulaşık makinesi için evime teknik servis gönderebilir misiniz,technician_appointment,oos,dishwasher_issue,0.2856,custom,tr
-am i supposed to buy milk,shopping_list,oos,shopping_list_update,0.596,clinc150,en
-what day of the month do i have to pay my mortgage,bill_due,oos,bill_due,0.5554,clinc150,en
-i want to eat at seven in the restaurant for two people,restaurant_reservation,oos,restaurant_suggestion,0.6887,clinc150,en
-i want to know if your a bot,are_you_a_bot,oos,change_ai_name,0.5177,clinc150,en
-time to order and receive a new credit card,replacement_card_duration,oos,new_card,0.6116,clinc150,en
-tell me a joke about the topic of mice,tell_joke,oos,fun_fact,0.7584,clinc150,en
-bulaşık makinemi yeni taşıdım şimdi hiç su basmıyor,dishwasher_issue,refrigerator_issue,refrigerator_issue,0.672,custom,tr
-i lost all my stuff that i had packed,lost_luggage,oos,lost_luggage,0.5591,clinc150,en
-how could i replace my oil and what form of oil ought to i take advantage of,oil_change_how,oos,oil_change_how,0.723,clinc150,en
-which vaccines are meant for cuba,vaccines,oos,oos,0.465,clinc150,en
-"could you call me a different name, please",change_user_name,oos,change_user_name,0.4227,clinc150,en
-tell me all updates about my order's status,order_status,oos,pto_request_status,0.6052,clinc150,en
-find out where parking is close to the stadium,oos,directions,directions,0.9957,clinc150,en
-i do not want my phone synced anymore,sync_device,oos,sync_device,0.8363,clinc150,en
-how much of a refund will i get this year,oos,income,income,0.8728,clinc150,en
-makine su alıyor ama hemen geri boşaltıyor sürekli böyle,washing_machine_issue,refrigerator_issue,refrigerator_issue,0.4337,custom,tr
-you have yo go to school on calendar,calendar,oos,calendar_update,0.7266,clinc150,en
-i really want to know my todo list again thanks,todo_list,oos,todo_list,0.5317,clinc150,en
-can you tell me what hobbies the ai has,what_are_your_hobbies,oos,who_made_you,0.33,clinc150,en
-"alexa, connect to the phone now",sync_device,oos,sync_device,0.8026,clinc150,en
-"when does the warranty period start, purchase date or installation date",warranty_inquiry,oos,oos,0.7732,custom,en
-you’re the best thanks so much!,thank_you,oos,how_old_are_you,0.2062,clinc150,en
-what do you think i'm called,user_name,oos,user_name,0.7749,clinc150,en
-where did mandarin originate from,oos,where_are_you_from,where_are_you_from,0.9922,clinc150,en
-have i added my doctor's appointment to my calendar,calendar,calendar_update,calendar_update,0.9947,clinc150,en
-what does a flashing yellow light mean,oos,definition,definition,0.8579,clinc150,en
-what's my checking look like,balance,income,income,0.9378,clinc150,en
-what's the phone number for my credit card company,replacement_card_duration,oos,oos,0.5798,clinc150,en
-the detergent pod doesn't dissolve completely,dishwasher_issue,washing_machine_issue,washing_machine_issue,0.5988,custom,en
-what types of gas can i get for this car,gas_type,oos,mpg,0.5415,clinc150,en
-skip this track,next_song,oos,what_song,0.8299,clinc150,en
-"order the new book titled ""ghost work""",oos,technician_appointment,technician_appointment,0.6439,clinc150,en
-let's hear a joke from you please,tell_joke,oos,tell_joke,0.6657,clinc150,en
-is the marathon on friday added to my calendar,calendar,calendar_update,calendar_update,0.9945,clinc150,en
-throw a coin in the air,flip_coin,oos,flip_coin,0.7416,clinc150,en
-please go on amazon so i can buy bluetooth speakers,order,oos,order,0.604,clinc150,en
-please give me the name of a few good options for places to eat dinner tonight,restaurant_suggestion,oos,restaurant_suggestion,0.7962,clinc150,en
-it is very much false,no,oos,weather,0.7345,clinc150,en
-my washer shows error F21 and stops mid-cycle,washing_machine_issue,refrigerator_issue,refrigerator_issue,0.5716,custom,en
-has ko gone up or down,oos,refrigerator_issue,refrigerator_issue,0.6875,clinc150,en
-can i reach seattle with this amount of fuel,gas,oos,gas,0.6446,clinc150,en
-what time is it in phoenix,timezone,time,time,0.9997,clinc150,en
-turn on the microwave for 3 minutes,smart_home,oos,timer,0.5372,clinc150,en
-i was in thailand and i could not use my card to buy snacks,card_declined,damaged_card,damaged_card,0.8904,clinc150,en
-do you know what company were you designed by,who_made_you,oos,who_made_you,0.8232,clinc150,en
-can you tell me what you are called,what_is_your_name,oos,what_is_your_name,0.7088,clinc150,en
-i think your a bot,are_you_a_bot,oos,are_you_a_bot,0.7674,clinc150,en
-what do i do to get a visa card,new_card,oos,international_visa,0.8049,clinc150,en
-is my meeting with frank on my calendar,calendar,meeting_schedule,meeting_schedule,0.9912,clinc150,en
-it is damaging to my credit score if i miss one credit card payment,improve_credit_score,oos,improve_credit_score,0.6388,clinc150,en
-how many days milk can be preserved,food_last,oos,calories,0.7942,clinc150,en
-"if i wanted to spend the lowest for my electric bill, then how much would it be",min_payment,oos,bill_balance,0.7388,clinc150,en
-who's your boss,who_do_you_work_for,oos,who_do_you_work_for,0.8243,clinc150,en
-ai answer my questions with my name first which is deb,change_user_name,oos,user_name,0.6438,clinc150,en
-can you name the type of pets you have,do_you_have_pets,oos,what_is_your_name,0.6605,clinc150,en
-what do you engage in during your free time,what_are_your_hobbies,oos,what_are_your_hobbies,0.8174,clinc150,en
-when will i arrive at hy-vee,distance,flight_status,flight_status,0.918,clinc150,en
-not so loud,change_volume,oos,whisper_mode,0.553,clinc150,en
-i need to get the interest rate of my savings account,interest_rate,oos,interest_rate,0.8323,clinc150,en
-that is incorrect,no,yes,yes,0.9771,clinc150,en
-what are the words to the chorus for this song,oos,what_song,what_song,0.9883,clinc150,en
-what is my credit max,credit_limit,oos,credit_score,0.8349,clinc150,en
-repeat what the weather will be like,transfer,weather,weather,0.9987,clinc150,en
-i need to know the price of my car payment and insurance please,bill_balance,oos,insurance_change,0.4811,clinc150,en
-go and check the fridge,oos,food_last,food_last,0.9648,clinc150,en
-i want to know how you are doing,greeting,oos,what_is_your_name,0.5042,clinc150,en
-did i stick to my dinner budget,spending_history,oos,oos,0.3231,clinc150,en
-"""i'll be travelling from lax and headed to phl for 120 on the 10th of may",book_flight,oos,travel_notification,0.7409,clinc150,en
-how do you get a safe deposit box,oos,direct_deposit,direct_deposit,0.8744,clinc150,en
-what is the most time i can keep a burrito frozen for before it's no good to eat,food_last,oos,food_last,0.835,clinc150,en
-can i bring perfume on the plane or what is the size limit,carry_on,oos,oos,0.5318,clinc150,en
-how long before i can eat at chic fil a,how_busy,oos,cook_time,0.8319,clinc150,en
-prioritize to the settings you started with,reset_settings,oos,reset_settings,0.624,clinc150,en
-dishwasher keeps beeping and the lights are flashing,dishwasher_issue,refrigerator_issue,refrigerator_issue,0.6456,custom,en
-what do food critics say about gramercy tavern,restaurant_reviews,oos,restaurant_reviews,0.3438,clinc150,en
-can you put the car in fuel efficient mode,oos,gas_type,gas_type,0.9449,clinc150,en
-block my bank of america immdediately,freeze_account,account_blocked,account_blocked,0.8483,clinc150,en
-"i think all my bills are paid, but can you double check",bill_balance,oos,bill_balance,0.1836,clinc150,en
-tabletli program bitince deterjan erimemiş halde kalıyor,dishwasher_issue,refrigerator_issue,refrigerator_issue,0.835,custom,tr
-how many stars does brasserie les halles have,restaurant_reviews,oos,oos,0.5453,clinc150,en
-what's the apr on my savings account,interest_rate,oos,balance,0.5971,clinc150,en
-i would like to know the mpg of my car,mpg,oos,mpg,0.8263,clinc150,en
-what is the procedure for signing up for a new allstate plan,insurance_change,oos,insurance_change,0.7886,clinc150,en
-what's your designation,user_name,what_is_your_name,what_is_your_name,0.9702,clinc150,en
-can you please remind me of the items that i made note of to not forget,reminder,oos,reminder,0.6687,clinc150,en
-what are my coffers at,balance,oos,oos,0.4848,clinc150,en
-do you take your orders from me,who_do_you_work_for,oos,where_are_you_from,0.8148,clinc150,en
-i'd like to start calling you lover,change_ai_name,oos,reminder_update,0.319,clinc150,en
-my electric bill should be paid today,pay_bill,bill_due,bill_due,0.9725,clinc150,en
-what's the answer to it all,meaning_of_life,oos,weather,0.2803,clinc150,en
-"that was a mistake, undo that",cancel,oos,yes,0.6556,clinc150,en
+how many days on holiday do i have,pto_balance,next_holiday,next_holiday,0.8507,clinc150,en
+how is gramercy tavern rated,restaurant_reviews,oos,oos,0.8069,clinc150,en
+does the state department say anything about traveling to haiti,travel_alert,oos,travel_alert,0.2211,clinc150,en
+tell me all the things i need to buy to make pasta,ingredients_list,oos,ingredients_list,0.314,clinc150,en
+drop some beats,play_music,oos,oos,0.88,clinc150,en
+take work from my calendar for may 7th,calendar_update,oos,calendar,0.6475,clinc150,en
+what must i do today,todo_list,oos,todo_list,0.3326,clinc150,en
+what do you do if you can't stop vomiting,oos,what_can_i_ask_you,what_can_i_ask_you,0.8893,clinc150,en
+can you call the help desk line for my credit card company,replacement_card_duration,oos,damaged_card,0.35,clinc150,en
+i could not buy food using my card when i was in vietnam,card_declined,oos,international_fees,0.3606,clinc150,en
+i need to know the calorie content of spaghetti,calories,oos,calories,0.5109,clinc150,en
+i need for you to get me the status of my american airlines flight,flight_status,oos,flight_status,0.7141,clinc150,en
+how do i sign up for a new allstatedplan,insurance_change,oos,oos,0.5312,clinc150,en
+did i remember to put oatmeal on my list,shopping_list,todo_list,todo_list,0.8159,clinc150,en
+is your voice from a human or is it synthesized,are_you_a_bot,oos,who_made_you,0.3747,clinc150,en
+please tell me how to go about reporting a lost card,report_lost_card,oos,report_lost_card,0.6917,clinc150,en
+where should i look for my credit card expiration day,expiration_date,oos,expiration_date,0.6796,clinc150,en
+go faster,change_speed,goodbye,goodbye,0.8464,clinc150,en
+does z used the same plus as we do in the united states,plug_type,oos,oos,0.8208,clinc150,en
+how many minutes are involved in the preparation of curry,cook_time,oos,spelling,0.5733,clinc150,en
+how long does it take to get a divorce finalized,oos,distance,distance,0.9468,clinc150,en
+can you tell me the traffic situation from philadelphia to the new jersey turnpike,traffic,directions,directions,0.896,clinc150,en
+"denver's timezone is a mystery, i wonder where its located",timezone,oos,oos,0.8145,clinc150,en
+where can i satisfy my craving for french food in milwaukee,restaurant_suggestion,oos,restaurant_suggestion,0.4789,clinc150,en
+unsure,maybe,tire_pressure,tire_pressure,0.9551,clinc150,en
+please tell me what subjects you like,what_can_i_ask_you,oos,what_can_i_ask_you,0.4897,clinc150,en
+can you monitor my package's progress,order_status,oos,order_status,0.6579,clinc150,en
+what is the updated points that i earned with synovus card,rewards_balance,oos,rewards_balance,0.4208,clinc150,en
+what should i take for a cold,oos,cook_time,cook_time,0.8187,clinc150,en
+cancel event scheduled for this afternoon,calendar_update,oos,calendar_update,0.7113,clinc150,en
+what is the largest transaction i have made on video games this month,transactions,oos,transactions,0.7487,clinc150,en
+please identify the song we're currently listening to,what_song,oos,what_song,0.6876,clinc150,en
+thanks for trying,thank_you,goodbye,goodbye,0.8643,clinc150,en
+i need this song on my meditation playlist,update_playlist,oos,update_playlist,0.3292,clinc150,en
+what your numerical digit to display as your age,how_old_are_you,oos,who_made_you,0.6515,clinc150,en
+what are the rules for traveling with toothpaste,carry_on,oos,carry_on,0.7466,clinc150,en
+i need what i'm listening to right now to be put on my exercise playlist,update_playlist,oos,update_playlist,0.4585,clinc150,en
+what do you think about me calling you cora,change_ai_name,oos,user_name,0.6491,clinc150,en
+how is ford's stock doing,oos,greeting,greeting,0.9946,clinc150,en
+what is amount of time it takes to get a new credit card i lost mine recently,replacement_card_duration,oos,replacement_card_duration,0.4527,clinc150,en
+can you cancel improv class from my calendar for may 7th,calendar_update,oos,calendar,0.736,clinc150,en
+how many calories does doing 20 situps burn,oos,calories,calories,0.9447,clinc150,en
+where were you processed,where_are_you_from,oos,where_are_you_from,0.7268,clinc150,en
+who is your job with,who_do_you_work_for,oos,who_do_you_work_for,0.5796,clinc150,en
+tell me what to call you,what_is_your_name,user_name,user_name,0.9079,clinc150,en
+i'd like to speak in portuguese,change_language,change_accent,change_accent,0.9113,clinc150,en
+i spent 34 dollars for 12 gallons of paint what is the average price for each gallon,calculator,oos,oos,0.3991,clinc150,en
+what veggies can i pair with mushrooms,oos,calculator,calculator,0.8467,clinc150,en
+would you understand me if i speak to you in navajo,change_language,translate,translate,0.7705,clinc150,en
+look up the conversion rate for the euro to dollar exchange,oos,exchange_rate,exchange_rate,0.9999,clinc150,en
+i am traveling to paris soon and would like some suggestions of what to do and see,travel_suggestion,vaccines,vaccines,0.8552,clinc150,en
+turn on top 20 country hits,play_music,oos,oos,0.6974,clinc150,en
+tell me about personal finance,oos,do_you_have_pets,do_you_have_pets,0.9247,clinc150,en
+i'd like for this person to know my location,share_location,current_location,current_location,0.9856,clinc150,en
+what's the meaning of naff,definition,oos,meaning_of_life,0.5479,clinc150,en
+do you have any information on how to open a new credit card,new_card,oos,new_card,0.4364,clinc150,en
+does cutting down the rain forest really add to global warming,oos,dishwasher_issue,dishwasher_issue,0.8354,clinc150,en
+"what kind of traffic can i expect driving to newark, new jersey on i-95 from philadelphia at noon",traffic,oos,directions,0.4368,clinc150,en
+turn on my tunes,play_music,oos,smart_home,0.7503,clinc150,en
+who do i contact about updating my insurance,insurance_change,oos,insurance,0.6355,clinc150,en
+i would like thai food,meal_suggestion,oos,meal_suggestion,0.6873,clinc150,en
+what's the more secure bank vault,oos,order_checks,order_checks,0.8001,clinc150,en
+how do i apply do get myself a visa,new_card,oos,international_visa,0.6651,clinc150,en
+change audio settings to the whisper option,whisper_mode,oos,reset_settings,0.7441,clinc150,en
+water pooling under the refrigerator,refrigerator_issue,dishwasher_issue,dishwasher_issue,0.8688,custom,en
+which subjects are you the most experienced with,what_can_i_ask_you,oos,oos,0.378,clinc150,en
+i need to rent an suv in charlestown for the first week in june who do you suggest,car_rental,oos,car_rental,0.7271,clinc150,en
+"march 2nd through march 18th, i'm going to need a jeep in frankfort",car_rental,book_hotel,book_hotel,0.9742,clinc150,en
+show cody where i am,share_location,oos,share_location,0.6672,clinc150,en
+put in a request for cashing in credit points,redeem_rewards,oos,redeem_rewards,0.5577,clinc150,en
+maybe it is,maybe,oos,maybe,0.6278,clinc150,en
+iterate over the items on my grocery list,shopping_list,oos,todo_list,0.708,clinc150,en
+are there meetings from 1 to 5 pm,meeting_schedule,schedule_meeting,schedule_meeting,0.9846,clinc150,en
+no frost buzdolabım karlanma yapıyor,refrigerator_issue,dishwasher_issue,dishwasher_issue,0.7731,custom,tr
+pull up some recommendations for places serving fish in maine,restaurant_suggestion,oos,travel_suggestion,0.5721,clinc150,en
+buzdolabının sebzeliği nem yapıyor sebzeler çürüyor,refrigerator_issue,dishwasher_issue,dishwasher_issue,0.7879,custom,tr
+when will my new credit card arrive,expiration_date,replacement_card_duration,replacement_card_duration,0.9975,clinc150,en
+when is the expiration date for me discover,expiration_date,oos,expiration_date,0.755,clinc150,en
+schedule an appointment with the credit counselor for tuesday,oos,technician_appointment,technician_appointment,0.5768,clinc150,en
+there seems to be an issue with my account,account_blocked,oos,report_fraud,0.6643,clinc150,en
+that's correct,yes,no,no,0.8442,clinc150,en
+i need to know traffic patterns heading to the george washington bridge from manhattan,traffic,oos,directions,0.3619,clinc150,en
+absolutely,yes,oos,yes,0.4816,clinc150,en
+yup,yes,oos,oos,0.6186,clinc150,en
+today is which day of the week,date,oos,date,0.6066,clinc150,en
+i don't need mowing the lawn on my to do list anymore,todo_list_update,oos,todo_list_update,0.7576,clinc150,en
+can i move some money around,transfer,oos,transfer,0.6526,clinc150,en
+i'd like to use you using russian,change_language,change_accent,change_accent,0.8751,clinc150,en
+what price is my credit card and my water bill at,bill_balance,oos,bill_due,0.4267,clinc150,en
+is vacation a go,pto_request_status,oos,pto_request,0.5227,clinc150,en
+have i gotten around to adding the bike ride to my calendar yet,calendar,oos,calendar_update,0.3568,clinc150,en
+can you enable subtitles,oos,what_can_i_ask_you,what_can_i_ask_you,0.7689,clinc150,en
+find out how many whales are currently in monterey bay,oos,spelling,spelling,0.8491,clinc150,en
+how much do i have to pay this month,bill_balance,oos,bill_balance,0.4507,clinc150,en
+what is the shipping time for my card,replacement_card_duration,oos,damaged_card,0.2377,clinc150,en
+could you hit next,next_song,next_holiday,next_holiday,0.8449,clinc150,en
+have i recently had an oil change,last_maintenance,oos,last_maintenance,0.6775,clinc150,en
+ignore the previous command,cancel,oos,oos,0.7818,clinc150,en
+remove grocery shopping from todo list,todo_list_update,shopping_list_update,shopping_list_update,0.9979,clinc150,en
+i need the time zone for la,timezone,oos,cook_time,0.5268,clinc150,en
+how expensive is my internet,bill_balance,oos,oos,0.8681,clinc150,en
+you can vacuuming of my todo list,todo_list_update,oos,todo_list_update,0.6202,clinc150,en
+i need you to order a new pair of eyeglasses for me,oos,order,order,0.998,clinc150,en
+is the breakfast place full in the mornings,how_busy,oos,oos,0.7973,clinc150,en
+"what will traffic be like nearest the george washington bridge, new york",traffic,oos,traffic,0.6009,clinc150,en
+would you be able to freeze my bank account,freeze_account,oos,freeze_account,0.5748,clinc150,en
+"i need to order some new checks, i'm all out of them",order_checks,oos,order,0.614,clinc150,en
+where is my package en route,order_status,oos,oos,0.8837,clinc150,en
+that might be the case,maybe,no,no,0.8812,clinc150,en
+they sold out of tacos at the buffet,restaurant_reviews,oos,restaurant_reviews,0.5477,clinc150,en
+i really need to check my rewards for my credit card,rewards_balance,oos,rewards_balance,0.7564,clinc150,en
+i didn't understand you,repeat,oos,repeat,0.6892,clinc150,en
+my answer to your question is yes,yes,oos,thank_you,0.5651,clinc150,en
+is milk one of the things i need to buy,shopping_list,ingredient_substitution,ingredient_substitution,0.9211,clinc150,en
+does bank of america give credit cards to people like me,new_card,oos,new_card,0.5407,clinc150,en
+is my credit score over 700 yet,credit_score,oos,improve_credit_score,0.726,clinc150,en
+please activate a wireless hotspot so i can use the internet,oos,ingredient_substitution,ingredient_substitution,0.7665,clinc150,en
+what's the best way to get a mastercard,new_card,oos,jump_start,0.5221,clinc150,en
+can you explain to me how i might boost my credit score,improve_credit_score,oos,credit_score,0.5889,clinc150,en
+how can i claim my rewards for my visa card,redeem_rewards,oos,redeem_rewards,0.7591,clinc150,en
+teknisyenin telefon numarasını öğrenebilir miyim,technician_appointment,oos,oos,0.8557,custom,tr
+please spell check my resume,oos,smart_home,smart_home,0.9638,clinc150,en
+would you tell me how the ai is doing,greeting,oos,greeting,0.5226,clinc150,en
+I want to schedule annual maintenance for my fridge,technician_appointment,oos,schedule_maintenance,0.4416,custom,en
+are there cameras hidden in stop lights,oos,smart_home,smart_home,0.8043,clinc150,en
+what is the next thing i should do if i lost my luggage,lost_luggage,oos,lost_luggage,0.7081,clinc150,en
+wash windshield,oos,dishwasher_issue,dishwasher_issue,0.9135,clinc150,en
+is my apr rate above average,apr,oos,apr,0.5799,clinc150,en
+"ai pick up the dice, then drop it",roll_dice,oos,cancel,0.3418,clinc150,en
+vacation request please,pto_request,oos,pto_request_status,0.6473,clinc150,en
+what am i gonna need for sushi,ingredients_list,meal_suggestion,meal_suggestion,0.8993,clinc150,en
+take grocery shopping off my todo list,todo_list_update,shopping_list_update,shopping_list_update,0.9809,clinc150,en
+what will i get paid this year,income,payday,payday,0.906,clinc150,en
+what day will i earn my payment from work,payday,oos,income,0.6775,clinc150,en
+refresh my memory about what items i want to remember,reminder,oos,reminder,0.5436,clinc150,en
+the intake of calories it it bad,calories,oos,calories,0.7268,clinc150,en
+clear my calendar for may 3rd,calendar_update,calendar,calendar,0.8699,clinc150,en
+bye bye then,goodbye,oos,goodbye,0.4675,clinc150,en
+are we allowed to wash our cars during the drought,oos,dishwasher_issue,dishwasher_issue,0.485,clinc150,en
+"i need to know what traffic looks like nearest the smithsonian institute in washington, dc for the next hour",traffic,oos,traffic,0.4788,clinc150,en
+can i use direct deposit for my tax refund,oos,direct_deposit,direct_deposit,0.9993,clinc150,en
+what is my minimum payment and when is it due,min_payment,bill_due,bill_due,0.9991,clinc150,en
+sure,yes,maybe,maybe,0.9456,clinc150,en
+i'm out of all my checks can i get some new ones,order_checks,oos,order_checks,0.6628,clinc150,en
+the bus moves with tyre,oos,directions,directions,0.8422,clinc150,en
+"if i lost my luggage, what should i do next",lost_luggage,oos,lost_luggage,0.6643,clinc150,en
+what other countries speak the english language,oos,change_language,change_language,0.9927,clinc150,en
+the pin number to my card has been forgotten,pin_change,oos,pin_change,0.5594,clinc150,en
+don't forget to tell me to call my mother,reminder_update,oos,make_call,0.6726,clinc150,en
+thanks for the reply,thank_you,repeat,repeat,0.9679,clinc150,en
+signing off,goodbye,pto_request_status,pto_request_status,0.985,clinc150,en
+bulaşık makinesi için evime teknik servis gönderebilir misiniz,technician_appointment,dishwasher_issue,dishwasher_issue,0.7111,custom,tr
+am i supposed to buy milk,shopping_list,shopping_list_update,shopping_list_update,0.9622,clinc150,en
+i want to eat at seven in the restaurant for two people,restaurant_reservation,oos,restaurant_reservation,0.5903,clinc150,en
+i want to know if your a bot,are_you_a_bot,oos,change_ai_name,0.2116,clinc150,en
+what would be the best way to deal with lost luggage,lost_luggage,oos,lost_luggage,0.5885,clinc150,en
+time to order and receive a new credit card,replacement_card_duration,oos,new_card,0.7411,clinc150,en
+tell me a joke about the topic of mice,tell_joke,oos,tell_joke,0.6772,clinc150,en
+i lost all my stuff that i had packed,lost_luggage,oos,thank_you,0.2748,clinc150,en
+how could i replace my oil and what form of oil ought to i take advantage of,oil_change_how,oos,oil_change_how,0.4005,clinc150,en
+which vaccines are meant for cuba,vaccines,oos,vaccines,0.3705,clinc150,en
+tell me all updates about my order's status,order_status,oos,order_status,0.6376,clinc150,en
+find out where parking is close to the stadium,oos,directions,directions,0.9819,clinc150,en
+makine su alıyor ama hemen geri boşaltıyor sürekli böyle,washing_machine_issue,dishwasher_issue,dishwasher_issue,0.7472,custom,tr
+you have yo go to school on calendar,calendar,oos,meeting_schedule,0.4499,clinc150,en
+what could help me locate myself,current_location,oos,current_location,0.5562,clinc150,en
+can you tell me what hobbies the ai has,what_are_your_hobbies,oos,who_made_you,0.4486,clinc150,en
+"when does the warranty period start, purchase date or installation date",warranty_inquiry,oos,food_last,0.5353,custom,en
+order all items on my shopping list,order,oos,shopping_list,0.7075,clinc150,en
+have i added my doctor's appointment to my calendar,calendar,calendar_update,calendar_update,0.9092,clinc150,en
+"can you check what the problem with my account is, it seems to b e blocked",account_blocked,oos,account_blocked,0.6685,clinc150,en
+what's my checking look like,balance,income,income,0.9144,clinc150,en
+report outage to my electric provider,oos,pay_bill,pay_bill,0.8997,clinc150,en
+i wanna know how many points have i earned with my credit card,rewards_balance,oos,rewards_balance,0.7189,clinc150,en
+what's the phone number for my credit card company,replacement_card_duration,oos,oos,0.8801,clinc150,en
+what types of gas can i get for this car,gas_type,oos,mpg,0.5096,clinc150,en
+"order the new book titled ""ghost work""",oos,technician_appointment,technician_appointment,0.5395,clinc150,en
+find out how to deodorize a car,oos,car_rental,car_rental,0.777,clinc150,en
+is the marathon on friday added to my calendar,calendar,calendar_update,calendar_update,0.9155,clinc150,en
+throw a coin in the air,flip_coin,oos,flip_coin,0.6138,clinc150,en
+please go on amazon so i can buy bluetooth speakers,order,oos,change_volume,0.2815,clinc150,en
+please give me the name of a few good options for places to eat dinner tonight,restaurant_suggestion,oos,restaurant_suggestion,0.7477,clinc150,en
+"can you cancel that request, please",cancel,repeat,repeat,0.7607,clinc150,en
+it is very much false,no,oos,no,0.5457,clinc150,en
+my washer shows error F21 and stops mid-cycle,washing_machine_issue,dishwasher_issue,dishwasher_issue,0.9756,custom,en
+say my name,user_name,oos,change_user_name,0.7316,clinc150,en
+can i reach seattle with this amount of fuel,gas,oos,gas,0.5032,clinc150,en
+i gotta cancel my reservation for barry at red robin,cancel_reservation,confirm_reservation,confirm_reservation,0.9649,clinc150,en
+what time is it in phoenix,timezone,time,time,0.9999,clinc150,en
+turn on the microwave for 3 minutes,smart_home,oos,oos,0.5439,clinc150,en
+i was in thailand and i could not use my card to buy snacks,card_declined,damaged_card,damaged_card,0.8463,clinc150,en
+i must know how many points have i earned with my credit card,rewards_balance,oos,rewards_balance,0.6857,clinc150,en
+can you tell me what you are called,what_is_your_name,oos,what_can_i_ask_you,0.7135,clinc150,en
+i think your a bot,are_you_a_bot,oos,are_you_a_bot,0.5661,clinc150,en
+how much was my last target trip,transactions,oos,oos,0.4188,clinc150,en
+tell me later to call bill,reminder_update,oos,reminder_update,0.6258,clinc150,en
+how do i replace a damaged card,damaged_card,oos,replacement_card_duration,0.5773,clinc150,en
+what do i do to get a visa card,new_card,international_visa,international_visa,0.8322,clinc150,en
+is my meeting with frank on my calendar,calendar,meeting_schedule,meeting_schedule,0.991,clinc150,en
+it is damaging to my credit score if i miss one credit card payment,improve_credit_score,oos,improve_credit_score,0.681,clinc150,en
+how many days milk can be preserved,food_last,oos,food_last,0.4882,clinc150,en
+"if i wanted to spend the lowest for my electric bill, then how much would it be",min_payment,oos,min_payment,0.4095,clinc150,en
+who's your boss,who_do_you_work_for,who_made_you,who_made_you,0.9256,clinc150,en
+ai answer my questions with my name first which is deb,change_user_name,oos,change_user_name,0.3771,clinc150,en
+can you name the type of pets you have,do_you_have_pets,oos,do_you_have_pets,0.6477,clinc150,en
+i have a card that needs replaced because my wine dumped wine on it,damaged_card,oos,damaged_card,0.657,clinc150,en
+what do you do if your 4 year old just ate playdoh,oos,how_old_are_you,how_old_are_you,0.9522,clinc150,en
+can i talk to someone to let them know my card was damaged from being melted on a radiator,damaged_card,oos,damaged_card,0.7422,clinc150,en
+when will i arrive at hy-vee,distance,how_busy,how_busy,0.8096,clinc150,en
+not so loud,change_volume,oos,cancel,0.6499,clinc150,en
+i will say yes as my response,yes,oos,yes,0.5777,clinc150,en
+that is incorrect,no,oos,no,0.7214,clinc150,en
+what are the words to the chorus for this song,oos,what_song,what_song,0.7834,clinc150,en
+what is my credit max,credit_limit,oos,credit_score,0.6178,clinc150,en
+repeat what the weather will be like,transfer,weather,weather,0.9941,clinc150,en
+i need to know the price of my car payment and insurance please,bill_balance,oos,pay_bill,0.3237,clinc150,en
+go and check the fridge,oos,food_last,food_last,0.8969,clinc150,en
+"yes, that is factual",yes,no,no,0.7994,clinc150,en
+did i stick to my dinner budget,spending_history,oos,calendar,0.3857,clinc150,en
+"""i'll be travelling from lax and headed to phl for 120 on the 10th of may",book_flight,oos,travel_notification,0.491,clinc150,en
+has the french laundry gotten good reviews lately,restaurant_reviews,oos,restaurant_reviews,0.5267,clinc150,en
+can i bring perfume on the plane or what is the size limit,carry_on,oos,oos,0.8873,clinc150,en
+what's my budget for today's shopping trip,oos,shopping_list,shopping_list,0.9456,clinc150,en
+i need to cancel my reservation for rob at red robin,cancel_reservation,oos,confirm_reservation,0.5283,clinc150,en
+how long before i can eat at chic fil a,how_busy,oos,cook_time,0.4813,clinc150,en
+prioritize to the settings you started with,reset_settings,oos,reset_settings,0.6003,clinc150,en
+what do food critics say about gramercy tavern,restaurant_reviews,oos,oos,0.5212,clinc150,en
+can you put the car in fuel efficient mode,oos,gas_type,gas_type,0.8628,clinc150,en
+reasons that us bank would place a hold on my account,account_blocked,freeze_account,freeze_account,0.8139,clinc150,en
+"i think all my bills are paid, but can you double check",bill_balance,oos,reminder,0.1019,clinc150,en
+how many stars does brasserie les halles have,restaurant_reviews,oos,oos,0.8743,clinc150,en
+what's the apr on my savings account,interest_rate,oos,balance,0.6768,clinc150,en
+can you tell me who's calling me,oos,change_user_name,change_user_name,0.8304,clinc150,en
+tell me the last day i can pay my gas bill,bill_due,oos,pay_bill,0.425,clinc150,en
+what is the procedure for signing up for a new allstate plan,insurance_change,oos,new_card,0.398,clinc150,en
+hola!,greeting,oos,oos,0.7823,clinc150,en
+what's your designation,user_name,oos,what_is_your_name,0.5275,clinc150,en
+can you please remind me of the items that i made note of to not forget,reminder,oos,reminder,0.2745,clinc150,en
+what are my coffers at,balance,oos,oos,0.5444,clinc150,en
+do you take your orders from me,who_do_you_work_for,oos,how_old_are_you,0.565,clinc150,en
+can i get a sear's appliance repairman,oos,warranty_inquiry,warranty_inquiry,0.9582,clinc150,en
+i'd like to start calling you lover,change_ai_name,oos,change_user_name,0.629,clinc150,en
+my electric bill should be paid today,pay_bill,bill_due,bill_due,0.9946,clinc150,en
+what's the answer to it all,meaning_of_life,oos,spelling,0.4638,clinc150,en
+"that was a mistake, undo that",cancel,oos,cancel,0.3447,clinc150,en
 that checks out,yes,order_checks,order_checks,1.0,clinc150,en
-on tuesday you are supposed to have a meeting,calendar,schedule_meeting,schedule_meeting,0.9271,clinc150,en
-let me know if my application for american saving bank,application_status,oos,application_status,0.4321,clinc150,en
-"does my card ending in 1234, or any of my cards, expire soon",expiration_date,oos,expiration_date,0.7215,clinc150,en
-i need to know the apr on my wells fargo credit card,apr,oos,apr,0.7254,clinc150,en
-create a reminder to change my oil,reminder_update,oos,schedule_maintenance,0.4399,clinc150,en
-what is the best time to go to get a burger without a line,how_busy,oos,oos,0.6462,clinc150,en
-how young are you,how_old_are_you,oos,greeting,0.8386,clinc150,en
-be more quiet,change_volume,cancel,cancel,0.9626,clinc150,en
-start over using factory setting,reset_settings,change_language,change_language,0.9937,clinc150,en
-im going to call you xander,change_ai_name,oos,change_ai_name,0.829,clinc150,en
-my account at the bank needs to be frozen,freeze_account,account_blocked,account_blocked,0.9962,clinc150,en
-what gas goes in the vehicle,gas_type,oos,gas_type,0.8082,clinc150,en
-what is the price of bluetooth speakers on amazon,order,oos,oos,0.8531,clinc150,en
-give me tips on improving my credit score,improve_credit_score,oos,improve_credit_score,0.5915,clinc150,en
-do you take orders from someone else,who_do_you_work_for,oos,who_do_you_work_for,0.4908,clinc150,en
-what's the best reviewed local roof repair place,oos,restaurant_suggestion,restaurant_suggestion,0.967,clinc150,en
-"can you tell me what the traffic is usually like at 7:00 pm from philadelphia to ocean city, new jersey",traffic,oos,traffic,0.6009,clinc150,en
-am i in charge of you,who_do_you_work_for,international_fees,international_fees,0.8401,clinc150,en
-how long should an essay be,oos,cook_time,cook_time,0.9216,clinc150,en
-tell me what your name is,what_is_your_name,user_name,user_name,0.847,clinc150,en
-where is the nearest marijuana dispensary to kentucky fried chicken,directions,restaurant_suggestion,restaurant_suggestion,0.8905,clinc150,en
-how many days are remaining on my vacation days,pto_balance,oos,pto_balance,0.6488,clinc150,en
-can you end the current process,cancel,oos,oos,0.473,clinc150,en
-the list should also have 2 loaves of bread,shopping_list_update,oos,shopping_list_update,0.6862,clinc150,en
-tell me when today's meeting is supposed to happen,meeting_schedule,oos,meeting_schedule,0.5469,clinc150,en
-send me more checkbooks please,order_checks,oos,order_checks,0.7752,clinc150,en
-"tell me how to spent ""frightened",spelling,spending_history,spending_history,0.9976,clinc150,en
-what's the most i can charge on my card,credit_limit,oos,report_fraud,0.4627,clinc150,en
-put a block on bank of amerian immediately,freeze_account,oos,freeze_account,0.6439,clinc150,en
-would you consider my apr to be good,apr,oos,apr,0.3624,clinc150,en
-"çamaşır makinem sıkma yapmıyor, çamaşırlar sırılsıklam çıkıyor",washing_machine_issue,refrigerator_issue,refrigerator_issue,0.4999,custom,tr
-find out what supplies i am missing and will need on my upcoming camping trip,oos,lost_luggage,lost_luggage,0.9181,clinc150,en
-i need to know how many days i toof off,pto_used,oos,pto_used,0.7622,clinc150,en
-what's a good recipe foe tacos,ingredients_list,recipe,recipe,0.9704,clinc150,en
-how far am i from orlando,distance,oos,distance,0.6925,clinc150,en
-do i control you,who_do_you_work_for,oos,calculator,0.2826,clinc150,en
-"skip this song, please",next_song,oos,next_song,0.8351,clinc150,en
-"""i""m headed out to lax and going to phl for a low price of $120 this weekend on the 12th",book_flight,oos,calendar_update,0.3105,clinc150,en
-come again,repeat,payday,payday,0.9908,clinc150,en
-"washer won't turn on at all, no lights",washing_machine_issue,oos,smart_home,0.7217,custom,en
-are there any apartments for rent nearby,oos,car_rental,car_rental,0.9924,clinc150,en
-is $30 usd more or less in canada,exchange_rate,oos,exchange_rate,0.244,clinc150,en
-tell me the interest for my savings account,interest_rate,oos,interest_rate,0.4846,clinc150,en
-bulasik makinam suyu bosaltirken gurul gurul ses yapiyor,dishwasher_issue,washing_machine_issue,washing_machine_issue,0.5195,custom,tr
-what do i do about a card that's too messed up to be properly scanned,damaged_card,oos,damaged_card,0.6221,clinc150,en
-what kind of mileage am i getting,mpg,oos,gas_type,0.2276,clinc150,en
-i need to use pto on october 5th to october 10th,pto_request,oos,pto_request,0.747,clinc150,en
-what do you do after work,what_are_your_hobbies,oos,who_do_you_work_for,0.539,clinc150,en
-am i safe to go to africa,travel_alert,oos,vaccines,0.5268,clinc150,en
-how many dollars have i spent on coffee this month,spending_history,oos,spending_history,0.8225,clinc150,en
-how do i plug stuff in in france,plug_type,oos,plug_type,0.6506,clinc150,en
-what does peer-to-peer actually mean,definition,oos,definition,0.6814,clinc150,en
-when is my car due for an tire change,tire_change,oos,oil_change_when,0.7467,clinc150,en
-have i gone over my chocolate budget lately,spending_history,oos,spending_history,0.3185,clinc150,en
-does the ai have hobbies,what_are_your_hobbies,oos,what_are_your_hobbies,0.5765,clinc150,en
-do i own you,who_do_you_work_for,what_is_your_name,what_is_your_name,0.9901,clinc150,en
-"calorie check, cheese burger",calories,nutrition_info,nutrition_info,0.916,clinc150,en
-insert mowing on the chore list,todo_list_update,oos,shopping_list_update,0.6823,clinc150,en
-thank you for that reply,thank_you,repeat,repeat,0.9985,clinc150,en
-how long does it take to get your yellow belt in karate,oos,distance,distance,0.9376,clinc150,en
-does iron maiden have any new releases,oos,restaurant_reviews,restaurant_reviews,0.8406,clinc150,en
-can i reserve tables at the new york restaurant,accept_reservations,restaurant_reservation,restaurant_reservation,0.9937,clinc150,en
-how much do i owe the irs,taxes,oos,bill_balance,0.8235,clinc150,en
-how do i report my very lost card,report_lost_card,oos,report_lost_card,0.8203,clinc150,en
-is the mexican place crowded at night,how_busy,oos,how_busy,0.4401,clinc150,en
-thank you ai for everything you do,thank_you,greeting,greeting,0.9009,clinc150,en
-"ai is a helpful item to have in my home, thank you",thank_you,oos,who_do_you_work_for,0.1577,clinc150,en
-you are going to be called joe now,change_ai_name,oos,change_ai_name,0.541,clinc150,en
-my answer would be maybe,maybe,oos,maybe,0.6315,clinc150,en
-name the person or group that programmed you,who_made_you,oos,who_made_you,0.8051,clinc150,en
-what does the gas meter read,gas,gas_type,gas_type,0.9581,clinc150,en
-what are good thai dishes,meal_suggestion,oos,restaurant_suggestion,0.7363,clinc150,en
-i want to hear something funny about history,tell_joke,oos,tell_joke,0.607,clinc150,en
-how many weeks of vacation time have i earned,pto_balance,oos,pto_used,0.6052,clinc150,en
-safety concerns for malaysia,travel_alert,oos,travel_alert,0.8146,clinc150,en
-can you travel outside of the united states without a visa,international_visa,oos,international_visa,0.5712,clinc150,en
-look up recipe time for this,cook_time,oos,cook_time,0.5943,clinc150,en
-is it alright to switch applesauce for oil,ingredient_substitution,oos,ingredient_substitution,0.5077,clinc150,en
-will i be safe going to south america,travel_alert,travel_notification,travel_notification,0.8547,clinc150,en
-do we know if my reservation for john at bardenay was accepted,confirm_reservation,oos,confirm_reservation,0.6966,clinc150,en
-please give me the pin number for my checking account,pin_change,oos,pin_change,0.8154,clinc150,en
-what would the word for grass be in finland,translate,oos,timezone,0.4356,clinc150,en
-can i take pto from the end of the month to the 5th of the next month,pto_request,oos,calendar_update,0.4198,clinc150,en
-definitely,yes,oos,yes,0.4796,clinc150,en
-i want to try a meal from ireland,meal_suggestion,oos,change_language,0.7749,clinc150,en
-i would like to start calling you heath,change_ai_name,oos,change_ai_name,0.5766,clinc150,en
-i want to know how many days off i have utilized until now,pto_used,oos,pto_balance,0.7481,clinc150,en
-what is the reason humans even exist,meaning_of_life,oos,oos,0.8152,clinc150,en
-what company did the design for this,who_made_you,oos,who_made_you,0.601,clinc150,en
-what's the best type of plan to upgrade to,oos,travel_suggestion,travel_suggestion,0.8589,clinc150,en
-"hey, how do i call your attention",what_is_your_name,oos,what_is_your_name,0.8328,clinc150,en
-how does measurement a convert to measurement b,measurement_conversion,oos,oos,0.4183,clinc150,en
-have i gone over my entertainment budget,spending_history,oos,income,0.3254,clinc150,en
-check: car gas mileage,mpg,gas_type,gas_type,0.9655,clinc150,en
-affirmative,yes,oos,yes,0.6854,clinc150,en
-speak up,change_volume,oos,change_speed,0.6675,clinc150,en
-how do i make you talk faster,change_speed,oos,change_speed,0.3215,clinc150,en
-what raiting of gas is called for,gas_type,oos,oos,0.7514,clinc150,en
-would you say i've spent too much money on chips as of late,spending_history,oos,spending_history,0.7829,clinc150,en
-give me the number of a traffic attorney near here,oos,directions,directions,0.922,clinc150,en
-do i spend too much on beer,spending_history,oos,spending_history,0.5429,clinc150,en
-how does measurement slugs convert to measurement lb,measurement_conversion,oos,measurement_conversion,0.467,clinc150,en
-is there a reason beyond biology about why humans are alive,meaning_of_life,oos,oos,0.3936,clinc150,en
-can you find out the waiting times for mr joes pizza,how_busy,oos,restaurant_reviews,0.2661,clinc150,en
-inform me of what microbes are,oos,what_can_i_ask_you,what_can_i_ask_you,0.9172,clinc150,en
-bump some jams,play_music,oos,play_music,0.5554,clinc150,en
-when will my credit card no longer be good,expiration_date,oos,replacement_card_duration,0.7945,clinc150,en
-what is playing on the speaker at the moment,what_song,oos,what_song,0.7497,clinc150,en
-what day am i on on vacation and how much do i got left,pto_balance,oos,pto_balance,0.4364,clinc150,en
-i am unable to say,maybe,oos,change_user_name,0.5155,clinc150,en
-is grocery shopping on my reminders list,reminder,shopping_list,shopping_list,0.9625,clinc150,en
-block my american saving bank for now,freeze_account,oos,freeze_account,0.7784,clinc150,en
-please explain the word catastrophic to me,definition,oos,oos,0.4685,clinc150,en
-the fridge door seal is broken and it doesn't close tightly,refrigerator_issue,dishwasher_issue,dishwasher_issue,0.496,custom,en
-"alexa, buy a new television",order,oos,order,0.5203,clinc150,en
-if you have hobbies tell me some of them,what_are_your_hobbies,oos,repeat,0.3765,clinc150,en
-pull up everything i need to make a pasta dish,ingredients_list,oos,ingredients_list,0.4234,clinc150,en
-will we have to make reservations for roca,accept_reservations,oos,cancel_reservation,0.5269,clinc150,en
-is my apr rate better than most,apr,oos,interest_rate,0.8323,clinc150,en
-what is the total number of pets that you have,do_you_have_pets,oos,pto_balance,0.5457,clinc150,en
-i want to be reminded to pay the electric bill,reminder_update,pay_bill,pay_bill,0.995,clinc150,en
-can you book me a tee time at cantigny at 2 pm on saturday,oos,restaurant_reservation,restaurant_reservation,0.9408,clinc150,en
-i would like you to change your accent,change_accent,oos,change_accent,0.4531,clinc150,en
-which hospital is nearest to me,directions,oos,directions,0.5471,clinc150,en
-"in tampa, i'd like to rent a sedan from 4/1 until 4/5",car_rental,oos,car_rental,0.5373,clinc150,en
-cross grocery shopping off the todo list,todo_list_update,oos,shopping_list_update,0.7995,clinc150,en
-"ai, call me deb",change_user_name,oos,change_user_name,0.6464,clinc150,en
-could you track an order for me,order_status,order,order,0.9426,clinc150,en
-how do i make money,oos,income,income,0.8731,clinc150,en
-what is my compensation,income,oos,user_name,0.7421,clinc150,en
-what's the word for trees in norway,translate,oos,weather,0.6938,clinc150,en
-"i think i owe about 100 left on my bills, am i forgetting anything",bill_balance,oos,bill_balance,0.6604,clinc150,en
-check how much i spent this week,spending_history,oos,income,0.5018,clinc150,en
-why can't i use my credit card,card_declined,redeem_rewards,redeem_rewards,0.9182,clinc150,en
-what is the warranty on my microwave,oos,warranty_inquiry,warranty_inquiry,0.6033,clinc150,en
-great,yes,thank_you,thank_you,1.0,clinc150,en
-how much is due for my water bill,bill_balance,oos,bill_due,0.513,clinc150,en
-how much of a credit limit does visa allow,credit_limit,oos,credit_limit,0.6258,clinc150,en
-call me mike from now on,change_user_name,oos,make_call,0.4142,clinc150,en
-parlatıcı bitmedi ama bardaklarda iz kalıyor bulaşık makinesi,dishwasher_issue,refrigerator_issue,refrigerator_issue,0.5028,custom,tr
-i need interesting baseball trivia from the nineteen eighties,fun_fact,oos,fun_fact,0.7741,clinc150,en
-how many days until a technician can visit,technician_appointment,oos,replacement_card_duration,0.7429,custom,en
-i need to get a mastercard somehow,new_card,oos,new_card,0.7408,clinc150,en
-how many teaspoons will make one tablespoon,measurement_conversion,oos,measurement_conversion,0.5745,clinc150,en
-tell me what's in tacos,ingredients_list,oos,spelling,0.8169,clinc150,en
-what's the way you refer to me,user_name,what_is_your_name,what_is_your_name,0.8561,clinc150,en
-please switch my name,change_user_name,oos,cancel,0.3059,clinc150,en
-su kaçağı garanti kapsamında karşılanıyor mu,warranty_inquiry,refrigerator_issue,refrigerator_issue,0.5568,custom,tr
-as my visa got a high enough limit on it,credit_limit,credit_limit_change,credit_limit_change,0.9942,clinc150,en
-what can i do to get rid of this event,calendar_update,oos,calculator,0.5282,clinc150,en
-i didn't catch that,repeat,oos,repeat,0.8185,clinc150,en
-do i have to buy milk,shopping_list,oos,shopping_list,0.6411,clinc150,en
-can i call you james instead,change_ai_name,oos,make_call,0.6308,clinc150,en
-please take all my money out of my checking account and close the account,oos,transfer,transfer,0.8842,clinc150,en
-do i have calendar events on march 19th,calendar,oos,calendar,0.6698,clinc150,en
-did i set march 10th as my doctor's appointment,calendar,oos,calendar_update,0.8094,clinc150,en
-"i don't need eggs anymore, but i do need milk",shopping_list_update,oos,shopping_list_update,0.4806,clinc150,en
-where can i find information on oil changes for my car,oil_change_when,oil_change_how,oil_change_how,0.9965,clinc150,en
-may i ask your age,how_old_are_you,oos,repeat,0.507,clinc150,en
-tell me where i can get the cheapest tennis balls on the internet,oos,directions,directions,0.9292,clinc150,en
-when was my lawn last mowed,oos,payday,payday,0.9703,clinc150,en
-i want to put this on my rock playlist,update_playlist,oos,update_playlist,0.7369,clinc150,en
-will it cost me anything to use my card in turin,international_fees,oos,damaged_card,0.4793,clinc150,en
-how much am i paying for apr on my credit card,apr,oos,credit_limit,0.7735,clinc150,en
-what's the power consumption of my fridge,oos,food_last,food_last,0.9475,clinc150,en
-"what traffic can i expect on the way to the newark, new jersey from philadelphia",traffic,directions,directions,0.9043,clinc150,en
-check the status of my amazon orders for me,oos,order_status,order_status,0.9999,clinc150,en
-will i run out of gas before i reach atlantic city,gas,warranty_inquiry,warranty_inquiry,0.5099,clinc150,en
-yurt dışından aldığım ürüne garanti veriyor musunuz,warranty_inquiry,refrigerator_issue,refrigerator_issue,0.8324,custom,tr
-who can i talk to above you,who_do_you_work_for,oos,oos,0.3727,clinc150,en
-contact uber and have them pick me up,uber,oos,text,0.8222,clinc150,en
-can you book me an appointment at a car wash,oos,schedule_maintenance,schedule_maintenance,0.9799,clinc150,en
-tell me where i can get more information on getting a job at the post office,oos,directions,directions,0.8848,clinc150,en
-can i do a reservation at sammy's crab shack,accept_reservations,oos,confirm_reservation,0.7908,clinc150,en
-what do i owe to jcp,bill_balance,oos,income,0.331,clinc150,en
-can you speak quieter,change_volume,oos,change_speed,0.7559,clinc150,en
-is the wait more than an hour at the italian place,how_busy,oos,restaurant_suggestion,0.4665,clinc150,en
-how much do i have available on my visa card,credit_limit,oos,rewards_balance,0.5446,clinc150,en
-"hello there, good morning",greeting,oos,greeting,0.7246,clinc150,en
-can credit card companies expedite delivery of reissued credit cards,replacement_card_duration,oos,new_card,0.813,clinc150,en
-where is the closest architecture college,oos,directions,directions,0.9919,clinc150,en
-i need you to switch the language you are responding as i don't understand,change_language,oos,cancel,0.5306,clinc150,en
-what year did my grandparents get married,oos,income,income,0.9837,clinc150,en
-update my status on instagram,oos,order_status,order_status,0.9796,clinc150,en
-when did i last make a purchase,transactions,oos,transactions,0.6778,clinc150,en
-i apprecaite the help from you,thank_you,oos,cancel,0.351,clinc150,en
-tell me the current account balance,balance,oos,balance,0.8267,clinc150,en
-how long does pizza take,cook_time,oos,food_last,0.5031,clinc150,en
-tack on a gallon of milk to the grocery list,shopping_list_update,oos,shopping_list_update,0.6379,clinc150,en
-regards,goodbye,rewards_balance,rewards_balance,0.9903,clinc150,en
-please play my list of reminders,reminder,oos,play_music,0.6456,clinc150,en
-how hard is it to close a bank account at wells fargo,oos,account_blocked,account_blocked,0.9798,clinc150,en
-did i bring my car to the shop last week,last_maintenance,oos,last_maintenance,0.7248,clinc150,en
-is there a substantial credit limit on my visa,credit_limit,oos,credit_limit,0.7039,clinc150,en
-where the bleep did i put my bleeping phone,find_phone,oos,find_phone,0.6357,clinc150,en
-did i mark the mechanic's appointment on my calendar,calendar,oos,calendar,0.5733,clinc150,en
+it is white colour,oos,ingredient_substitution,ingredient_substitution,0.7829,clinc150,en
+on tuesday you are supposed to have a meeting,calendar,oos,schedule_meeting,0.5032,clinc150,en
+"does my card ending in 1234, or any of my cards, expire soon",expiration_date,oos,expiration_date,0.6955,clinc150,en
+what's at movies,oos,spending_history,spending_history,0.9783,clinc150,en
+create a reminder to change my oil,reminder_update,schedule_maintenance,schedule_maintenance,0.7618,clinc150,en
+what is the best time to go to get a burger without a line,how_busy,oos,oos,0.6012,clinc150,en
+how young are you,how_old_are_you,greeting,greeting,0.9881,clinc150,en
+be more quiet,change_volume,oos,order_checks,0.3146,clinc150,en
+that's right,yes,oos,yes,0.5586,clinc150,en
+start over using factory setting,reset_settings,oos,reset_settings,0.6383,clinc150,en
+im going to call you xander,change_ai_name,make_call,make_call,0.9338,clinc150,en
+what's my name on file,user_name,oos,user_name,0.7501,clinc150,en
+my account at the bank needs to be frozen,freeze_account,oos,freeze_account,0.49,clinc150,en
+what gas goes in the vehicle,gas_type,oos,gas_type,0.6467,clinc150,en
+what is the price of bluetooth speakers on amazon,order,oos,oos,0.7711,clinc150,en
+please put lawn mowing on my list of to dos,todo_list_update,oos,todo_list_update,0.7462,clinc150,en
+give me tips on improving my credit score,improve_credit_score,credit_score,credit_score,0.9891,clinc150,en
+do you take orders from someone else,who_do_you_work_for,oos,who_do_you_work_for,0.4649,clinc150,en
+what's the best reviewed local roof repair place,oos,restaurant_suggestion,restaurant_suggestion,0.8871,clinc150,en
+can you give me the timezone for the country,timezone,oos,translate,0.489,clinc150,en
+"can you tell me what the traffic is usually like at 7:00 pm from philadelphia to ocean city, new jersey",traffic,oos,traffic,0.6578,clinc150,en
+am i in charge of you,who_do_you_work_for,international_fees,international_fees,0.8853,clinc150,en
+RF-620 temperature display shows E5,refrigerator_issue,dishwasher_issue,dishwasher_issue,0.9427,custom,en
+where is the nearest marijuana dispensary to kentucky fried chicken,directions,oos,restaurant_suggestion,0.5888,clinc150,en
+does someone else control you,who_do_you_work_for,oos,oos,0.8736,clinc150,en
+can you end the current process,cancel,oos,cancel,0.594,clinc150,en
+the list should also have 2 loaves of bread,shopping_list_update,oos,shopping_list,0.5622,clinc150,en
+tell me when today's meeting is supposed to happen,meeting_schedule,oos,meeting_schedule,0.7562,clinc150,en
+"tell me how to spent ""frightened",spelling,spending_history,spending_history,0.9995,clinc150,en
+what's the most i can charge on my card,credit_limit,oos,international_fees,0.2787,clinc150,en
+would you consider my apr to be good,apr,oos,apr,0.6886,clinc150,en
+"çamaşır makinem sıkma yapmıyor, çamaşırlar sırılsıklam çıkıyor",washing_machine_issue,dishwasher_issue,dishwasher_issue,0.7776,custom,tr
+rolls have how many calories,calories,oos,oos,0.5524,clinc150,en
+i need to know how many days i toof off,pto_used,oos,pto_used,0.6187,clinc150,en
+locate jenny at her present position,oos,share_location,share_location,0.8165,clinc150,en
+can you unlock my bank account,account_blocked,freeze_account,freeze_account,0.8707,clinc150,en
+i need a aaa service place to make an appointment for my tires to be assessed,schedule_maintenance,oos,schedule_maintenance,0.3465,clinc150,en
+what's a good recipe foe tacos,ingredients_list,recipe,recipe,0.9906,clinc150,en
+how far am i from orlando,distance,oos,distance,0.6602,clinc150,en
+buzdolabının fanı ses çıkarıyor pervane bir yere sürtüyor,refrigerator_issue,dishwasher_issue,dishwasher_issue,0.8326,custom,tr
+what amount of interest does my checking account at chase earn,interest_rate,oos,interest_rate,0.6043,clinc150,en
+do i control you,who_do_you_work_for,oos,oos,0.7544,clinc150,en
+"""i""m headed out to lax and going to phl for a low price of $120 this weekend on the 12th",book_flight,oos,oos,0.1904,clinc150,en
+come again,repeat,payday,payday,0.9796,clinc150,en
+what's the calorie content of chicken nuggets,calories,oos,nutrition_info,0.5981,clinc150,en
+"washer won't turn on at all, no lights",washing_machine_issue,dishwasher_issue,dishwasher_issue,0.695,custom,en
+is $30 usd more or less in canada,exchange_rate,oos,oos,0.5541,clinc150,en
+what day's my pay coming next,payday,next_holiday,next_holiday,0.8458,clinc150,en
+tell me the interest for my savings account,interest_rate,oos,routing,0.4924,clinc150,en
+what do i do about a card that's too messed up to be properly scanned,damaged_card,oos,oos,0.4477,clinc150,en
+what kind of mileage am i getting,mpg,oos,what_can_i_ask_you,0.4878,clinc150,en
+how long should i boil eggs,cook_time,oos,cook_time,0.6497,clinc150,en
+i need to use pto on october 5th to october 10th,pto_request,oos,pto_request,0.6376,clinc150,en
+what do you do after work,what_are_your_hobbies,oos,oos,0.9315,clinc150,en
+should i run every day,oos,next_holiday,next_holiday,0.951,clinc150,en
+am i safe to go to africa,travel_alert,vaccines,vaccines,0.966,clinc150,en
+how many dollars have i spent on coffee this month,spending_history,oos,spending_history,0.5133,clinc150,en
+what does peer-to-peer actually mean,definition,oos,definition,0.6597,clinc150,en
+on feb 3rd i changed my tires are they still good,tire_change,oos,tire_change,0.5281,clinc150,en
+when is my car due for an tire change,tire_change,oil_change_when,oil_change_when,0.9663,clinc150,en
+have i gone over my chocolate budget lately,spending_history,oos,balance,0.3151,clinc150,en
+does the ai have hobbies,what_are_your_hobbies,oos,what_are_your_hobbies,0.5778,clinc150,en
+do i own you,who_do_you_work_for,oos,what_is_your_name,0.4845,clinc150,en
+"calorie check, cheese burger",calories,nutrition_info,nutrition_info,0.9571,clinc150,en
+insert mowing on the chore list,todo_list_update,shopping_list_update,shopping_list_update,0.8035,clinc150,en
+add color to the black and white photos,oos,shopping_list_update,shopping_list_update,0.8249,clinc150,en
+who was the first person to discover cells,oos,who_made_you,who_made_you,0.7872,clinc150,en
+thank you for that reply,thank_you,repeat,repeat,0.9959,clinc150,en
+does iron maiden have any new releases,oos,travel_alert,travel_alert,0.8586,clinc150,en
+can i reserve tables at the new york restaurant,accept_reservations,restaurant_reservation,restaurant_reservation,0.8769,clinc150,en
+how much do i owe the irs,taxes,oos,taxes,0.6571,clinc150,en
+thank you ai for everything you do,thank_you,oos,greeting,0.4732,clinc150,en
+"ai is a helpful item to have in my home, thank you",thank_you,oos,goodbye,0.4078,clinc150,en
+you are going to be called joe now,change_ai_name,oos,make_call,0.4419,clinc150,en
+what does the gas meter read,gas,gas_type,gas_type,0.8594,clinc150,en
+what are good thai dishes,meal_suggestion,oos,restaurant_suggestion,0.4534,clinc150,en
+can you turn off the process,cancel,oos,cancel,0.6559,clinc150,en
+safety concerns for malaysia,travel_alert,oos,oos,0.4073,clinc150,en
+how much money am i earning,income,oos,income,0.6901,clinc150,en
+can you travel outside of the united states without a visa,international_visa,oos,international_visa,0.3413,clinc150,en
+close all internet tabs,oos,dishwasher_issue,dishwasher_issue,0.5797,clinc150,en
+look up recipe time for this,cook_time,oos,cook_time,0.3639,clinc150,en
+is it alright to switch applesauce for oil,ingredient_substitution,oil_change_how,oil_change_how,0.9185,clinc150,en
+will i be safe going to south america,travel_alert,oos,travel_notification,0.4968,clinc150,en
+what would the word for grass be in finland,translate,oos,weather,0.5465,clinc150,en
+can i take pto from the end of the month to the 5th of the next month,pto_request,oos,calendar_update,0.639,clinc150,en
+can you identify this song playing through the speaker right now,what_song,oos,what_song,0.607,clinc150,en
+definitely,yes,oos,no,0.6311,clinc150,en
+i want to try a meal from ireland,meal_suggestion,oos,meal_suggestion,0.474,clinc150,en
+i would like to start calling you heath,change_ai_name,oos,play_music,0.6568,clinc150,en
+i want to know how many days off i have utilized until now,pto_used,pto_balance,pto_balance,0.9492,clinc150,en
+what is the reason humans even exist,meaning_of_life,oos,oos,0.8627,clinc150,en
+that's true,yes,no,no,0.7753,clinc150,en
+what company did the design for this,who_made_you,oos,oos,0.8905,clinc150,en
+do they speak english in australia,oos,change_language,change_language,0.8798,clinc150,en
+how does measurement a convert to measurement b,measurement_conversion,oos,oos,0.9581,clinc150,en
+have i gone over my entertainment budget,spending_history,oos,oos,0.2232,clinc150,en
+affirmative,yes,oos,no,0.4691,clinc150,en
+speak up,change_volume,change_speed,change_speed,0.9948,clinc150,en
+what raiting of gas is called for,gas_type,oos,oos,0.8963,clinc150,en
+would you say i've spent too much money on chips as of late,spending_history,oos,spending_history,0.67,clinc150,en
+give me the number of a traffic attorney near here,oos,directions,directions,0.802,clinc150,en
+could steak be used instead of chicken,ingredient_substitution,oos,ingredient_substitution,0.5524,clinc150,en
+do i spend too much on beer,spending_history,oos,spending_history,0.5833,clinc150,en
+how does measurement slugs convert to measurement lb,measurement_conversion,oos,oos,0.7912,clinc150,en
+is there a reason beyond biology about why humans are alive,meaning_of_life,oos,oos,0.8384,clinc150,en
+can you find out the waiting times for mr joes pizza,how_busy,oos,restaurant_suggestion,0.7562,clinc150,en
+what do i bring in over a year,income,oos,income,0.7171,clinc150,en
+inform me of what microbes are,oos,what_can_i_ask_you,what_can_i_ask_you,0.9681,clinc150,en
+bump some jams,play_music,oos,oos,0.9768,clinc150,en
+what is playing on the speaker at the moment,what_song,oos,what_song,0.579,clinc150,en
+what day am i on on vacation and how much do i got left,pto_balance,oos,pto_balance,0.5758,clinc150,en
+i am unable to say,maybe,oos,credit_limit_change,0.2808,clinc150,en
+is grocery shopping on my reminders list,reminder,shopping_list,shopping_list,0.8184,clinc150,en
+please explain the word catastrophic to me,definition,oos,definition,0.5831,clinc150,en
+tell me the ingredients for making tom yum,ingredients_list,oos,recipe,0.4785,clinc150,en
+the fridge door seal is broken and it doesn't close tightly,refrigerator_issue,dishwasher_issue,dishwasher_issue,0.7823,custom,en
+erase meeting with jeff from my calendar,calendar_update,oos,calendar_update,0.7019,clinc150,en
+"alexa, buy a new television",order,oos,order,0.4994,clinc150,en
+if you have hobbies tell me some of them,what_are_your_hobbies,oos,tell_joke,0.6138,clinc150,en
+what company did this design,who_made_you,oos,oos,0.6994,clinc150,en
+pull up everything i need to make a pasta dish,ingredients_list,oos,recipe,0.3995,clinc150,en
+will we have to make reservations for roca,accept_reservations,oos,accept_reservations,0.4982,clinc150,en
+is my apr rate better than most,apr,interest_rate,interest_rate,0.9014,clinc150,en
+what is the total number of pets that you have,do_you_have_pets,oos,pto_used,0.2954,clinc150,en
+i want to be reminded to pay the electric bill,reminder_update,pay_bill,pay_bill,0.9987,clinc150,en
+can you book me a tee time at cantigny at 2 pm on saturday,oos,restaurant_reservation,restaurant_reservation,0.9648,clinc150,en
+how long would it take you to die of thirst in the sahara desert,oos,distance,distance,0.8374,clinc150,en
+"in tampa, i'd like to rent a sedan from 4/1 until 4/5",car_rental,oos,book_hotel,0.6386,clinc150,en
+cross grocery shopping off the todo list,todo_list_update,shopping_list_update,shopping_list_update,0.8364,clinc150,en
+how to fix walls,oos,directions,directions,0.9354,clinc150,en
+could you track an order for me,order_status,order,order,0.918,clinc150,en
+how do i make money,oos,income,income,0.9265,clinc150,en
+what is my compensation,income,oos,oos,0.3926,clinc150,en
+what's the word for trees in norway,translate,weather,weather,0.9308,clinc150,en
+"i think i owe about 100 left on my bills, am i forgetting anything",bill_balance,oos,bill_balance,0.4807,clinc150,en
+what kind of hobbies does the ai have,what_are_your_hobbies,oos,what_are_your_hobbies,0.6478,clinc150,en
+why can't i use my credit card,card_declined,redeem_rewards,redeem_rewards,0.9911,clinc150,en
+how much is my water and sewer,bill_balance,oos,oos,0.602,clinc150,en
+what is the warranty on my microwave,oos,warranty_inquiry,warranty_inquiry,0.6036,clinc150,en
+great,yes,thank_you,thank_you,0.9397,clinc150,en
+how much is due for my water bill,bill_balance,bill_due,bill_due,0.9059,clinc150,en
+how much of a credit limit does visa allow,credit_limit,oos,credit_limit,0.6982,clinc150,en
+is my phone somewhere around here,find_phone,oos,w2,0.5179,clinc150,en
+are there good clam places in cleveland,restaurant_suggestion,oos,restaurant_suggestion,0.6987,clinc150,en
+how many days until a technician can visit,technician_appointment,oos,food_last,0.248,custom,en
+i need to get a mastercard somehow,new_card,oos,order,0.464,clinc150,en
+how many teaspoons will make one tablespoon,measurement_conversion,oos,oos,0.7296,clinc150,en
+tell me what's in tacos,ingredients_list,oos,weather,0.6443,clinc150,en
+what's the way you refer to me,user_name,oos,change_user_name,0.5044,clinc150,en
+as my visa got a high enough limit on it,credit_limit,credit_limit_change,credit_limit_change,0.951,clinc150,en
+"i watched ""were the millers"" on netflix last night",oos,warranty_inquiry,warranty_inquiry,0.3831,clinc150,en
+what can i do to get rid of this event,calendar_update,oos,calendar,0.7295,clinc150,en
+do i have to buy milk,shopping_list,oos,ingredient_substitution,0.4472,clinc150,en
+what's the definition of unencumbered,definition,oos,definition,0.4825,clinc150,en
+can i call you james instead,change_ai_name,oos,make_call,0.5729,clinc150,en
+please take all my money out of my checking account and close the account,oos,freeze_account,freeze_account,0.7998,clinc150,en
+i want this song on my pregame playlist,update_playlist,oos,update_playlist,0.7114,clinc150,en
+"i don't need eggs anymore, but i do need milk",shopping_list_update,oos,shopping_list_update,0.3918,clinc150,en
+"teknisyen gelmedi, randevum neden iptal oldu",technician_appointment,oos,oos,0.7372,custom,tr
+how do i unlock my bank account,account_blocked,oos,account_blocked,0.5144,clinc150,en
+where can i find information on oil changes for my car,oil_change_when,oos,oil_change_how,0.5992,clinc150,en
+can you help me hunt for my missing cellphone,find_phone,oos,find_phone,0.6834,clinc150,en
+may i ask your age,how_old_are_you,oos,repeat,0.691,clinc150,en
+when was my lawn last mowed,oos,payday,payday,0.8407,clinc150,en
+let me know where jim is right now,oos,current_location,current_location,0.8283,clinc150,en
+where can i find cheap rental skis nearby,oos,restaurant_suggestion,restaurant_suggestion,0.7687,clinc150,en
+how to you spend your free time,what_are_your_hobbies,oos,what_are_your_hobbies,0.7485,clinc150,en
+it might go either way,maybe,oos,maybe,0.7401,clinc150,en
+"what traffic can i expect on the way to the newark, new jersey from philadelphia",traffic,directions,directions,0.9397,clinc150,en
+check the status of my amazon orders for me,oos,order_status,order_status,0.9995,clinc150,en
+i've lost my luggage what should i do now,lost_luggage,oos,lost_luggage,0.5645,clinc150,en
+what kind of things do i have to do today,todo_list,oos,todo_list,0.484,clinc150,en
+who can i talk to above you,who_do_you_work_for,oos,oos,0.3515,clinc150,en
+contact uber and have them pick me up,uber,oos,oos,0.692,clinc150,en
+can you book me an appointment at a car wash,oos,schedule_maintenance,schedule_maintenance,0.984,clinc150,en
+i'd like to start calling you buddy,change_ai_name,oos,change_ai_name,0.6825,clinc150,en
+tell me where i can get more information on getting a job at the post office,oos,directions,directions,0.9197,clinc150,en
+can i do a reservation at sammy's crab shack,accept_reservations,oos,confirm_reservation,0.6344,clinc150,en
+what do i owe to jcp,bill_balance,oos,income,0.4237,clinc150,en
+can you speak quieter,change_volume,change_speed,change_speed,0.9439,clinc150,en
+is the wait more than an hour at the italian place,how_busy,oos,restaurant_suggestion,0.5046,clinc150,en
+how much do i have available on my visa card,credit_limit,oos,rewards_balance,0.5195,clinc150,en
+i think this transaction is bogus,report_fraud,oos,report_fraud,0.6418,clinc150,en
+i have some charges on my account from old navy that aren't mine,report_fraud,oos,report_fraud,0.5116,clinc150,en
+can credit card companies expedite delivery of reissued credit cards,replacement_card_duration,new_card,new_card,0.9207,clinc150,en
+where is the closest architecture college,oos,directions,directions,0.8251,clinc150,en
+i need you to switch the language you are responding as i don't understand,change_language,oos,cancel,0.3809,clinc150,en
+update my status on instagram,oos,order_status,order_status,0.9879,clinc150,en
+what is my remaining amount of pto days,pto_balance,oos,pto_used,0.596,clinc150,en
+i apprecaite the help from you,thank_you,oos,thank_you,0.4779,clinc150,en
+how long does pizza take,cook_time,food_last,food_last,0.9097,clinc150,en
+tack on a gallon of milk to the grocery list,shopping_list_update,oos,shopping_list_update,0.4355,clinc150,en
+regards,goodbye,oos,redeem_rewards,0.6388,clinc150,en
+please play my list of reminders,reminder,oos,play_music,0.4497,clinc150,en
+is there a substantial credit limit on my visa,credit_limit,oos,credit_limit,0.7415,clinc150,en
+where the bleep did i put my bleeping phone,find_phone,oos,find_phone,0.4988,clinc150,en

@@ -1,0 +1,82 @@
+{
+  "set": "extra_oos_holdout",
+  "models_dir": "C:\\Users\\User\\Masaüstü\\LLM\\models_v1",
+  "n": 40,
+  "groups": {
+    "general": 20,
+    "other_device": 20
+  },
+  "models": {
+    "baseline": {
+      "human_agent_rate": 0.7,
+      "human_agent_rate_general": 0.75,
+      "human_agent_rate_other_device": 0.65,
+      "wrongly_routed_to": {
+        "Appointment Scheduling": 5,
+        "Technical Service – Washing Machines": 3,
+        "Technical Service – Dishwashers": 3,
+        "Technical Service – Refrigerators": 1
+      }
+    },
+    "ffn": {
+      "human_agent_rate": 0.2,
+      "human_agent_rate_general": 0.25,
+      "human_agent_rate_other_device": 0.15,
+      "wrongly_routed_to": {
+        "Technical Service – Refrigerators": 17,
+        "Appointment Scheduling": 11,
+        "Technical Service – Washing Machines": 2,
+        "Warranty & After-Sales": 1,
+        "Home Team": 1
+      }
+    },
+    "teacher": {
+      "human_agent_rate": 0.15,
+      "human_agent_rate_general": 0.15,
+      "human_agent_rate_other_device": 0.15,
+      "wrongly_routed_to": {
+        "Appointment Scheduling": 13,
+        "Technical Service – Dishwashers": 9,
+        "Technical Service – Washing Machines": 9,
+        "Technical Service – Refrigerators": 2,
+        "Home Team": 1
+      }
+    },
+    "student": {
+      "human_agent_rate": 0.225,
+      "human_agent_rate_general": 0.2,
+      "human_agent_rate_other_device": 0.25,
+      "wrongly_routed_to": {
+        "Appointment Scheduling": 14,
+        "Technical Service – Dishwashers": 12,
+        "Technical Service – Washing Machines": 3,
+        "Kitchen & Dining Team": 1,
+        "Home Team": 1
+      }
+    },
+    "student_int8": {
+      "human_agent_rate": 0.275,
+      "human_agent_rate_general": 0.15,
+      "human_agent_rate_other_device": 0.4,
+      "wrongly_routed_to": {
+        "Technical Service – Dishwashers": 17,
+        "Appointment Scheduling": 9,
+        "Technical Service – Washing Machines": 1,
+        "Kitchen & Dining Team": 1,
+        "Home Team": 1
+      }
+    },
+    "teacher_int8": {
+      "human_agent_rate": 0.175,
+      "human_agent_rate_general": 0.1,
+      "human_agent_rate_other_device": 0.25,
+      "wrongly_routed_to": {
+        "Appointment Scheduling": 12,
+        "Technical Service – Dishwashers": 10,
+        "Technical Service – Washing Machines": 8,
+        "Technical Service – Refrigerators": 2,
+        "Home Team": 1
+      }
+    }
+  }
+}

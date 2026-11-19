@@ -7,13 +7,15 @@ Her model klasöründe:
     thresholds.json   → calibrate.py'nin val setinde seçtiği iki eşik {"clinc": .., "custom": ..}
 """
 import json
+import os
 from pathlib import Path
 
 import joblib
 
 from src.evaluate import ROOT
 
-MODELS = ROOT / "models"
+# SWE015_MODELS_DIR: başka bir model klasörünü (ör. models_v1 yedeği) aynı kodla ölçmek için
+MODELS = Path(os.environ.get("SWE015_MODELS_DIR", ROOT / "models"))
 MODEL_DIRS = {
     "baseline": MODELS / "baseline",   # Model 1 · tf-idf + LR
     "ffn": MODELS / "ffn",             # Model 2 · fastText + FFN (SGD)

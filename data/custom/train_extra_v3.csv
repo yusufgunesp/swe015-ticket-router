@@ -1,0 +1,171 @@
+text,intent,lang,group
+galatasaray bu sezon kaçıncı sırada,oos,tr,general
+fenerbahçenin yeni teknik direktörü kim,oos,tr,general
+dünya kupası hangi yıl türkiyede yapılacak,oos,tr,general
+basketbol maçı hangi kanalda yayınlanıyor,oos,tr,general
+olimpiyatlarda en çok madalyayı hangi ülke aldı,oos,tr,general
+fatih sultan mehmet istanbulu hangi yıl fethetti,oos,tr,general
+atatürk hangi yıl doğdu,oos,tr,general
+birinci dünya savaşı neden başladı,oos,tr,general
+mısır piramitlerini kim yaptı,oos,tr,general
+ay ile dünya arasındaki mesafe ne kadar,oos,tr,general
+ışık hızı saniyede kaç kilometre,oos,tr,general
+kara delikler nasıl oluşur,oos,tr,general
+dinozorlar ne zaman yok oldu,oos,tr,general
+başım çok ağrıyor hangi ilacı almalıyım,oos,tr,general
+grip olunca ne yapmak gerekir,oos,tr,general
+tansiyonum yükseldi ne yapmalıyım,oos,tr,general
+günde kaç saat uyumak gerekir,oos,tr,general
+köpeğim çok tüy döküyor normal mi,oos,tr,general
+muhabbet kuşuma ne yem vermeliyim,oos,tr,general
+akvaryumdaki balıklar neden ölüyor,oos,tr,general
+lise matematik sınavına nasıl hazırlanırım,oos,tr,general
+yüksek lisans başvurusu ne zaman başlıyor,oos,tr,general
+ingilizce gramer kitabı önerir misin,oos,tr,general
+hangi laptop yazılım geliştirme için daha iyi,oos,tr,general
+telefonumun ekranı çatladı nereye götürmeliyim,oos,tr,general
+wifi şifremi unuttum,oos,tr,general
+whatsapp mesajlarım silindi geri getirebilir miyim,oos,tr,general
+oyun bilgisayarı toplamak istiyorum hangi ekran kartı,oos,tr,general
+yeni çıkan dizilerden hangisini izlemeliyim,oos,tr,general
+bu hafta sonu konser var mı,oos,tr,general
+en çok satan roman hangisi,oos,tr,general
+gitar teli nasıl değiştirilir,oos,tr,general
+sevgilime doğum günü hediyesi ne alsam,oos,tr,general
+arkadaşımla küstüm nasıl barışırım,oos,tr,general
+düğün için hangi takım elbiseyi seçmeliyim,oos,tr,general
+kış için mont önerir misin,oos,tr,general
+kiralık ev ararken nelere dikkat etmeliyim,oos,tr,general
+bisiklet almak istiyorum hangi markayı önerirsin,oos,tr,general
+seçimler ne zaman yapılacak,oos,tr,general
+belediye başkanı kim oldu,oos,tr,general
+nüfus müdürlüğünden randevu nasıl alınır,oos,tr,general
+askerlik yoklaması nasıl yapılır,oos,tr,general
+bahçeye hangi çiçekleri ekmeliyim,oos,tr,general
+saksıdaki bitkim neden kuruyor,oos,tr,general
+balkon için hangi bitki uygun,oos,tr,general
+yoga yapmaya nasıl başlarım,oos,tr,general
+kilo vermek için hangi sporu yapmalıyım,oos,tr,general
+maraton için nasıl antrenman yapılır,oos,tr,general
+satranç oynamayı öğrenmek istiyorum,oos,tr,general
+deprem çantasına neler konulmalı,oos,tr,general
+uzaya ilk giden insan kimdir,oos,tr,general
+yapay zeka insanlığın sonunu getirir mi,oos,tr,general
+hangi programlama dilini öğrenmeliyim,oos,tr,general
+youtube kanalı açmak istiyorum nasıl başlarım,oos,tr,general
+kripto para yatırımı mantıklı mı,oos,tr,general
+ev boyamak için hangi renk uygun,oos,tr,general
+parke çizildi nasıl düzeltilir,oos,tr,general
+kapı kilidi bozuldu çilingir lazım,oos,tr,general
+musluk damlatıyor tesisatçı önerir misin,oos,tr,general
+bulmacadaki kelimeyi bulamadım yardım eder misin,oos,tr,general
+televizyonun kumandası çalışmıyor,oos,tr,other_device
+akıllı televizyon internete bağlanmıyor,oos,tr,other_device
+dikey süpürgenin bataryası çabuk bitiyor,oos,tr,other_device
+süpürgenin hortumu tıkandı,oos,tr,other_device
+klimanın kumandası kayboldu,oos,tr,other_device
+klima çalışırken kötü koku yapıyor,oos,tr,other_device
+ankastre fırının kapağı kapanmıyor,oos,tr,other_device
+fırının ışığı yanmıyor,oos,tr,other_device
+mikrodalganın tabağı dönmüyor,oos,tr,other_device
+tost makinesi ekmeği yakıyor,oos,tr,other_device
+çay makinesi suyu kaynatmıyor,oos,tr,other_device
+kombi sıcak su vermiyor,oos,tr,other_device
+şofben yanmıyor,oos,tr,other_device
+ütünün tabanı yapış yapış oldu,oos,tr,other_device
+espresso makinesi köpük yapmıyor,oos,tr,other_device
+airfryer çalışırken duman çıkarıyor,oos,tr,other_device
+mutfak robotunun kapağı kilitlenmiyor,oos,tr,other_device
+davlumbaz filtresi yağ tuttu,oos,tr,other_device
+elektrikli ocak ısınmıyor,oos,tr,other_device
+su sebili soğuk su vermiyor,oos,tr,other_device
+nem alma cihazı su toplamıyor,oos,tr,other_device
+vantilatör dönmüyor,oos,tr,other_device
+elektrikli battaniye ısıtmıyor,oos,tr,other_device
+tıraş makinesi şarj tutmuyor,oos,tr,other_device
+ekmek kızartma makinesinin kolu aşağıda kalmıyor,oos,tr,other_device
+projeksiyon cihazı görüntüyü bulanık veriyor,oos,tr,other_device
+hoparlörüm bluetooth ile eşleşmiyor,oos,tr,other_device
+yazıcı kağıt sıkıştırıyor,oos,tr,other_device
+modemin ışığı kırmızı yanıyor,oos,tr,other_device
+akıllı saatim şarj olmuyor,oos,tr,other_device
+my tv remote is not working,oos,en,other_device
+the smart tv keeps restarting,oos,en,other_device
+my robot vacuum gets stuck under the sofa,oos,en,other_device
+the vacuum cleaner smells like burning,oos,en,other_device
+the air conditioner remote shows an error,oos,en,other_device
+my ac unit is making a clicking noise,oos,en,other_device
+the oven door glass is cracked,oos,en,other_device
+my oven temperature is not accurate,oos,en,other_device
+the microwave door won't close properly,oos,en,other_device
+my toaster doesn't pop up,oos,en,other_device
+the kettle leaks from the bottom,oos,en,other_device
+my boiler has no hot water,oos,en,other_device
+the iron leaves brown marks on clothes,oos,en,other_device
+my espresso machine is not pumping water,oos,en,other_device
+the air fryer basket won't come out,oos,en,other_device
+my food processor won't start,oos,en,other_device
+the cooker hood light flickers,oos,en,other_device
+my electric stove takes forever to heat up,oos,en,other_device
+my standing fan is wobbling,oos,en,other_device
+the dehumidifier tank is full but it keeps running,oos,en,other_device
+my hair dryer shuts off after a minute,oos,en,other_device
+the printer says paper jam,oos,en,other_device
+my laptop battery drains fast,oos,en,other_device
+my phone screen is frozen,oos,en,other_device
+the router keeps disconnecting,oos,en,other_device
+my bluetooth speaker won't charge,oos,en,other_device
+the electric toothbrush stopped working,oos,en,other_device
+my game console is overheating,oos,en,other_device
+the projector has no signal,oos,en,other_device
+my smartwatch screen is cracked,oos,en,other_device
+my dishwasher is not filling with water,dishwasher_issue,en,appliance
+the dishwasher leaves food particles on the plates,dishwasher_issue,en,appliance
+the dishwasher door falls open too fast,dishwasher_issue,en,appliance
+there is a strange smell coming from my dishwasher,dishwasher_issue,en,appliance
+the dishwasher cycle takes much longer than usual,dishwasher_issue,en,appliance
+dishwasher won't start even though the door is closed,dishwasher_issue,en,appliance
+the top spray arm of the dishwasher is broken,dishwasher_issue,en,appliance
+my dishwasher shows error E09,dishwasher_issue,en,appliance
+the dishwasher makes a humming noise but does nothing,dishwasher_issue,en,appliance
+my DW-6534 dishwasher keeps tripping the power,dishwasher_issue,en,appliance
+my washing machine won't spin the clothes dry,washing_machine_issue,en,appliance
+the washer is vibrating a lot during the wash,washing_machine_issue,en,appliance
+water stays in the drum after the cycle ends,washing_machine_issue,en,appliance
+the washing machine door seal has mould,washing_machine_issue,en,appliance
+my washer is making a squealing noise,washing_machine_issue,en,appliance
+the washing machine fills with too much water,washing_machine_issue,en,appliance
+the detergent drawer of my washer is overflowing,washing_machine_issue,en,appliance
+my WM-1200 washing machine stops in the middle of the program,washing_machine_issue,en,appliance
+the washing machine control panel is not responding,washing_machine_issue,en,appliance
+clothes come out tangled and still soapy,washing_machine_issue,en,appliance
+my fridge is freezing the food on the bottom shelf,refrigerator_issue,en,appliance
+the refrigerator light stays on when the door is closed,refrigerator_issue,en,appliance
+my freezer door doesn't seal properly,refrigerator_issue,en,appliance
+the fridge is making a gurgling sound,refrigerator_issue,en,appliance
+the freezer is full of frost and the drawers are stuck,refrigerator_issue,en,appliance
+my refrigerator temperature keeps going up and down,refrigerator_issue,en,appliance
+the fridge compressor is very hot,refrigerator_issue,en,appliance
+my RF-450X fridge is not cold enough,refrigerator_issue,en,appliance
+the ice maker in my freezer is leaking,refrigerator_issue,en,appliance
+the refrigerator stopped working after a power cut,refrigerator_issue,en,appliance
+is the motor of my washing machine covered by the warranty,warranty_inquiry,en,appliance
+how can I check my warranty online,warranty_inquiry,en,appliance
+does the warranty include free installation,warranty_inquiry,en,appliance
+my product is two years old is it still under warranty,warranty_inquiry,en,appliance
+what documents do I need for a warranty claim,warranty_inquiry,en,appliance
+can I get a replacement instead of a repair under warranty,warranty_inquiry,en,appliance
+does buying from a third party seller void the warranty,warranty_inquiry,en,appliance
+how long is the warranty on spare parts,warranty_inquiry,en,appliance
+is accidental damage covered by your warranty,warranty_inquiry,en,appliance
+I want to know when my dishwasher warranty ends,warranty_inquiry,en,appliance
+I need a technician to look at my fridge on saturday,technician_appointment,en,appliance
+can I get a repair appointment for next tuesday morning,technician_appointment,en,appliance
+please send someone to repair my washing machine,technician_appointment,en,appliance
+I want to cancel the technician visit tomorrow,technician_appointment,en,appliance
+what time slots are available for a service visit,technician_appointment,en,appliance
+can the technician come after 6 pm,technician_appointment,en,appliance
+how do I change the date of my service appointment,technician_appointment,en,appliance
+I would like to arrange an installation appointment,technician_appointment,en,appliance
+can I choose the technician visit time online,technician_appointment,en,appliance
+please book a visit to check my dishwasher,technician_appointment,en,appliance

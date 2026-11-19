@@ -36,3 +36,6 @@ docs/odev_metni.md
 
 # Taslak sunum (kullanici kendi sunumunu hazirlayacak)
 docs/*.pptx
+
+# v1 yedekleri (Turkce OOS yeniden egitimi oncesi)
+models_v1/
