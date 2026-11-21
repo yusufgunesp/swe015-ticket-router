@@ -36,7 +36,7 @@ If several Python versions are installed on Windows, create the environment with
 Then open http://127.0.0.1:7860.
 
 **Installing the requirements takes several minutes** (PyTorch is large).
-**First start takes a few minutes:** `app.py` downloads the trained model weights (~1.6 GB) from the Hugging
+**First start takes about 5–10 minutes:** `app.py` downloads the trained model weights (~1.6 GB) from the Hugging
 Face Hub ([`yusufinfo/swe015-ticket-router-models`](https://huggingface.co/yusufinfo/swe015-ticket-router-models),
 public, no login needed) into `models/` and loads six models. Wait until the console prints
 `Running on local URL`. A warning about `HF_TOKEN` / unauthenticated requests is harmless. Later starts skip
