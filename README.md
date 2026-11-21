@@ -30,10 +30,12 @@ python -m venv .venv
 .venv/bin/python app.py
 ```
 
-(Activating the environment first and running `pip install -r requirements.txt` and `python app.py` works too.)
+(Activating the environment first and running `pip install -r requirements.txt` and `python app.py` works too.
+If several Python versions are installed on Windows, create the environment with `py -3.11 -m venv .venv`.)
 
 Then open http://127.0.0.1:7860.
 
+**Installing the requirements takes several minutes** (PyTorch is large).
 **First start takes a few minutes:** `app.py` downloads the trained model weights (~1.6 GB) from the Hugging
 Face Hub ([`yusufinfo/swe015-ticket-router-models`](https://huggingface.co/yusufinfo/swe015-ticket-router-models),
 public, no login needed) into `models/` and loads six models. Wait until the console prints
