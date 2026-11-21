@@ -108,7 +108,7 @@ with gr.Blocks(title="Support Ticket Router") as demo:
     with gr.Column(elem_classes="wrap"):
         gr.Markdown("# Support Ticket Router\nType a customer message in Turkish or English. "
                     "It is routed to the right team, or to a human agent.")
-        inp = gr.Textbox(show_label=False, lines=2, placeholder="e.g. bulaşık makinem su boşaltmıyor, model DW-6534")
+        inp = gr.Textbox(show_label=False, lines=1, placeholder="e.g. bulaşık makinem su boşaltmıyor, model DW-6534")
         with gr.Row():
             btn = gr.Button("Route message", variant="primary")
             gr.ClearButton(inp, value="Clear")
