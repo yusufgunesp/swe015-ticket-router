@@ -24,11 +24,11 @@ KNOWN_WORDS_FILE = Path(__file__).parent / "resources" / "known_words.txt"
 # --- 1. Model kodu: markanın ürün serisi ön eki + isteğe bağlı tire + 3-5 rakam + isteğe bağlı 1 harf
 #        DW = dishwasher, WM = washing machine, RF = refrigerator   (DW-6534, wm1200, RF-450X)
 # Ön ekler sabit, çünkü her "2-3 harf + rakam" kalıbına izin verince CLINC'teki uçuş numaraları
-# ("flight DL123") da model kodu sanılıyordu (denetçi bulgusu).
+# ("flight DL123") da model kodu sanılıyordu.
 MODEL_CODE_RE = re.compile(r"\b(DW|WM|RF)-?(\d{3,5})([A-Za-z]?)\b", re.IGNORECASE)
 
 # --- 3. Aynı HARF 3+ kez tekrar ediyorsa 2'ye indir ("helloooo" → "helloo")
-# [^\W\d] = rakam olmayan harf. Rakamlara uygulanırsa "$20000" → "$200" olur (denetçi bulgusu).
+# [^\W\d] = rakam olmayan harf. Rakamlara uygulanırsa "$20000" → "$200" olur.
 REPEAT_RE = re.compile(r"([^\W\d])\1{2,}")
 
 # --- 4. Harf, rakam, boşluk ve kesme işareti dışındaki her şey boşluk olur

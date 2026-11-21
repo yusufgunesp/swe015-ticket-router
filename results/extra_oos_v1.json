@@ -1,6 +1,6 @@
 {
   "set": "extra_oos",
-  "models_dir": "C:\\Users\\User\\Masaüstü\\LLM\\models_v1",
+  "models_dir": "models_v1",
   "n": 40,
   "groups": {
     "general": 20,

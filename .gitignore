@@ -1,8 +1,9 @@
-# Sanal ortam
+# Virtual environment
 .venv/
 
-# Buyuk dosyalar: model agirliklari Hugging Face Hub'a yuklenir, repoya girmez (R7)
+# Model weights are on the Hugging Face Hub, not in this repository
 models/
+models_v1/
 *.bin
 *.safetensors
 *.onnx
@@ -11,7 +12,7 @@ models/
 *.joblib
 *.model
 
-# Indirilen ham veri (data/custom haric, onu biz yaziyoruz)
+# Downloaded / generated data (data/custom is ours and is kept)
 data/*
 !data/custom/
 
@@ -24,18 +25,9 @@ __pycache__/
 .gradio/
 flagged/
 
-# Ogretmenin Word dosyasi
+# Local files: assignment document, personal notes, slide drafts, assistant settings
 *.docx
-
-# Hocanin odev metni (sadece denetciler icin, repoya girmez)
 docs/odev_metni.md
-
-# Claude Code yerel ayarlari
-.claude/settings.local.json
-.claude/launch.json
-
-# Taslak sunum (kullanici kendi sunumunu hazirlayacak)
+YOL_HARITASI.md
 docs/*.pptx
-
-# v1 yedekleri (Turkce OOS yeniden egitimi oncesi)
-models_v1/
+.claude/

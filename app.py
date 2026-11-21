@@ -30,7 +30,7 @@ MODELS = [
 
 ensure_models()
 PREDICTORS = {k: load_predictor(k, device="cpu") for k, _ in MODELS if MODEL_DIRS[k].exists()}
-assert DECISION_MODEL in PREDICTORS, "Karar modeli (student_int8) bulunamadı"
+assert DECISION_MODEL in PREDICTORS, "Decision model (student_int8) not found in models/"
 for _ in range(3):  # ısınma: ilk gerçek mesajın gecikmesi, ilk çalıştırma maliyetini içermesin
     route("warm-up message for the models", PREDICTORS)
 

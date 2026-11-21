@@ -101,8 +101,8 @@ class ONNXPredictor:
     def logits(self, texts) -> np.ndarray:
         """HER CÜMLE TEK BAŞINA çalıştırılır (batch=1).
         Dinamik quantization'da aktivasyon ölçeği girdi tensörünün tamamından hesaplanır. Toplu (batch)
-        çalıştırınca bir cümlenin sonucu yanındaki cümlelere ve dolguya bağlı oluyordu (doğruluk denetimi:
-        testte batch=128 ile batch=1 arasında 155/5560 tahmin farklıydı). Uygulama mesajları tek tek
+        çalıştırınca bir cümlenin sonucu yanındaki cümlelere ve dolguya bağlı oluyordu (ölçtük: testte
+        batch=128 ile batch=1 arasında 155/5560 tahmin farklıydı). Uygulama mesajları tek tek
         işlediği için değerlendirme de tek tek yapılır."""
         out = []
         for t in texts:

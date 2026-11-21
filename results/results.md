@@ -7,7 +7,7 @@
 | DistilmBERT INT8 (ONNX Runtime) | INT8 (uint8 weights 99.95%, dynamic activations) | 87.2% | 90.6% | 86.5% | 86.7% (90.0% / 80.0%) | 132.4 | 5.7 |
 | mBERT INT8 (ONNX Runtime) | INT8 (uint8 weights 99.93%, dynamic activations) | 88.5% | 91.1% | 88.0% | 90.0% (95.0% / 80.0%) | 173.3 | 11.0 |
 
-Hardware: Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz, 15.9 GB RAM, Windows 11 (build 10.0.26300); CPU only, batch size 1, latency averaged over 200 runs (60 appliance TR/EN + 140 CLINC messages) after 10 warm-up runs, threads: PyTorch 4, ONNX Runtime 1.32.0 4. Test set: 5560 sentences (sha256 7e8db122c096).
+Hardware: Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz, 15.9 GB RAM, Windows 11 (build 10.0.26300); CPU only, batch size 1, latency averaged over 200 runs (60 appliance TR/EN + 140 CLINC messages) after 10 warm-up runs, CPU threads: PyTorch 4, ONNX Runtime 4 (onnxruntime 1.32.0). Test set: 5560 sentences (sha256 7e8db122c096).
 
 In-scope acc. without threshold (top-1 intent only): baseline 91.6%; ffn 87.6%; teacher 94.2%; student 93.5%; student_int8 93.1%; teacher_int8 94.0%
 

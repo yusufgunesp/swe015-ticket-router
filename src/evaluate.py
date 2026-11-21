@@ -8,8 +8,8 @@ Karar kuralı (uygulamada da aynısı kullanılır, bkz. router.py):
 eşiği, CLINC niyetlerinden biriyse "clinc" eşiği uygulanır.
 Neden: Tek eşik 3.100 CLINC val cümlesine göre seçiliyordu (yalnızca 60'ı beyaz eşya). mBERT beyaz
 eşya cümlelerinin %90'ını doğru tahmin ettiği halde güveni ~0.6 olduğu için, 0.81'lik ortak eşik bu
-doğru tahminlerin çoğunu human agent'a gönderiyordu. (19 Kas'ta, mBERT'in test sonucu görüldükten
-sonra fark edildi. Teşhis ve seçim val setinde yapıldı.)
+doğru tahminlerin çoğunu human agent'a gönderiyordu. (Sorun mBERT'in test sonucu görüldükten sonra
+fark edildi; teşhis ve eşik seçimi yalnızca val setinde yapıldı.)
 
 Eşikler SADECE validation setinde seçilir (calibrate_thresholds). Test seti eşik seçiminde kullanılmaz.
 Eğitim sırasında epoch/C seçimi için tek eşikli choose_threshold kullanılır (model seçim ölçütü).
@@ -117,7 +117,7 @@ def choose_threshold(y_val, pred_val, conf_val) -> tuple[float, dict]:
     return best_t, best_m
 
 
-# Eşiklerin alt sınırı. Ödev: "Low-confidence ... messages go to human agent". Alt sınır olmadan beyaz
+# Eşiklerin alt sınırı: düşük güvenli mesajlar her zaman human agent'a gitmeli. Alt sınır olmadan beyaz
 # eşya eşiği val'de 0.00–0.08 çıkıyordu, yani düşük güven kontrolü fiilen kapanıyordu (val setinde
 # "beyaz eşyaya benzeyen kapsam dışı" örnek olmadığı için optimizasyon bunun cezasını görmüyor).
 # 0.3 val'de denendi (0 / 0.3 / 0.4 / 0.5): mBERT ve FFN'de kayıp yok, baseline custom_acc %90 → %85.

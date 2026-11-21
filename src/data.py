@@ -51,8 +51,8 @@ def load_custom() -> dict[str, pd.DataFrame]:
     """Kendi cümlelerimiz: %60 train / %20 val / %20 test.
     Bölme niyet + dil birlikte korunarak yapılır, yani her niyetin test kısmında hem TR hem EN cümle olur."""
     if not CUSTOM_CSV.exists():
-        # Denetçi uyarısı: cümleler sonradan eklenirse test seti değişir → modeller farklı
-        # test setlerinde ölçülmüş olur (R3). Bu yüzden dosya yoksa hiç bölme üretmiyoruz.
+        # Dosya olmadan üretilen bölmeler farklı bir test seti olurdu → modeller farklı test
+        # setlerinde ölçülmüş olur (R3). Bu yüzden dosya yoksa hiç bölme üretmiyoruz.
         raise FileNotFoundError(f"{CUSTOM_CSV} bulunamadı. Bölmeler bu dosya olmadan üretilmez.")
     df = pd.read_csv(CUSTOM_CSV).dropna(subset=["text", "intent"])
     df["source"] = "custom"
@@ -64,13 +64,13 @@ def load_custom() -> dict[str, pd.DataFrame]:
 
 
 def load_train_extra() -> pd.DataFrame:
-    """Veri v3 (19 Kas): SADECE eğitime eklenen cümleler (data/custom/train_extra_v3.csv).
+    """SADECE eğitime eklenen 170 cümle (data/custom/train_extra_v3.csv).
     - 90 Türkçe + 30 İngilizce kapsam dışı ("oos") cümle: genel sorular ve desteklenmeyen cihazlar
     - 50 İngilizce beyaz eşya cümlesi (5 niyet × 10)
     Neden: Ek değerlendirme (src/eval_extra_oos.py), Transformer'ların Türkçe ilgisiz mesajları
     beyaz eşya ekiplerine gönderdiğini gösterdi. Eğitimde hiç Türkçe "oos" örneği yoktu.
-    İngilizce beyaz eşya cümleleri ise v1'de İngilizce beyaz eşya doğruluğu düşük olduğu için eklendi
-    (v1 sonuçları görüldükten sonra yazıldı, bkz. YOL_HARITASI.md bölüm 11).
+    İngilizce beyaz eşya cümleleri, ilk modellerde İngilizce beyaz eşya doğruluğu düşük olduğu için
+    eklendi (o sonuçlar görüldükten sonra yazıldı, bkz. data/custom/README.md).
     Val ve test bölmeleri DEĞİŞMEZ (SPLIT_INFO.json'daki parmak izleri aynı kalır)."""
     df = pd.read_csv(TRAIN_EXTRA_CSV).dropna(subset=["text", "intent"])
     df["source"] = "custom_train_extra"

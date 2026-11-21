@@ -209,8 +209,8 @@ def main() -> None:
     md.append("")
     md.append(f"Hardware: {hw['cpu']}, {hw['ram_gb']} GB RAM, {hw['os']}; CPU only, batch size 1, "
               f"latency averaged over {N_LAT} runs (60 appliance TR/EN + 140 CLINC messages) after {N_WARM} "
-              f"warm-up runs, threads: PyTorch {hw['torch_threads']}, ONNX Runtime {hw['onnxruntime']} "
-              f"{hw.get('onnxruntime_intra_op_threads')}. "
+              f"warm-up runs, CPU threads: PyTorch {hw['torch_threads']}, ONNX Runtime "
+              f"{hw.get('onnxruntime_intra_op_threads')} (onnxruntime {hw['onnxruntime']}). "
               f"Test set: {len(test)} sentences (sha256 {split_sha256('test')[:12]}).")
     md.append("")
     md.append("In-scope acc. without threshold (top-1 intent only): "

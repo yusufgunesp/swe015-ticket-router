@@ -20,11 +20,11 @@ def ensure_models() -> None:
     if not missing:
         return
     if not HF_REPO_ID:
-        raise SystemExit(f"Eksik modeller: {missing}. HF_REPO_ID ayarlı değil, indirilemiyor.")
+        raise SystemExit(f"Missing models: {missing}. SWE015_HF_REPO is empty, cannot download.")
     from huggingface_hub import snapshot_download
-    print(f"Modeller Hugging Face Hub'dan indiriliyor ({HF_REPO_ID}): {missing}")
+    print(f"Downloading model weights from the Hugging Face Hub ({HF_REPO_ID}): {missing}", flush=True)
     snapshot_download(repo_id=HF_REPO_ID, local_dir=MODELS,
                       allow_patterns=[f"{m}/*" for m in missing])
     still = missing_models()
     if still:
-        raise SystemExit(f"İndirme sonrası hâlâ eksik: {still}")
+        raise SystemExit(f"Still missing after download: {still}")

@@ -14,7 +14,7 @@ import joblib
 
 from src.evaluate import ROOT
 
-# SWE015_MODELS_DIR: başka bir model klasörünü (ör. models_v1 yedeği) aynı kodla ölçmek için
+# SWE015_MODELS_DIR: başka bir model klasörünü (ör. ek eğitim verisi öncesi modeller) aynı kodla ölçmek için
 MODELS = Path(os.environ.get("SWE015_MODELS_DIR", ROOT / "models"))
 MODEL_DIRS = {
     "baseline": MODELS / "baseline",   # Model 1 · tf-idf + LR
@@ -22,7 +22,7 @@ MODEL_DIRS = {
     "teacher": MODELS / "teacher",     # Model 3 · mBERT (öğretmen)
     "student": MODELS / "student",     # Model 4 · DistilmBERT (distillation)
     "student_int8": MODELS / "student_int8",  # Model 5 · DistilmBERT INT8 (quantized Transformer, uygulama)
-    "teacher_int8": MODELS / "teacher_int8",  # Sigorta satırı · mBERT INT8
+    "teacher_int8": MODELS / "teacher_int8",  # Ek karşılaştırma · mBERT INT8
 }
 
 

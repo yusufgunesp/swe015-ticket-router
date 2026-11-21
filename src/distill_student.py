@@ -6,7 +6,8 @@ Sonra:       python -m src.calibrate student   (iki eşik + test değerlendirmes
 Bu dosya test setini hiç okumaz.
 
 Öğrenci: distilbert-base-multilingual-cased. mBERT'ten daha az Transformer katmanı var (sayılar
-benchmark.py'de model config'inden okunur), mBERT ile aynı tokenizer'ı kullanıyor. Eğitimde iki hedefi birlikte öğrenir (bkz. hf_model.train_classifier):
+benchmark.py'de model config'inden okunur) ve mBERT ile aynı tokenizer'ı kullanıyor.
+Eğitimde iki hedefi birlikte öğrenir (bkz. hf_model.train_classifier):
   1. Gerçek etiket (cross-entropy)
   2. Öğretmenin yumuşatılmış olasılık dağılımı (KL divergence, sıcaklık T=2)
 Öğretmen çıktıları (logits) train cümleleri için BİR KEZ hesaplanıp saklanır. Böylece iki model

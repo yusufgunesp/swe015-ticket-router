@@ -70,7 +70,7 @@ _INTENT_REPLY = {
 _DEFAULT_SMALL_TALK = "I'm here to help with your appliance questions. What seems to be the problem?"
 
 
-def eliza_reply(text_norm: str, lang_hint: str | None = None) -> str | None:
+def eliza_reply(text_norm: str) -> str | None:
     """Mesajın TAMAMI bir sohbet kalıbına uyuyorsa cevap döndürür, uymuyorsa None.
     text_norm: normalize.normalize_text() çıktısı (küçük harf, noktalamasız)."""
     t = text_norm.strip()
