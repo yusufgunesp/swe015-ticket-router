@@ -107,7 +107,7 @@ out-of-scope, 60 appliance messages). Table from [`results/results.md`](results/
 - **2 × 40 extra evaluation messages** (`data/custom/extra_oos_tr_en.csv`, `data/custom/extra_oos_holdout_tr_en.csv`):
   Turkish out-of-scope questions and unsupported-device complaints, never used for training. Only the hold-out
   set is independent of the extra training data.
-- The custom messages were written with AI assistance and reviewed; details and limitations in
+- The custom messages were written with AI assistance, reviewed and edited by me; details and limitations in
   [`data/custom/README.md`](data/custom/README.md).
 - Pretrained models from the Hugging Face Hub: `bert-base-multilingual-cased` (Devlin et al., 2019, *BERT*,
   NAACL) and `distilbert-base-multilingual-cased` (Sanh et al., 2019, *DistilBERT*, arXiv:1910.01108).
@@ -159,7 +159,8 @@ results/                   metrics, results table, error examples
 
 AI coding assistant: Claude (Claude Code). It was used for:
 - writing and debugging the code (data pipeline, models, evaluation, app);
-- writing the custom messages (300 appliance messages, 170 extra training messages, 80 extra evaluation messages);
+- drafting the custom messages (300 appliance messages, 170 extra training messages, 80 extra evaluation
+  messages), which I reviewed and edited;
 - review agents that checked the requirements, test-set leakage and the README setup;
 - drafting the README, the architecture diagram and the slides.
 

@@ -1,6 +1,6 @@
 # Custom data (home-appliance support messages)
 
-All sentences in this folder were written with AI assistance (Claude) and reviewed. They are not real
+All sentences in this folder were written with AI assistance (Claude), reviewed and edited by me. They are not real
 customer messages. CLINC150 (the main dataset) is downloaded by `python -m src.data` and is not stored here.
 
 | File | Rows | Used for |
